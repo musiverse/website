@@ -1,4 +1,4 @@
-import beachVid from "../assets/final.mp4";
+import final from "../assets/final.mp4";
 // import AvatarGroup from "./AvatarGroup";
 import GradientBtn from "./GradientBtn";
 
@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Video */}
       <video
         className="w-full h-full object-cover"
-        src={beachVid}
+        src={final}
         autoPlay
         loop
         muted
