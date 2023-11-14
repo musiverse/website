@@ -1,7 +1,6 @@
 import beachVid from "../assets/final.mp4";
 // import AvatarGroup from "./AvatarGroup";
 import GradientBtn from "./GradientBtn";
-import Circle from "./Circle";
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
       <video
         className="w-full h-full object-cover"
         src={beachVid}
-        // autoPlay
+        autoPlay
         loop
         muted
       />
