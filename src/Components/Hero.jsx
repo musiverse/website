@@ -4,7 +4,7 @@ import GradientBtn from "./GradientBtn";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen bg-slate-900 overflow-hidden">
       {/* Background Video */}
       <video
         className="w-full h-full object-cover"
