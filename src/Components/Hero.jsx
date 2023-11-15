@@ -1,6 +1,7 @@
 import final from "../assets/final.mp4";
 // import AvatarGroup from "./AvatarGroup";
 import GradientBtn from "./GradientBtn";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -21,13 +22,35 @@ const Hero = () => {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-4/5 mx-auto">
         {/* Headline */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
-          Elevate Your <span className="text-red-600">Moments</span> with Live
-          Music
+          Elevate Your{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600">
+            Moments
+          </span>{" "}
+          with Live Music
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg font-secondary md:text-xl lg:text-2xl mb-6 text-gray-200">
-          Discover the Power of Live Performances Anytime, Anywhere.
+        <p className="text-lg font-secondary md:text-xl lg:text-3xl mb-6 text-gray-200">
+          Discover the Power of Live Performances
+          <TypeAnimation
+            className="ml-2 leading-10 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600"
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "Anytime,",
+              4000, // wait 1s before replacing "Mice" with "Hamsters"
+              "Anywhere.",
+              4000,
+              // 'We produce food for Guinea Pigs',
+              // 1000,
+              // 'We produce food for Chinchillas',
+              // 1000
+            ]}
+            wrapper="span"
+            speed={10}
+            // style={{ fontSize: '2em', display: 'inline-block' }}
+            deletionSpeed={10}
+            repeat={Infinity}
+          />
         </p>
 
         {/* CTA Button */}

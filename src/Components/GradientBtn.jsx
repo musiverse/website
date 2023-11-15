@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const GradientBtn = ({ title, className }) => {
   return (
     <button
-      className={`bg-gradient-to-r from-blue-500 to-red-500 text-white px-7 py-2 text-xl rounded-3xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate ${className}`}
+      className={`bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white px-7 py-2 text-xl rounded-3xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate ${className}`}
     >
       {title}
     </button>
