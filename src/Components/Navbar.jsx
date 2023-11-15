@@ -19,7 +19,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
+    <div
+      data-aos="fade-down"
+      data-aos-duration="2000"
+      data-aos-delay="400"
+      className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white"
+    >
       <div className="text-[#4757cf]">
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
           STAGE
@@ -71,7 +76,12 @@ const Navbar = () => {
           <li className="border-b text-center">View</li>
           <li className="border-b text-center">Book</li>
           <div className="flex flex-row w-15 justify-center mt-2">
-            <GradientBtn className="" title="Get the app now" />
+            <GradientBtn
+              data-aos="fade-up"
+              data-aos-delay="600"
+              className=""
+              title="Get the app now"
+            />
           </div>
           <div className="flex justify-between my-6">
             <FaFacebook className="icon" />

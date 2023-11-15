@@ -21,7 +21,11 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+        <h1
+          data-aos="fade-down"
+          data-aos-delay="500"
+          className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4"
+        >
           Elevate Your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600">
             Moments
@@ -30,7 +34,11 @@ const Hero = () => {
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg font-secondary md:text-xl lg:text-3xl mb-6 text-gray-200">
+        <p
+          data-aos="fade-down"
+          data-aos-delay="600"
+          className="text-lg font-secondary md:text-xl lg:text-3xl mb-6 text-gray-200"
+        >
           Discover the Power of Live Performances
           <TypeAnimation
             className="ml-2 leading-10 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600"
@@ -54,6 +62,7 @@ const Hero = () => {
         </p>
 
         {/* CTA Button */}
+
         <GradientBtn className="" title="Experience Now" />
 
         {/* Unique Selling Proposition */}
