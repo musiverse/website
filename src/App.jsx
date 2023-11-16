@@ -4,6 +4,7 @@ import Services from "./Components/Services";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import About from "./Components/About";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <About />
       <Services />
     </div>
   );

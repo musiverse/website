@@ -8,6 +8,7 @@ export default {
         new: ["Kdam Thmor Pro", "sans-serif"],
         primary: "Rajdhani",
         secondary: "Aldrich",
+        tertiary: "Poppins",
       },
       colors: {
         thBlue: "#35EEED",
