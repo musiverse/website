@@ -8,7 +8,7 @@ import animationData5 from "../assets/mobile.json";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-900 to-gray-900 via-neutral-800 overflow-hidden h-[300vh] md:h-[130vh]  w-full">
+    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-900 to-gray-900 via-neutral-800 overflow-hidden h-[320vh] md:h-[130vh]  w-full">
       <div
         data-aos="fade-down"
         className=" text-4xl font-medium p-4 text-center text-white mt-9"
@@ -29,7 +29,7 @@ const About = () => {
       <div
         data-aos="fade-down"
         data-aos-delay="300"
-        className="text-2xl font-medium tracking-wide text-white"
+        className="text-2xl font-medium tracking-wide text-white px-2 text-center"
       >
         What{" "}
         <span className="text-2xl text-red-700 font-medium ">
@@ -101,7 +101,7 @@ const About = () => {
           </div>
           {/* {service 4} */}
           <div
-            data-aos="fade-up"
+            data-aos="fade-down"
             data-aos-delay="400"
             className="text-center flex flex-col items-center"
           >
