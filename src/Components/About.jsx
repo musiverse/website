@@ -9,23 +9,42 @@ import animationData5 from "../assets/mobile.json";
 const About = () => {
   return (
     <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-900 to-gray-900 via-neutral-800 overflow-hidden h-[300vh] md:h-[130vh]  w-full">
-      <div className=" text-4xl font-medium p-4 text-center text-white mt-9">
-        Connecting Artists and Music Enthusiasts with Ease!
+      <div
+        data-aos="fade-down"
+        className=" text-4xl font-medium p-4 text-center text-white mt-9"
+      >
+        Connecting Artists and Music{" "}
+        <span className=" text-red-700  ">Enthusiasts</span> with Ease!
       </div>
-      <div className="antialiased p-2 text-gray-200 font-medium font-primary text-center max-w-4xl">
-        At STAGExSPLASH, our mission is to bring music to your doorstep. With
-        our user-friendly app, you can effortlessly connect with talented
-        musicians, singers, and music systems. We value reliability, quality,
-        diversity, and convenience, ensuring that every occasion is filled with
-        the perfect rhythm and soul.
+      <div
+        data-aos="fade-down"
+        className="antialiased p-2 text-gray-200 font-medium font-primary text-center max-w-4xl"
+      >
+        At our mission is to bring music to your doorstep. With our
+        user-friendly app, you can effortlessly connect with talented musicians,
+        singers, and music systems. We value reliability, quality, diversity,
+        and convenience, ensuring that every occasion is filled with the perfect
+        rhythm and soul.
       </div>
-      <div className="text-2xl font-medium tracking-wide text-white">
-        What our app offers you
+      <div
+        data-aos="fade-down"
+        data-aos-delay="300"
+        className="text-2xl font-medium tracking-wide text-white"
+      >
+        What{" "}
+        <span className="text-2xl text-red-700 font-medium ">
+          STAGExSPLASH,
+        </span>{" "}
+        offers you!
       </div>
       <div className="max-w-[1240px] mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-20 mt-8 font-new">
           {/* Service 1 */}
-          <div className="text-center flex flex-col items-center">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="400"
+            className="text-center flex flex-col items-center"
+          >
             <div className="rounded-full bg-gradient-to-br from-blue-700 via-purple-800 to-pink-900 bg-blend-saturation w-[100px] h-[100px] flex items-center justify-center">
               {/* <img src={image1} alt="Monitor Icon" />*/}
               <Lottie animationData={animationData} />
@@ -41,7 +60,11 @@ const About = () => {
             </div>
           </div>
           {/* Service 2 */}
-          <div className="text-center flex flex-col items-center">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="400"
+            className="text-center flex flex-col items-center"
+          >
             <div className="rounded-full bg-gradient-to-tr from-neutral-800 to-orange-700 w-[100px] h-[100px] flex items-center justify-center">
               {/* <img src={image2} alt="Mobile Icon" /> */}
               <Lottie animationData={animationData1} />
@@ -57,7 +80,11 @@ const About = () => {
             </div>
           </div>
           {/* Service 3 */}
-          <div className="text-center flex flex-col items-center">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="400"
+            className="text-center flex flex-col items-center"
+          >
             <div className="rounded-full bg-gradient-to-tr from-neutral-800 to-orange-700 w-[100px] h-[100px] flex items-center justify-center">
               {/* <img src={image3} alt="UX Icon" /> */}
               <Lottie animationData={animationData2} />
@@ -73,7 +100,11 @@ const About = () => {
             </div>
           </div>
           {/* {service 4} */}
-          <div className="text-center flex flex-col items-center">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            className="text-center flex flex-col items-center"
+          >
             <div className="rounded-full bg-gradient-to-br from-blue-700 via-purple-800 to-pink-900 w-[100px] h-[100px] flex items-center justify-center">
               {/* <img src={image4} alt="UX Icon" /> */}
               <Lottie animationData={animationData4} />
@@ -89,7 +120,11 @@ const About = () => {
             </div>
           </div>
           {/* {service 5} */}
-          <div className="text-center flex flex-col items-center">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="400"
+            className="text-center flex flex-col items-center"
+          >
             <div className="rounded-full bg-gradient-to-br from-blue-700 via-purple-800 to-pink-900 w-[100px] h-[100px] flex items-center justify-center">
               {/* <img src={image1} alt="UX Icon" /> */}
               <Lottie animationData={animationData3} />
@@ -104,7 +139,11 @@ const About = () => {
             </div>
           </div>
           {/* {service 6} */}
-          <div className="text-center flex flex-col items-center">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="400"
+            className="text-center flex flex-col items-center"
+          >
             <div className="rounded-full bg-gradient-to-tr from-neutral-900 to-orange-800 w-[100px] h-[100px] flex items-center justify-center">
               {/* <img src={image2} alt="UX Icon" /> */}
               <Lottie animationData={animationData5} />
