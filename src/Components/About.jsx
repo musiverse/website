@@ -8,7 +8,7 @@ import animationData5 from "../assets/mobile.json";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-900 to-gray-900 via-neutral-800 overflow-hidden h-[270vh] md:h-[130vh]  w-full">
+    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-900 to-gray-900 via-neutral-800 overflow-hidden h-[300vh] md:h-[130vh]  w-full">
       <div className=" text-4xl font-medium p-4 text-center text-white mt-9">
         Connecting Artists and Music Enthusiasts with Ease!
       </div>
