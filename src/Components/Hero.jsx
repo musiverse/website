@@ -1,7 +1,6 @@
 import final from "../assets/final.mp4";
-// import AvatarGroup from "./AvatarGroup";
-import GradientBtn from "./GradientBtn";
 import { TypeAnimation } from "react-type-animation";
+import GradientBtn from "./GradientBtn";
 
 const Hero = () => {
   return (
@@ -19,12 +18,12 @@ const Hero = () => {
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
 
       {/* Content Container */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-4/5 mx-auto">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center w-4/5 mx-auto">
         {/* Headline */}
         <h1
           data-aos="fade-down"
           data-aos-delay="500"
-          className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4"
+          className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-gray-300"
         >
           Elevate Your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600">
@@ -37,7 +36,7 @@ const Hero = () => {
         <p
           data-aos="fade-down"
           data-aos-delay="600"
-          className="text-lg font-secondary md:text-xl lg:text-3xl mb-6 text-gray-200"
+          className="text-xl font-secondary md:text-xl lg:text-3xl mb-6 text-gray-200"
         >
           Discover the Power of Live Performances
           <TypeAnimation
@@ -62,9 +61,7 @@ const Hero = () => {
         </p>
 
         {/* CTA Button */}
-
-        <GradientBtn className="" title="Experience Now" />
-
+        <GradientBtn title="Experience Now" />
         {/* Unique Selling Proposition */}
         {/* <p className="text-lg mt-4 font-secondary flex justify-center items-center">
           <AvatarGroup />

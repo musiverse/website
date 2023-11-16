@@ -8,31 +8,35 @@ import animationData5 from "../assets/mobile.json";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-900 to-gray-900 via-neutral-800 overflow-hidden h-[320vh] md:h-[130vh]  w-full">
+    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-800 to-gray-900 via-neutral-800 overflow-hidden h-[320vh] md:h-[130vh]  w-full">
       <div
         data-aos="fade-down"
-        className=" text-4xl font-medium p-4 text-center text-white mt-9"
+        className=" text-4xl font-medium p-4 text-center text-gray-300 mt-9"
       >
         Connecting Artists and Music{" "}
         <span className=" text-red-700  ">Enthusiasts</span> with Ease!
       </div>
       <div
         data-aos="fade-down"
-        className="antialiased p-2 text-gray-200 font-medium font-primary text-center max-w-4xl"
+        className="antialiased p-2 text-gray-400 font-medium font-primary text-center max-w-4xl"
       >
-        At our mission is to bring music to your doorstep. With our
-        user-friendly app, you can effortlessly connect with talented musicians,
-        singers, and music systems. We value reliability, quality, diversity,
-        and convenience, ensuring that every occasion is filled with the perfect
+        At{" "}
+        <span className="text-red-700 font-bold text-2xl underline underline-offset-2 ">
+          STAGExSPLASH,
+        </span>{" "}
+        our mission is to bring music to your doorstep. With our user-friendly
+        app, you can effortlessly connect with talented musicians, singers, and
+        music systems. We value reliability, quality, diversity, and
+        convenience, ensuring that every occasion is filled with the perfect
         rhythm and soul.
       </div>
       <div
         data-aos="fade-down"
         data-aos-delay="300"
-        className="text-2xl font-medium tracking-wide text-white px-2 text-center"
+        className="text-2xl font-medium tracking-wide text-gray-300 px-2 text-center"
       >
         What{" "}
-        <span className="text-2xl text-red-700 font-medium ">
+        <span className="text-2xl text-red-700 font-medium underline underline-offset-4">
           STAGExSPLASH,
         </span>{" "}
         offers you!
@@ -50,7 +54,7 @@ const About = () => {
               <Lottie animationData={animationData} />
             </div>
             <div className="mt-3 text-white">
-              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 ">
+              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 tracking-wide ">
                 Instant Access to Talent
               </div>
               <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
@@ -70,7 +74,7 @@ const About = () => {
               <Lottie animationData={animationData1} />
             </div>
             <div className="mt-3 text-white">
-              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10">
+              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 tracking-wide">
                 Seamless Booking
               </div>
               <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
@@ -90,7 +94,7 @@ const About = () => {
               <Lottie animationData={animationData2} />
             </div>
             <div className="mt-3 text-white">
-              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10">
+              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 tracking-wide">
                 Diverse Music Genres
               </div>
               <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
@@ -110,7 +114,7 @@ const About = () => {
               <Lottie animationData={animationData4} />
             </div>
             <div className="mt-3 text-white">
-              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10">
+              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 tracking-wide">
                 High-Quality Performances
               </div>
               <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
@@ -130,7 +134,7 @@ const About = () => {
               <Lottie animationData={animationData3} />
             </div>
             <div className="mt-3 text-white">
-              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10">
+              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 tracking-wide">
                 Customer Support
               </div>
               <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
@@ -149,7 +153,7 @@ const About = () => {
               <Lottie animationData={animationData5} />
             </div>
             <div className="mt-3 text-white">
-              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10">
+              <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-red-500 to-red-900  text-3xl font-black font-primary leading-10 tracking-wide">
                 Personalized Experiences
               </div>
               <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
