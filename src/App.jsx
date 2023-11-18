@@ -5,6 +5,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import About from "./Components/About";
+import Testimonials from "./Components/Testimonials";
+import Footer from "./Components/Footer";
 
 function App() {
   useEffect(() => {
@@ -20,6 +22,8 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
