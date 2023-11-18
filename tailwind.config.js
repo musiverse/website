@@ -14,7 +14,7 @@ export default {
         thBlue: "#35EEED",
         thOrannge: "#F9A23F",
         thPurple: "#ED02FF",
-        accent: "#B809C3",
+        accent: "#F13024",
         primary: "0a0a0a",
       },
     },

@@ -4,26 +4,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Darker+Grotesque:wght@900&family=Kdam+Thmor+Pro&family=Orbitron:wght@400;500&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Darker+Grotesque:wght@900&family=Kdam+Thmor+Pro&family=Orbitron:wght@400;500&family=Poppins:ital,wght@0,100;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-  
-@layer utilities {
-    @keyframes gradientChange {
-        0% {
-            background-position: 0%
-        }
-
-        50% {
-            background-position: 100%
-        }
-
-        100% {
-            background-position: 0%
-        }
+@keyframes gradientChange {
+    0% {
+        background-position: 0%
     }
 
+    50% {
+        background-position: 100%
+    }
+
+    100% {
+        background-position: 0%
+    }
+}
+
+@layer utilities {
     .gradient {
         background: linear-gradient(90deg, blue, red);
         background-size: 200% 200%;
@@ -34,88 +33,28 @@
     }
 }
 
-
-  @layer base {
-
-    html{
-        font-family:'Orbitron', sans-serif;
+@layer base {
+    html {
+        font-family: 'Orbitron', sans-serif;
     }
 
-    /* body {
-      @apply font-[Poppins]
-    } */
-  
     li {
-      @apply p-4
+        @apply p-4;
     }
-  
+
     h1 {
-      @apply text-3xl md:text-4xl font-bold
+        @apply text-3xl md:text-4xl font-bold;
     }
-  
+
     h2 {
-      @apply text-3xl font-bold
+        @apply text-3xl font-bold;
     }
-  
+
     h3 {
-      @apply text-xl font-bold
+        @apply text-xl font-bold;
     }
+
     button {
-      @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md
+        @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md;
     }
-
-    .showreels-btn {
-			width: 25%;
-			height: 25%;
-			display: block;
-			margin: 0;
-			position: absolute;
-			top: 50%;
-			left: 55%;
-			-ms-transform: translate(-55%, -50%);
-			transform: translate(-55%, -50%);
-		}
-
-		.showreels-div:hover .showreels-video {
-			display: block;
-		}
-
-		.showreels-div:hover .showreels-btn {
-			display: none;
-		}
-
-        	.circle-text {
-			font-size: 24px;
-			font-weight: 700;
-			text-transform: uppercase;
-			letter-spacing: 10px;
-			fill: #333;
-		}
-
-		.showreels-div {
-			height: 150px;
-			width: 150px;
-			border-radius: 100%;
-		}
-
-		.showreels-video {
-			border-radius: 100%;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			display: none;
-		}
-
-        	.circle-svg {
-			height: 350px;
-			width: 350px;
-		}
-        .absolute-center {
-			margin: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
-    
 }

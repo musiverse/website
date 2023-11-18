@@ -1,6 +1,6 @@
 import final from "../assets/final.mp4";
 import { TypeAnimation } from "react-type-animation";
-import GradientBtn from "./GradientBtn";
+// import GradientBtn from "./GradientBtn";
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-gray-300"
         >
           Elevate Your{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600">
+          <span className="text-transparent bg-clip-text bg-accent">
             Moments
           </span>{" "}
           with Live Music
@@ -61,7 +61,9 @@ const Hero = () => {
         </p>
 
         {/* CTA Button */}
-        <GradientBtn title="Experience Now" />
+        <button className="bg-gradient-to-br from-orange-500 via-black to-green-500 text-gray-300 px-7 py-2 text-xl rounded-3xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate">
+          Experience Now
+        </button>
         {/* Unique Selling Proposition */}
         {/* <p className="text-lg mt-4 font-secondary flex justify-center items-center">
           <AvatarGroup />
