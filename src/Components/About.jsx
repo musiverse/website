@@ -46,18 +46,18 @@ const services = [
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 bg-gradient-to-t from-orange-800 to-gray-800 via-gray-700 overflow-hidden h-[320vh] md:h-[130vh] w-full">
+    <div className="flex flex-col items-center space-y-8 gradient-bg-welcome overflow-hidden h-[320vh] md:h-[130vh] w-full">
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl font-medium p-4 text-center text-white mt-9"
+        className="text-4xl font-medium p-4 text-center text-gray-300 mt-9"
       >
         Connecting Artists and Music{" "}
         <span className="text-accent">Enthusiasts</span> with Ease!
       </div>
       <div
         data-aos="fade-down"
-        className="antialiased p-2 text-white font-medium font-primary text-center max-w-3xl text-xl"
+        className="antialiased p-2 text-gray-300 font-medium font-primary text-center max-w-3xl text-xl"
       >
         At{" "}
         <span className="text-accent p-3 font-bold text-3xl underline underline-offset-2">

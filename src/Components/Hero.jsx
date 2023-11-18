@@ -4,10 +4,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen bg-slate-900 overflow-hidden  ">
+    <div className="relative h-screen gradient-bg-welcome bg-gradient-to-br from-gray-700 to-black overflow-hidden  ">
       {/* Background Video */}
       <video
-        className="w-full h-full object-cover rounded-b-[5rem]"
+        className="w-full h-full object-cover rounded-b-[4rem]"
         src={final}
         autoPlay
         loop
