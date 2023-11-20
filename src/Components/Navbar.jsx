@@ -1,5 +1,7 @@
 import { useState } from "react";
 import GradientBtn from "./GradientBtn";
+import logoF from "../assets/logoF.png";
+import logoS from "../assets/logoS.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import {
@@ -27,7 +29,7 @@ const Navbar = () => {
     >
       <div className="text-[#4757cf]">
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
-          STAGE
+          <img src={logoS} alt="logo" width={70} height={70} />
         </h1>
       </div>
       <ul className="hidden md:flex text-thBlue text-xl font-medium ">
