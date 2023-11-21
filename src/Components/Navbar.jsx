@@ -1,6 +1,6 @@
 import { useState } from "react";
 import GradientBtn from "./GradientBtn";
-import logoF from "../assets/logoF.png";
+// import logoF from "../assets/logoF.png";
 import logoS from "../assets/logoS.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
