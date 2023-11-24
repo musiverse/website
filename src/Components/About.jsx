@@ -46,7 +46,7 @@ const services = [
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 gradient-bg-welcome overflow-hidden h-[220vh] md:h-[130vh] w-full overflow-y-scroll">
+    <div className="flex flex-col items-center space-y-8 gradient-bg-welcome overflow-hidden h-[220vh] md:h-[130vh] w-full ">
       {/* Updated content... */}
       <div
         data-aos="fade-down"
