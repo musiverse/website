@@ -17,6 +17,9 @@ export default {
         accent: "#F13024",
         primary: "0a0a0a",
       },
+      backgroundImage: {
+        videoBg: "url('/src/assets/video-bg.png')",
+      },
     },
   },
   plugins: [],

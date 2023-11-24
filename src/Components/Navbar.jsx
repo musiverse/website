@@ -29,7 +29,7 @@ const Navbar = () => {
     >
       <div className="text-[#4757cf]">
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
-          <img src={logoS} alt="logo" width={70} height={70} />
+          <img src={logoS} alt="logo" width={70} height={70} className="" />
         </h1>
       </div>
       <ul className="hidden md:flex text-thBlue text-xl font-medium ">

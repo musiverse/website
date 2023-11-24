@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import About from "./Components/About";
 import Testimonials from "./Components/Testimonials";
 import Footer from "./Components/Footer";
+import Vedio from "./Components/Vedio";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Vedio />
       <Services />
       <Testimonials />
       <Footer />
