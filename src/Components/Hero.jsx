@@ -80,7 +80,6 @@ const Hero = () => {
           Your curated collection of musicians, singers, and music systems, at
           your fingertips.
         </p> */}
-        {/* <Circle /> */}
       </div>
     </div>
   );
