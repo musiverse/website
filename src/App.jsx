@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Testimonials from "./Components/Testimonials";
 import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
+import Faq from "./Components/Faq";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <Hero />
       <About />
       <Vedio />
+      <Faq />
       <Services />
       <Testimonials />
       <Footer />

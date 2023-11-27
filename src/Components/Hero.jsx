@@ -1,6 +1,7 @@
-import final from "../assets/final.mp4";
+// import vediofinal from "../assets/vediofinal.mp4";
 import { TypeAnimation } from "react-type-animation";
 // import GradientBtn from "./GradientBtn";
+import final from "../assets/final.mp4";
 
 const Hero = () => {
   return (
