@@ -60,7 +60,7 @@ const Hero = () => {
             repeat={Infinity}
           /> */}
         </p>
-        <p className="pt-2 text-xl font-semibold tracking-wider md:text-2xl text-left text-accent font-tertiary ">
+        <p className="pt-2 text-xl font-bold tracking-wider md:text-2xl text-left text-accent font-tertiary ">
           {" "}
           Download our app today!
         </p>
