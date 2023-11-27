@@ -24,7 +24,7 @@ const Hero = () => {
         <h1
           data-aos="fade-down"
           data-aos-delay="500"
-          className="text-4xl text-left md:text-4xl lg:text-6xl font-bold mb-4 text-gray-300"
+          className="text-3xl text-left md:text-4xl lg:text-6xl font-bold mb-4 text-gray-300"
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
@@ -66,7 +66,7 @@ const Hero = () => {
         </p>
 
         {/* CTA Button */}
-        <div className="flex flex-col space-y-2 md:flex-row space-x-3 mt-3 items-center justify-start">
+        <div className="flex flex-col space-y-2 md:flex-row space-x-3 mt-3 items-center justify-start ml-[-80px]">
           <button className="mt-2 bg-gradient-to-br from-orange-500 via-black to-green-500 text-gray-300 px-7 py-2 text-xl rounded-2xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate">
             Download Now
           </button>
