@@ -1,7 +1,7 @@
 // import vediofinal from "../assets/vediofinal.mp4";
 // import { TypeAnimation } from "react-type-animation";
 // import GradientBtn from "./GradientBtn";
-import final from "../assets/final.mp4";
+import bgvedio from "../assets/bgvedio.mp4";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Background Video */}
       <video
         className="w-full h-full object-cover rounded-b-[4rem]"
-        src={final}
+        src={bgvedio}
         autoPlay
         loop
         muted
