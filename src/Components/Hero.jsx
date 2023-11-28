@@ -10,13 +10,13 @@ const Hero = () => {
       <video
         className="w-full h-full object-cover rounded-b-[4rem]"
         src={final}
-        autoPlay
+        // autoPlay
         loop
         muted
       />
 
       {/* Overlay */}
-      <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
+      <div className="absolute w-full h-full top-0 left-0 right-0 bg-gray-900/30"></div>
 
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-custom w-4/5 mx-auto">
