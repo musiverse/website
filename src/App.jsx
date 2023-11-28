@@ -9,6 +9,7 @@ import Testimonials from "./Components/Testimonials";
 import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
+import Download from "./Components/Download";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Vedio />
       <Faq />
+      <Download />
       <Services />
       <Testimonials />
       <Footer />

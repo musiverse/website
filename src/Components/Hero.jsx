@@ -10,7 +10,7 @@ const Hero = () => {
       <video
         className="w-full h-full object-cover rounded-b-[4rem]"
         src={final}
-        // autoPlay
+        autoPlay
         loop
         muted
       />
