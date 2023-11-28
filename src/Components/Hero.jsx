@@ -24,7 +24,7 @@ const Hero = () => {
         <h1
           data-aos="fade-down"
           data-aos-delay="500"
-          className="text-3xl text-left md:text-4xl lg:text-6xl font-bold mb-4 text-gray-300 "
+          className="text-3xl text-center md:text-left md:text-4xl lg:text-6xl font-bold mb-4 text-gray-300 "
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
