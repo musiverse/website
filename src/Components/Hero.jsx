@@ -5,7 +5,7 @@ import bgvedio from "../assets/bgvedio.mp4";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen gradient-bg-welcome bg-gradient-to-br from-gray-700 to-black overflow-hidden  ">
+    <div className="relative h-screen gradient-bg-welcome bg-gradient-to-br from-gray-700 to-black  ">
       {/* Background Video */}
       <video
         className="w-full h-full object-cover rounded-b-[4rem]"
@@ -13,6 +13,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
+        playsInline
       />
 
       {/* Overlay */}
@@ -24,7 +25,7 @@ const Hero = () => {
         <h1
           data-aos="fade-down"
           data-aos-delay="500"
-          className="text-3xl text-center md:text-left md:text-4xl lg:text-6xl font-bold mb-4 text-gray-300 "
+          className="text-3xl overflow-y-hidden text-center md:text-left md:text-4xl lg:text-6xl font-bold mb-4 text-gray-300 "
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
@@ -37,7 +38,7 @@ const Hero = () => {
         <p
           data-aos="fade-down"
           data-aos-delay="600"
-          className="text-xl font-tertiary md:text-2xl text-left  text-gray-200"
+          className="text-xl font-tertiary md:text-2xl text-center md:text-left overflow-y-hidden text-gray-200"
         >
           Discover talented musicians and music services for any occasion.{" "}
           {/* <TypeAnimation
@@ -60,13 +61,21 @@ const Hero = () => {
             repeat={Infinity}
           /> */}
         </p>
-        <p className="pt-2 text-xl font-bold tracking-wider md:text-2xl text-left text-accent font-tertiary ">
+        <p
+          data-aos="fade-down"
+          data-aos-delay="600"
+          className="overflow-y-hidden pt-2 text-xl font-bold tracking-wider md:text-2xl text-left text-accent font-tertiary "
+        >
           {" "}
           Download our app today!
         </p>
 
         {/* CTA Button */}
-        <div className="flex flex-col space-y-2 md:flex-row space-x-0 md:space-x-3 mt-3 items-center justify-start sm:ml-[-80px] md:ml-0">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="600"
+          className="flex flex-col space-y-2 md:flex-row space-x-0 md:space-x-3 mt-3 items-center justify-start sm:ml-[-80px] md:ml-0"
+        >
           <button className="mt-2 bg-gradient-to-br from-orange-500 via-black to-green-500 text-gray-300 px-7 py-2 text-xl rounded-2xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate">
             Download Now
           </button>

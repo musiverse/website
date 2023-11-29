@@ -14,8 +14,8 @@ import Download from "./Components/Download";
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
-      delay: 400,
+      duration: 1500,
+      delay: 200,
     });
   });
 

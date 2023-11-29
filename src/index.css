@@ -8,6 +8,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* *{
+   margin: 0;
+   padding: 0;
+   width: auto;
+} */
+*{
+    overflow-x: hidden;
+    
+}
+
 @keyframes gradientChange {
     0% {
         background-position: 0%
@@ -57,8 +67,10 @@
     button {
         @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md;
     }
+    
 }
 
+  
 
 .gradient-bg-welcome {
   background-color:#0f0e13;

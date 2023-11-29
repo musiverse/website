@@ -40,11 +40,17 @@ const Faq = () => {
   return (
     <div className="w-screen h-[110vh] md:h-[100vh] gradient-bg-services flex justify-center items-center overflow-hidden">
       <div className="overflow-hidden h-[100%] m-2 text-2xl w-[1480px] font-semibold text-gray-300 font-tertiary flex flex-col items-center lg:flex-row justify-around">
-        <div className="flex flex-col space-y-3">
-          <p className="text-3xl xl:text-5xl w-[480px] pl-[70px]">
+        <div className=" flex flex-col space-y-3">
+          <p
+            data-aos="fade-down"
+            className="overflow-y-hidden text-3xl xl:text-5xl w-[480px] pl-[70px]"
+          >
             Frequently Asked Questions
           </p>
-          <p className="xl:w-[550px] text-base overflow-hidden w-[350px] pl-[70px]">
+          <p
+            data-aos="fade-down"
+            className="xl:w-[550px] text-base overflow-hidden w-[350px] pl-[70px]"
+          >
             Find answers to common questions about how our service works and
             what you can expect.
           </p>

@@ -46,21 +46,21 @@ const services = [
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 gradient-bg-welcome overflow-hidden h-[320vh] md:h-[130vh] w-full ">
+    <div className="flex flex-col items-center space-y-8 gradient-bg-welcome overflow-hidden h-[320vh] md:h-[135vh] w-full ">
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl font-medium p-4 text-center text-gray-300 mt-9"
+        className="text-4xl overflow-y-hidden font-medium p-4 text-center text-gray-300 mt-9"
       >
         Connecting Artists and Music{" "}
         <span className="text-accent">Enthusiasts</span> with Ease!
       </div>
       <div
         data-aos="fade-down"
-        className="antialiased p-2 text-gray-300 font-medium font-primary text-center max-w-3xl text-xl"
+        className="overflow-y-hidden antialiased p-2 text-gray-300 font-medium font-primary text-center max-w-3xl text-xl"
       >
         At{" "}
-        <span className="text-accent p-3 font-bold text-3xl underline underline-offset-2">
+        <span className=" text-accent p-3 font-bold text-3xl underline underline-offset-2">
           STAGExSPLASH,
         </span>{" "}
         our mission is to bring music to your doorstep. With our user-friendly
@@ -70,7 +70,7 @@ const About = () => {
         rhythm and soul.
       </div>
       {/* Updated animation data */}
-      <div className="max-w-[1240px] mx-auto ">
+      <div className="max-w-[1240px] mx-auto overflow-y-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-20 mt-8 font-new">
           {services.map((service, index) => (
             <div

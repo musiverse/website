@@ -27,10 +27,10 @@ const Navbar = () => {
       data-aos-delay="400"
       className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white"
     >
-      <div className="text-[#4757cf]">
-        <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
-          <img src={logoS} alt="logo" width={70} height={70} className="" />
-        </h1>
+      <div>
+        <p onClick={handleNav} className={logo ? "hidden" : "block"}>
+          <img src={logoS} alt="logo" width={70} height={70} />
+        </p>
       </div>
       <ul className="hidden md:flex text-thBlue text-xl font-medium ">
         {/* <li>Home</li> */}
