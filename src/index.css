@@ -41,6 +41,7 @@
     .element-to-rotate {
         animation: gradientChange 4s ease infinite;
     }
+        
 }
 
 @layer base {
@@ -70,7 +71,7 @@
     
 }
 
-  
+
 
 .gradient-bg-welcome {
   background-color:#0f0e13;
