@@ -110,12 +110,13 @@ const Footer = () => {
                       <FaLinkedin className="text-3xl" />
                     </a>
                   </div>
-                  <div className="space-x-3 md:space-x-0 space-y-0 md:space-y-3 flex flex-row items-center md:flex-col">
-                    <img src={GooglePlay} alt="playstore" width={140} />
-                    <img src={AppStore} alt="appstore" width={140} />
-                  </div>
                 </div>
               </div>
+            </div>
+            <div className="py-[70px] md:py-0 space-y-3 flex   items-center flex-col">
+              <p className="text-xl">Download Now!</p>
+              <img src={GooglePlay} alt="playstore" width={140} />
+              <img src={AppStore} alt="appstore" width={140} />
             </div>
           </div>
         </div>
