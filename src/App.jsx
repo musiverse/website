@@ -5,7 +5,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import About from "./Components/About";
-import Testimonials from "./Components/Testimonials";
 import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
@@ -25,10 +24,9 @@ function App() {
       <Hero />
       <About />
       <Vedio />
-      <Faq />
-      <Download />
       <Services />
-      <Testimonials />
+      <Download />
+      <Faq />
       <Footer />
     </div>
   );
