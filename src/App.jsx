@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-import Services from "./Components/Services";
+// import Services from "./Components/Services";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
 import Download from "./Components/Download";
+import Singers from "./Components/Singers";
 
 function App() {
   useEffect(() => {
@@ -24,7 +25,8 @@ function App() {
       <Hero />
       <About />
       <Vedio />
-      <Services />
+      <Singers />
+      {/* <Services /> */}
       <Download />
       <Faq />
       <Footer />
