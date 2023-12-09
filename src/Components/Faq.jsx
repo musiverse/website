@@ -73,7 +73,7 @@ const Faq = () => {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    className="mt-2 text-sm md:text-xl text-gray-600 ml-4"
+                    className="mt-2 text-sm md:text-lg text-gray-400 ml-4"
                   >
                     <p>{q.answer}</p>
                   </motion.div>
