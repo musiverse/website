@@ -71,8 +71,8 @@ const Navbar = () => {
         onClick={closeNav}
         className={
           nav
-            ? "absolute text-white left-0 top-0 w-full bg-black/80 px-4 py-7 flex flex-col "
-            : "absolute left-[-100%]"
+            ? "fixed text-white left-0 top-0 w-full bg-black/80 px-4 py-7 flex flex-col z-20"
+            : "fixed left-[-100%]"
         }
       >
         <ul className="z-20">

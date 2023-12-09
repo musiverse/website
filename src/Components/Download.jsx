@@ -4,7 +4,7 @@ import { AiOutlineApple } from "react-icons/ai";
 
 const Download = () => {
   return (
-    <div className="h-[85vh] p-2 text-white/80 md:h-[60vh] flex flex-col md:flex-row gradient-bg-transactions items-center border-y border-purple-700 ">
+    <div className="h-[85vh] p-2 text-white/80 md:h-[60vh] flex flex-col md:flex-row gradient-bg-transactions items-center  ">
       <div className="ml-0 py-2 md:ml-[120px] overflow-hidden">
         <img src={down1} alt="mobile" className="h-[300px] " />
       </div>
@@ -18,14 +18,14 @@ const Download = () => {
         </p>
         <div className="flex flex-col w-[300px] md:w-[300px] justify-center items-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row md:items-center">
           {/* Android Button */}
-          <button className="px-1 py-1 rounded-3xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
+          <button className="px-[3px] py-[3px] rounded-3xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
             <span className="text-base flex items-center gradient-bg-services hover:bg-slate-800 rounded-3xl px-3 py-[6px]">
               Download
               <img src={android} alt="android" className="h-5 w-7 pl-2" />
             </span>
           </button>
           {/* Apple Button */}
-          <button className="px-1 py-1 rounded-3xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
+          <button className="px-[3px] py-[3px] rounded-3xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
             <span className="text-base flex items-center gradient-bg-services hover:bg-slate-800 rounded-3xl px-3 py-[6px]">
               Download
               <AiOutlineApple size={25} className="pl-1" />

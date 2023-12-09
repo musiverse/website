@@ -13,10 +13,10 @@
    padding: 0;
    width: auto;
 } */
-/* *{
+body{
     overflow-x: hidden;
     
-} */
+}
 
 @keyframes gradientChange {
     0% {
