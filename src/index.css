@@ -13,10 +13,10 @@
    padding: 0;
    width: auto;
 } */
-*{
+/* *{
     overflow-x: hidden;
     
-}
+} */
 
 @keyframes gradientChange {
     0% {
@@ -68,10 +68,7 @@
     button {
         @apply p-3  bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md;
     }
-    :active{
-        padding: [0.8rem 0];
-        font-weight: ;
-    }
+    
     
 }
 

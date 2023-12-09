@@ -79,7 +79,7 @@ const Hero = () => {
           <button className="mt-2 bg-gradient-to-br from-orange-500 via-black to-green-500 text-gray-300 px-7 py-2 text-xl rounded-2xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate">
             Download Now
           </button>
-          <button className="px-[40px] tracking-widest py-2  rounded-2xl text-xl text-center font-medium">
+          <button className="px-[40px] tracking-widest py-2  rounded-2xl border text-xl text-center font-medium">
             Learn More
           </button>
         </div>

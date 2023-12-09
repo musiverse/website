@@ -30,8 +30,14 @@ const Singers = () => {
             </p>
           </div>
         </div>
-        <div className="pt-[80px] flex items-start justify-start mx-auto overflow-y-hidden">
-          <img src={image4} alt="Singers" height={500} width={600} />
+        <div className=" pt-[80px] flex items-start justify-start mx-auto overflow-y-hidden">
+          <img
+            src={image4}
+            alt="Singers"
+            height={500}
+            width={600}
+            className="border"
+          />
         </div>
       </div>
     </div>

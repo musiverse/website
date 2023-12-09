@@ -20,6 +20,11 @@ const Navbar = () => {
     setLogo(!logo);
   };
 
+  const closeNav = () => {
+    setNav(false);
+    setLogo(false);
+  };
+
   return (
     <div
       data-aos="fade-down"
@@ -63,14 +68,14 @@ const Navbar = () => {
 
       {/* Mobile menu dropdown */}
       <div
-        onClick={handleNav}
+        onClick={closeNav}
         className={
           nav
-            ? "absolute text-white left-0 top-0 w-full bg-black/80 px-4 py-7 flex flex-col"
+            ? "absolute text-white left-0 top-0 w-full bg-black/80 px-4 py-7 flex flex-col "
             : "absolute left-[-100%]"
         }
       >
-        <ul>
+        <ul className="z-20">
           <h1>STAGE </h1>
           {/* <li className="border-b text-center">Home</li> */}
           <li className="border-b text-center">SERVICES</li>
