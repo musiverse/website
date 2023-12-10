@@ -4,11 +4,11 @@ import { AiOutlineApple } from "react-icons/ai";
 
 const Download = () => {
   return (
-    <div className="h-[85vh] p-2 text-gray-400 md:h-[60vh] flex flex-col md:flex-row gradient-bg-services items-center  ">
-      <div className="ml-0 py-2 md:ml-[120px] overflow-hidden">
-        <img src={down1} alt="mobile" className="h-[300px] " />
+    <div className="h-[85vh] p-2 text-gray-400 md:h-[70vh] flex flex-col md:flex-row gradient-bg-services items-center justify-evenly">
+      <div className="ml-0 py-2 md:ml-[150px] overflow-visible">
+        <img src={down1} alt="mobile" className="h-[350px] md:h-[500px] " />
       </div>
-      <div className="overflow-hidden p-3 w-[340px] md:w-[780px] sm:ml-0  font-tertiary md:ml-[420px] space-y-7 tracking-wider">
+      <div className="overflow-hidden  p-3 w-[340px] md:w-[780px] sm:ml-0  font-tertiary md:ml-[420px] space-y-7 tracking-wider">
         <p className="font-medium text-center md:text-left text-3xl overflow-y-hidden font-new">
           Download Application
         </p>

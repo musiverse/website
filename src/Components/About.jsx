@@ -79,7 +79,7 @@ const About = () => {
               data-aos-delay={`${400 + index * 100}`}
               className="text-center flex flex-col items-center"
             >
-              <div className="rounded-full bg-gradient-to-br from-blue-600 via-purple-700 to-purple-950 bg-blend-saturation w-[100px] h-[100px] flex items-center justify-center">
+              <div className="rounded-full bg-gradient-to-l from-purple-600 to-fuchsia-700 w-[100px] h-[100px] flex items-center justify-center">
                 <Lottie animationData={service.animationData} />
               </div>
               <div className="mt-3 text-white">
