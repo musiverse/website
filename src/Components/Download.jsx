@@ -4,7 +4,7 @@ import { AiOutlineApple } from "react-icons/ai";
 
 const Download = () => {
   return (
-    <div className="h-[85vh] p-2 text-white/80 md:h-[60vh] flex flex-col md:flex-row gradient-bg-transactions items-center  ">
+    <div className="h-[85vh] p-2 text-gray-400 md:h-[60vh] flex flex-col md:flex-row gradient-bg-services items-center  ">
       <div className="ml-0 py-2 md:ml-[120px] overflow-hidden">
         <img src={down1} alt="mobile" className="h-[300px] " />
       </div>
