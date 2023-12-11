@@ -1,11 +1,11 @@
-import image4 from "../assets/image4.jpeg";
+// import image4 from "../assets/image4.jpeg";
 import { FaCube } from "react-icons/fa6";
 
 const Singers = () => {
   return (
     <div className="overflow-y-hidden gradient-bg-transactions text-gray-300 overflow-x-hidden">
       <div className="p-2 pt-7 mx-auto max-w-7xl h-[100vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
-        <div className="w-full md:w-[50%] flex flex-col justify-center items-start">
+        <div className=" flex flex-col justify-center items-start">
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary">
             Discover the Perfect Musicians for Your Event with just a few taps.
           </h1>
@@ -31,9 +31,9 @@ const Singers = () => {
         </div>
         <div className="pt-4 md:pt-0 flex flex-1 items-center  justify-center md:justify-start mx-auto overflow-y-hidden">
           <img
-            src={image4}
+            src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="object-contain w-full h-full max-w-full  md:max-w-[70%] lg:max-w-[50%]"
+            className="object-contain w-[600px] h-full max-w-full  "
           />
         </div>
       </div>
