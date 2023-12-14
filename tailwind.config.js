@@ -9,6 +9,7 @@ export default {
         primary: "Rajdhani",
         secondary: "Aldrich",
         tertiary: "Poppins",
+        new1: ["Hedvig Letters Serif"],
       },
       colors: {
         thBlue: "#35EEED",

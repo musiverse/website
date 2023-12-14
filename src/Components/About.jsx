@@ -3,7 +3,7 @@ import animationData from "../assets/star-animation.json";
 import animationData1 from "../assets/book.json";
 import animationData2 from "../assets/diverse.json";
 import animationData3 from "../assets/support.json";
-import animationData4 from "../assets/quality.json";
+import animationData4 from "../assets/Wallet.json";
 import animationData5 from "../assets/mobile.json";
 
 const services = [
@@ -20,13 +20,13 @@ const services = [
       "Enjoy a hassle-free booking process with our user-friendly interface.",
   },
   {
-    animationData: animationData2,
-    title: "Diverse Music Genres",
+    animationData: animationData4,
+    title: "Budget Friendly",
     description:
       "Choose from a wide range of genres to find the perfect sound for your event.",
   },
   {
-    animationData: animationData4,
+    animationData: animationData2,
     title: "High-Quality Performances",
     description:
       "Our curated selection of artists ensures exceptional and professional performances.",
@@ -46,7 +46,7 @@ const services = [
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 gradient-bg-services overflow-hidden h-[320vh] md:h-[135vh] w-full ">
+    <div className="flex flex-col items-center space-y-8 gradient-bg-transactions overflow-hidden h-[320vh] md:h-[155vh] w-full ">
       {/* Updated content... */}
       <div
         data-aos="fade-down"
@@ -76,17 +76,17 @@ const About = () => {
             <div
               key={index}
               data-aos="fade-down"
-              data-aos-delay={`${400 + index * 100}`}
+              // data-aos-delay={`${400 + index * 100}`}
               className="text-center flex flex-col items-center"
             >
-              <div className="rounded-full bg-gradient-to-l from-purple-600 to-fuchsia-700 w-[100px] h-[100px] flex items-center justify-center">
+              <div className="rounded-full bg-gradient-to-l from-gradient-bg-footer to-fuchsia-400 w-[100px] h-[100px] flex items-center justify-center">
                 <Lottie animationData={service.animationData} />
               </div>
               <div className="mt-3 text-white">
-                <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-accent  to-accent  text-3xl font-black font-primary leading-10 tracking-wide">
+                <div className="text-transparent bg-clip-text bg-red-500 text-3xl font-black font-secondary leading-10 ">
                   {service.title}
                 </div>
-                <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-tertiary">
+                <div className="font-normal text-lg text-center tracking-wide text-gray-300 mt-2 leading-6 p-1 font-secondary">
                   {service.description}
                 </div>
               </div>

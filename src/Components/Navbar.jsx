@@ -1,7 +1,7 @@
 import { useState } from "react";
 import GradientBtn from "./GradientBtn";
 // import logoF from "../assets/logoF.png";
-import logoS from "../assets/logoS.png";
+import logoSN from "../assets/logoSN.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import {
@@ -32,23 +32,25 @@ const Navbar = () => {
       data-aos-delay="400"
       className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white"
     >
-      <div>
+      <div className="flex flex-row items-center space-x-1 text-2xl">
         <p onClick={handleNav} className={logo ? "hidden" : "block"}>
-          <img src={logoS} alt="logo" width={70} height={70} />
+          <img src={logoSN} alt="logo" width={70} height={70} />
         </p>
+        <p className="font-custom font-medium">StageSplash</p>
       </div>
+
       <ul className="hidden md:flex text-thBlue text-xl font-medium ">
         {/* <li>Home</li> */}
-        <li className="hover:bg-purple-800 text-slate-50  duration-1000 rounded-lg space-x-1">
+        <li className="hover:bg-indigo-900 text-slate-50  duration-1000 rounded-lg space-x-1">
           ABOUT US
         </li>
-        <li className="hover:bg-purple-800 text-slate-50 duration-1000 rounded-lg space-x-1">
+        <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           SERVICES
         </li>
-        <li className="hover:bg-purple-800 text-slate-50 duration-1000 rounded-lg space-x-1">
+        <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           TESTIMONIAL
         </li>
-        <li className="hover:bg-purple-800 text-slate-50 duration-1000 rounded-lg space-x-1">
+        <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           CONTACT US
         </li>
       </ul>

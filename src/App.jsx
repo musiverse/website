@@ -14,8 +14,8 @@ import Singers from "./Components/Singers";
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 1500,
-      delay: 200,
+      duration: 1000,
+      delay: 10,
     });
   });
 
@@ -23,10 +23,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <About />
-      <Vedio />
       <Singers />
-
+      <Vedio />
+      <About />
       <Download />
       <Faq />
       <Footer />
