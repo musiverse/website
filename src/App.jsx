@@ -10,6 +10,9 @@ import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
 import Download from "./Components/Download";
 import Singers from "./Components/Singers";
+import Sound from "./Components/Sound";
+import Led from "./Components/Led";
+// import Header from "./Components/Header";
 
 function App() {
   useEffect(() => {
@@ -22,8 +25,11 @@ function App() {
   return (
     <div>
       <Navbar />
+      {/* <Header /> */}
       <Hero />
       <Singers />
+      <Sound />
+      <Led />
       <Vedio />
       <About />
       <Download />

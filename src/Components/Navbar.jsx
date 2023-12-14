@@ -27,29 +27,30 @@ const Navbar = () => {
 
   return (
     <div
-      data-aos="fade-down"
-      data-aos-duration="2000"
-      data-aos-delay="400"
-      className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white"
+      className={`flex w-full justify-between items-center h-20 px-4 z-10 text-white fixed ${
+        nav
+          ? "bg-black bg-opacity-80"
+          : "bg-opacity-10 backdrop-filter backdrop-blur-lg"
+      }`}
     >
       <div className="flex flex-row items-center space-x-1 text-2xl">
         <p onClick={handleNav} className={logo ? "hidden" : "block"}>
           <img src={logoSN} alt="logo" width={70} height={70} />
         </p>
-        <p className="font-custom font-medium">StageSplash</p>
+        <p className="font-custom font-medium hidden md:block">StageSplash</p>
       </div>
 
       <ul className="hidden md:flex text-thBlue text-xl font-medium ">
         {/* <li>Home</li> */}
         <li className="hover:bg-indigo-900 text-slate-50  duration-1000 rounded-lg space-x-1">
-          ABOUT US
-        </li>
-        <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           SERVICES
         </li>
         <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
-          TESTIMONIAL
+          ABOUT US
         </li>
+        {/* <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
+          TESTIMONIAL
+        </li> */}
         <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           CONTACT US
         </li>

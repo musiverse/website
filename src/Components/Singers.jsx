@@ -1,35 +1,35 @@
-// import image4 from "../assets/image4.jpeg";
-import { FaCube } from "react-icons/fa6";
-
 const Singers = () => {
   return (
     <div className="overflow-y-hidden gradient-bg-transactions text-gray-300 overflow-x-hidden">
-      <div className="p-2 pt-7 mx-auto max-w-7xl h-[100vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
-        <div className=" flex flex-col justify-center items-start">
+      <div className="text-center mb-2">
+        <h2 className="text-2xl md:text-3xl pt-5 text-blue-500 font-bold">
+          Elevate Your Event with Unforgettable Artists
+        </h2>
+        <hr className="border-t-2 border-blue-500 w-12 mx-auto mt-2" />
+      </div>
+      <div className="p-2 mx-auto max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
+        {/* Added Heading */}
+
+        <div className="flex flex-col justify-center items-start">
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary">
-            Discover the Perfect Musicians for Your Event with just a few taps.
+            Discover unforgettable artists.
           </h1>
           <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
-            Our app makes it incredibly easy to book talented musicians for any
-            occasion. Simply browse, select, and confirm your booking in
-            minutes.
+            Affordable Beats, Unforgettable Moments.
           </p>
           <div className="mt-4 text-blue-300 text-base md:text-lg space-y-3 flex flex-col font-secondary">
             <p className="flex items-center gap-4 overflow-y-hidden">
-              <FaCube size={13} className="text-blue-700" /> Browse a Variety of
-              Musicians and Genres.
+              🎤 Diverse range of talented artists.
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              <FaCube size={13} className="text-blue-700" /> Book Musicians at
-              Your Preferred Date and Time.
+              💸 Tailored to fit any budget.
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              <FaCube size={13} className="text-blue-700" /> Enjoy Seamless and
-              Reliable Booking Process.
+              🎶 Tailored to fit any budget.
             </p>
           </div>
         </div>
-        <div className="pt-4 md:pt-0 flex flex-1 items-center  justify-center md:justify-start mx-auto overflow-y-hidden">
+        <div className="pt-4 md:pt-0 flex flex-1 items-center justify-center md:justify-start mx-auto overflow-y-hidden">
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"

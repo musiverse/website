@@ -76,7 +76,7 @@ const About = () => {
             <div
               key={index}
               data-aos="fade-down"
-              // data-aos-delay={`${400 + index * 100}`}
+              // data-aos-delay={`${400 + index * 100}`}npm
               className="text-center flex flex-col items-center"
             >
               <div className="rounded-full bg-gradient-to-l from-gradient-bg-footer to-fuchsia-400 w-[100px] h-[100px] flex items-center justify-center">
