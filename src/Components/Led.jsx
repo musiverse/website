@@ -25,7 +25,7 @@ const Led = () => {
           <img
             src="https://images.pexels.com/photos/625644/pexels-photo-625644.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
             alt="Singers"
-            className="object-contain w-[600px] h-full max-w-full  "
+            className="object-contain rounded-2xl border-2 h-[250px] md:h-[400px] w-[600px] max-w-full   "
           />
         </div>
       </div>

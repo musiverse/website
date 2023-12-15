@@ -33,7 +33,7 @@ const Singers = () => {
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="object-contain w-[600px] h-full max-w-full  "
+            className="object-contain rounded-2xl border-2 h-[250px] md:h-[400px] w-[600px] max-w-full  "
           />
         </div>
       </div>
