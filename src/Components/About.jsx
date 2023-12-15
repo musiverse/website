@@ -23,7 +23,7 @@ const services = [
     animationData: animationData4,
     title: "Budget Friendly",
     description:
-      "Choose from a wide range of genres to find the perfect sound for your event.",
+      "Discover a variety of genres that fit your budget without compromising on quality.",
   },
   {
     animationData: animationData2,
@@ -46,7 +46,10 @@ const services = [
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center space-y-8 gradient-bg-transactions overflow-hidden h-[360vh] md:h-[170vh] w-full ">
+    <div
+      id="aboutUsSection"
+      className="flex flex-col items-center space-y-8 gradient-bg-transactions overflow-hidden h-[360vh] md:h-[170vh] w-full "
+    >
       {/* Updated content... */}
       <div
         data-aos="fade-down"

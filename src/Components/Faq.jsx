@@ -14,7 +14,7 @@ const Faq = () => {
     },
     {
       id: 2,
-      question: "How do I bool a musician?",
+      question: "How do I book a musician?",
       answer:
         "Booking a musician is simple. Just open the app,browse through the available options, and select the one that suits your needs. You can then proceed to book and comfirm the musician for your event.",
     },

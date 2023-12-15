@@ -11,6 +11,7 @@ import {
   FaPinterest,
   FaYoutube,
 } from "react-icons/fa";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -40,20 +41,46 @@ const Navbar = () => {
         <p className="font-custom font-medium hidden md:block">StageSplash</p>
       </div>
 
-      <ul className="hidden md:flex text-thBlue text-xl font-medium ">
-        {/* <li>Home</li> */}
-        <li className="hover:bg-indigo-900 text-slate-50  duration-1000 rounded-lg space-x-1">
+      {/* <li>Home</li> */}
+      <ul className="hidden md:flex  text-thBlue text-xl font-medium space-x-6 ">
+        <ScrollLink
+          to="singersSection"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
+          onClick={closeNav}
+        >
           SERVICES
-        </li>
-        <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
+        </ScrollLink>
+
+        <ScrollLink
+          to="aboutUsSection"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
+          onClick={closeNav}
+        >
           ABOUT US
-        </li>
+        </ScrollLink>
+
         {/* <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           TESTIMONIAL
         </li> */}
-        <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
+        <ScrollLink
+          to="ContactSection"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
+          onClick={closeNav}
+        >
           CONTACT US
-        </li>
+        </ScrollLink>
       </ul>
       <GradientBtn
         className="ml-4 capitalize hidden md:flex"

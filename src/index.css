@@ -72,33 +72,10 @@ body{
     
     
 }
-.gradient {
-  background: linear-gradient(203deg, rgba(192, 90, 255, 1) 0%, rgba(67, 39, 158, 1) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-.gradient2 {
-  background: linear-gradient(250deg, rgba(255, 85, 219, 1) 24%, rgba(52, 108, 255, 1) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-}
 
 .border-opacity-20 {
   border-color: rgba(255, 255, 255, 0.2);
 }
-
-
-.combined-gradient {
-  background: linear-gradient(203deg, rgba(192, 90, 255, 1) 0%, rgba(67, 39, 158, 1) 50%, rgba(255, 85, 219, 1) 50%, rgba(52, 108, 255, 1) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  font-size: 1.5rem; /* Adjust the font size as needed */
-  padding-top: 5px; /* Adjust the top padding as needed */
-}
-
 
 .gradient-bg-welcome {
   background-color:#0f0e13;

@@ -7,29 +7,34 @@ import { PiMicrophoneStageFill } from "react-icons/pi";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen gradient-bg-welcome bg-gradient-to-br from-gray-700 to-black  ">
+    <div
+      id="HeroSection"
+      className="relative h-screen gradient-bg-welcome bg-gradient-to-br from-gray-700 to-black  "
+    >
       {/* Background Video */}
       <video
         className="w-full h-full object-cover rounded-b-[4rem]"
         src={bg1}
-        // autoPlay
+        autoPlay
         loop
         muted
         playsInline
       />
 
       {/* Overlay */}
-      <div className="font-new1 absolute w-full h-full top-0 left-0 right-0 bg-gray-900/30"></div>
+      <div className="font-new1 absolute w-full h-full top-0 left-0 right-0  bg-gray-900/30"></div>
 
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="gradient">STAGESPLASH</h1>
+        <h1 className="text-accent pb-5 font-secondary font-semibold text-5xl">
+          STAGESPLASH
+        </h1>
 
         <h1
           // data-aos="fade-down"
           // data-aos-delay="500"
-          className="font-new1 text-7xl overflow-y-hidden text-center md:text-center md:text-4xl lg:text-7xl font-bold mb-4 text-gray-300 "
+          className="font-new1 text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-6xl font-bold mb-4 text-gray-300 "
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
@@ -37,7 +42,7 @@ const Hero = () => {
           </span>{" "}
           for Your Event
         </h1>
-        <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center pt-4">
           <p className="flex flex-row p-1  items-center">
             <BsMusicNoteList className="text-accent text-2xl mx-2" />
             ARTISTS

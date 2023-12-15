@@ -8,10 +8,11 @@ import {
 import logoS from "../assets/logoS.png";
 import AppStore from "../assets/AppStore.png";
 import GooglePlay from "../assets/GooglePlay.png";
+import { Link as ScrollLink } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="font-sans gradient-bg-footer">
+    <div id="ContactSection" className="font-sans gradient-bg-footer">
       <section className="mx-auto max-w-[1200px] text-white">
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">
@@ -51,16 +52,39 @@ const Footer = () => {
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Important Links
                 </h1>
-                <ul className={`flex flex-col gap-3`}>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                <ul className={`flex flex-col gap-3 space-y-8`}>
+                  <ScrollLink
+                    to="HeroSection" // Add the appropriate section ID
+                    spy={true}
+                    smooth={true}
+                    offset={-70} // Adjust the offset as needed
+                    duration={500}
+                    className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px]"
+                  >
                     Home
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  </ScrollLink>
+
+                  <ScrollLink
+                    to="aboutUsSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]"
+                  >
                     About
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  </ScrollLink>
+
+                  <ScrollLink
+                    to="singersSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]"
+                  >
                     Services
-                  </li>
+                  </ScrollLink>
                   {/* <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Login
                   </li> */}
