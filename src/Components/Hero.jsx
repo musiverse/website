@@ -27,7 +27,7 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="text-accent pb-5 font-secondary font-semibold text-5xl">
+        <h1 className="text-accent pb-5 font-secondary font-semibold text-xl md:text-4xl">
           STAGESPLASH
         </h1>
 
