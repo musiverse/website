@@ -2,7 +2,7 @@ const Singers = () => {
   return (
     <div className="overflow-y-hidden gradient-bg-transactions text-gray-300 overflow-x-hidden">
       <div className="text-center mb-2">
-        <h2 className="text-2xl md:text-3xl pt-5 text-blue-500 font-bold">
+        <h2 className="text-2xl md:text-3xl pt-5 bg-gradient-to-r from-gradient to-gradient2 font-bold bg-clip-text text-transparent">
           Elevate Your Event with Unforgettable Artists
         </h2>
         <hr className="border-t-2 border-blue-500 w-12 mx-auto mt-2" />
@@ -33,7 +33,7 @@ const Singers = () => {
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="object-contain rounded-2xl border-2 h-[250px] md:h-[400px] w-[600px] max-w-full  "
+            className="object-contain rounded-2xl border-2 h-[230px] md:h-[400px] w-[600px] max-w-full  "
           />
         </div>
       </div>

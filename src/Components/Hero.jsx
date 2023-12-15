@@ -24,12 +24,12 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="text-gradient2">STAGESPLASH</h1>
+        <h1 className="gradient">STAGESPLASH</h1>
 
         <h1
           // data-aos="fade-down"
           // data-aos-delay="500"
-          className="font-new1 text-3xl overflow-y-hidden text-center md:text-center md:text-4xl lg:text-7xl font-bold mb-4 text-gray-300 "
+          className="font-new1 text-7xl overflow-y-hidden text-center md:text-center md:text-4xl lg:text-7xl font-bold mb-4 text-gray-300 "
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
