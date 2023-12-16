@@ -12,6 +12,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import Download from "./Download";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -82,10 +83,7 @@ const Navbar = () => {
           CONTACT US
         </ScrollLink>
       </ul>
-      <GradientBtn
-        className="ml-4 capitalize hidden md:flex"
-        title="Download"
-      />
+      <button className="ml-4 capitalize hidden md:flex btn">Download</button>
 
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
