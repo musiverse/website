@@ -3,13 +3,13 @@ const Led = () => {
     <div className="overflow-y-hidden gradient-bg-transactions text-gray-300 overflow-x-hidden">
       <div className="p-2 pt-7 mx-auto max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         <div className=" flex flex-col justify-center items-start">
-          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary">
+          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
             Illuminate Your Event with Tech.
           </h1>
           <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
             Transform Events with a Tap.
           </p>
-          <div className="mt-4 text-blue-300 text-base md:text-lg space-y-3 flex flex-col font-secondary">
+          <div className="mt-4 text-blue-200 text-base md:text-lg space-y-3 flex flex-col font-secondary">
             <p className="flex items-center gap-4 overflow-y-hidden">
               💡 Smart LED displays and lights at your fingertips.
             </p>

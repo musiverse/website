@@ -11,8 +11,7 @@ import {
   FaPinterest,
   FaYoutube,
 } from "react-icons/fa";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import Download from "./Download";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

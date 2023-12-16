@@ -43,13 +43,13 @@ const Faq = () => {
         <div className=" flex flex-col space-y-3">
           <p
             data-aos="fade-down"
-            className="overflow-y-hidden text-3xl xl:text-5xl w-[480px] pl-[70px]"
+            className="overflow-y-hidden text-3xl xl:text-5xl w-[480px] pl-[70px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 bg-clip-text text-transparent"
           >
             Frequently Asked Questions
           </p>
           <p
             data-aos="fade-down"
-            className="xl:w-[550px] text-base overflow-hidden w-[350px] pl-[70px]"
+            className="xl:w-[550px] text-base overflow-hidden w-[350px] pl-[70px] text-gray-400"
           >
             Find answers to common questions about how our service works and
             what you can expect.

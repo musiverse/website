@@ -4,6 +4,8 @@
 import bg1 from "../assets/bg1.mp4";
 import { BsMusicNoteList } from "react-icons/bs";
 import { PiMicrophoneStageFill } from "react-icons/pi";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGuitar } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
@@ -48,7 +50,10 @@ const Hero = () => {
             ARTISTS
           </p>
           <p className="flex flex-row p-1 items-center">
-            <PiMicrophoneStageFill className="text-accent text-2xl mx-2" />
+            <FontAwesomeIcon
+              icon={faGuitar}
+              className="text-accent text-2xl mx-2"
+            />
             SOUND
           </p>
           <p className="flex flex-row p-1 items-center">
