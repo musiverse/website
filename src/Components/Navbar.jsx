@@ -101,15 +101,60 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <ul className="z-20 ">
+        <ul className="z-20  text-white/70 flex flex-col my-6">
           <h1>
             <img src={logoSN} alt="logo" width={55} height={55} />{" "}
           </h1>
-          <li className="border-b text-center text-lg my-5">Home</li>
-          <li className="border-b text-lg text-center my-5">SERVICES</li>
-          <li className="border-b text-lg text-center my-5">ABOUT US</li>
+          {/* <li className="border-b text-center text-lg my-5">Home</li>
+           */}
+          <ScrollLink
+            to="HeroSection" // Add the appropriate section ID
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset as needed
+            duration={500}
+            className="border-b text-center text-lg my-5"
+          >
+            Home
+          </ScrollLink>
+          <ScrollLink
+            to="singersSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="border-b text-center text-lg my-5 "
+            onClick={closeNav}
+          >
+            SERVICES
+          </ScrollLink>
+          {/* <li className="border-b text-lg text-center my-5">ABOUT US</li>
+           */}
+          <ScrollLink
+            to="aboutUsSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="border-b text-center my-5 text-lg"
+            onClick={closeNav}
+          >
+            ABOUT US
+          </ScrollLink>
           {/* <li className="border-b text-lg text-center my-5">View</li> */}
-          <li className="border-b text-lg text-center my-5">Contact Us</li>
+          {/* <li className="border-b text-lg text-center my-5">Contact Us</li> */}
+          <ScrollLink
+            to="ContactSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="border-b text-center my-5 text-lg"
+            onClick={closeNav}
+          >
+            CONTACT US
+          </ScrollLink>
+
           <div className="flex flex-row w-15 justify-center my-5">
             <button className="ml-4 capitalize md:hidden flex btn">
               Get The App Now

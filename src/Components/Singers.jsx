@@ -28,7 +28,7 @@ const Singers = () => {
               💸 Tailored to fit any budget.
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              🎶 Tailored to fit any budget.
+              🎶 High-quality performances without compromise.
             </p>
           </div>
         </div>
