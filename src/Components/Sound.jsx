@@ -13,20 +13,20 @@ const Sound = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start order-1 md:order-2">
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
-            Immerse in Seamless Sound.
+            Immerse in Seamless Sound
           </h1>
           <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
-            Download the App, Access Top-Notch Sound.
+            Access Top-Notch Sound
           </p>
           <div className="mt-4 text-blue-200 text-base md:text-lg space-y-3 flex flex-col font-secondary">
             <p className="flex items-center gap-4 overflow-y-hidden">
-              🔊 Seamless sound experiences through the app.
+              🔊 Seamless sound experience
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              📱 Tech rider for personalized events.
+              📱 Tech rider for personalized events
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              🎵 Crystal-clear audio, powerful bass.
+              🎵 Crystal-clear audio, powerful bass
             </p>
           </div>
         </div>

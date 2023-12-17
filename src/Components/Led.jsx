@@ -14,7 +14,7 @@ const Led = () => {
               💡 Smart LED displays and lights at your fingertips.
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              📲 App-controlled high-tech gadgets.
+              📲 High-tech gadgets.
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
               🌈 Mesmerizing lighting solutions.

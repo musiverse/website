@@ -29,14 +29,14 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="text-accent pb-5 font-secondary font-semibold text-xl md:text-4xl">
+        <h1 className="gradient-bg-footer bg-clip-text bg-transparent pb-5 font-secondary font-semibold text-xl md:text-4xl">
           STAGESPLASH
         </h1>
 
         <h1
           // data-aos="fade-down"
           // data-aos-delay="500"
-          className="font-new1 text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-6xl font-bold mb-4 text-gray-300 "
+          className="font-new1 text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-5xl font-bold mb-4 text-gray-300 "
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
@@ -58,7 +58,7 @@ const Hero = () => {
           </p>
           <p className="flex flex-row p-1 items-center">
             <PiMicrophoneStageFill className="text-accent text-2xl mx-2" />
-            STAGE
+            HIGH-TECH GADGETS
           </p>
         </div>
 

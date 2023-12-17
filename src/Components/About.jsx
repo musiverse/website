@@ -55,15 +55,14 @@ const About = () => {
         data-aos="fade-down"
         className="text-4xl overflow-y-hidden font-medium p-4 text-center text-gray-300 mt-9 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
       >
-        Connecting Artists and Music{" "}
-        <span className="text-accent">Enthusiasts</span> with Ease!
+        Connecting Artists and Music Enthusiasts with Ease!
       </div>
       <div
         data-aos="fade-down"
         className="overflow-y-hidden antialiased p-2 text-gray-400 font-medium font-primary text-center max-w-3xl text-xl"
       >
         At{" "}
-        <span className=" text-accent p-3 font-bold text-3xl underline underline-offset-2">
+        <span className=" bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text p-3 font-bold text-3xl underline underline-offset-2">
           STAGExSPLASH,
         </span>{" "}
         our mission is to bring music to your doorstep. With our user-friendly
@@ -86,7 +85,7 @@ const About = () => {
                 <Lottie animationData={service.animationData} />
               </div>
               <div className="mt-3 text-white">
-                <div className="text-transparent bg-clip-text bg-red-500 text-3xl font-black font-secondary leading-10 ">
+                <div className="text-transparent bg-clip-text bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text text-3xl font-black font-secondary leading-10 ">
                   {service.title}
                 </div>
                 <div className="font-normal text-lg text-center tracking-wide text-gray-400 mt-2 leading-6 p-1 font-secondary">
