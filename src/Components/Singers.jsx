@@ -6,7 +6,7 @@ const Singers = () => {
     >
       <div className="text-center mb-2">
         <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 font-bold bg-clip-text text-transparent">
-          Elevate Your Event with Unforgettable Artists
+          Elevate Your Event with Unforgettable Artist
         </h2>
         <hr className="border-t-2 border-violet-700 w-12 mx-auto mt-2" />
       </div>
@@ -15,20 +15,20 @@ const Singers = () => {
 
         <div className="flex flex-col justify-center items-start">
           <h1 className="bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary">
-            Discover unforgettable artists.
+            Discover unforgettable artists
           </h1>
           {/* <p className="pt-3   text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
             Affordable Beats, Unforgettable Moments.
           </p> */}
           <div className="mt-4 text-blue-200 text-base md:text-lg space-y-3 flex flex-col font-secondary">
             <p className="flex items-center gap-4 overflow-y-hidden">
-              🎤 Diverse range of talented artists.
+              🎤 Diverse range of talented artists
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              💸 Tailored to fit any budget.
+              💸 Tailored to fit any budget
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              🎶 High-quality performances without compromise.
+              🎶 High-quality performances without compromise
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Singers = () => {
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="object-contain rounded-2xl border-2 border-gray-300 h-[230px] md:h-[400px] w-[600px] max-w-full  "
+            className="object-contain rounded-2xl border-2 border-black/60 h-[230px] md:h-[400px] w-[600px] max-w-full  "
           />
         </div>
       </div>

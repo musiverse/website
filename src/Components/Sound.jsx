@@ -7,7 +7,7 @@ const Sound = () => {
           <img
             src="https://images.pexels.com/photos/219101/pexels-photo-219101.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="h-[230px] object-contain rounded-2xl border-2 md:h-[400px] w-[600px] max-w-full "
+            className="h-[230px] object-contain rounded-2xl border-2 border-black/60 md:h-[400px] w-[600px] max-w-full "
           />
         </div>
         {/* Text Section */}

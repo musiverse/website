@@ -1,7 +1,9 @@
 // import down1 from "../assets/down1.png";
 import d1 from "../assets/d1.png";
-import android from "../assets/android.png";
-import { AiOutlineApple } from "react-icons/ai";
+import AppStore from "../assets/AppStore.png";
+import GooglePlay from "../assets/GooglePlay.png";
+// import android from "../assets/android.png";
+// import { AiOutlineApple } from "react-icons/ai";
 
 const Download = () => {
   return (
@@ -18,20 +20,21 @@ const Download = () => {
           to your favorite music, anytime and anywhere .
         </p>
         <div className="flex flex-col w-[300px] md:w-[300px] justify-center items-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row md:items-center">
-          {/* Android Button */}
-          <button className="px-[3px] py-[3px] rounded-xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
+          <img src={GooglePlay} alt="playstore" width={150} />
+          <img src={AppStore} alt="appstore" width={150} />
+          {/* <button className="px-[3px] py-[3px] rounded-xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
             <span className="text-base flex items-center gradient-bg-services hover:bg-slate-800 rounded-xl px-3 py-[6px]">
               Download
               <img src={android} alt="android" className="h-5 w-7 pl-2" />
             </span>
           </button>
-          {/* Apple Button */}
+
           <button className="px-[3px] py-[3px] rounded-xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
             <span className="text-base flex items-center gradient-bg-services hover:bg-slate-800 rounded-xl px-3 py-[6px]">
               Download
               <AiOutlineApple size={25} className="pl-1" />
             </span>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

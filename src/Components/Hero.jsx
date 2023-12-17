@@ -44,12 +44,12 @@ const Hero = () => {
           </span>{" "}
           for Your Event
         </h1>
-        <div className="flex flex-row justify-center items-center pt-4">
+        <div className="flex flex-col md:flex-row justify-center items-center pt-4">
           <p className="flex flex-row p-1  items-center">
             <BsMusicNoteList className="text-accent text-2xl mx-2" />
             ARTISTS
           </p>
-          <p className="flex flex-row p-1 items-center">
+          <p className="flex flex-row  p-1 items-center">
             <FontAwesomeIcon
               icon={faGuitar}
               className="text-accent text-2xl mx-2"
