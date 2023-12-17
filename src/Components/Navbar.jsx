@@ -1,5 +1,4 @@
 import { useState } from "react";
-import GradientBtn from "./GradientBtn";
 // import logoF from "../assets/logoF.png";
 import logoSN from "../assets/logoSN.png";
 import { AiOutlineClose } from "react-icons/ai";
@@ -85,9 +84,9 @@ const Navbar = () => {
       <button className="ml-4 capitalize hidden md:flex btn">Download</button>
 
       {/* Hamburger */}
-      <div onClick={handleNav} className="md:hidden z-10">
+      <div onClick={handleNav} className="md:hidden z-30">
         {nav ? (
-          <AiOutlineClose className="text-white" size={30} />
+          <AiOutlineClose className="text-white " size={30} />
         ) : (
           <HiOutlineMenuAlt4 className="text-white" size={30} />
         )}
@@ -98,7 +97,7 @@ const Navbar = () => {
         onClick={closeNav}
         className={
           nav
-            ? "fixed text-white/60 left-0 top-0 w-full bg-black/80 px-4 py-6 flex flex-col z-20"
+            ? "fixed text-white/50 left-0 top-0 w-full bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20 px-4 py-6 flex flex-col z-20"
             : "fixed left-[-100%]"
         }
       >
@@ -106,11 +105,11 @@ const Navbar = () => {
           <h1>
             <img src={logoSN} alt="logo" width={55} height={55} />{" "}
           </h1>
-          {/* <li className="border-b text-center">Home</li> */}
+          <li className="border-b text-center text-lg my-5">Home</li>
           <li className="border-b text-lg text-center my-5">SERVICES</li>
           <li className="border-b text-lg text-center my-5">ABOUT US</li>
-          <li className="border-b text-lg text-center my-5">View</li>
-          <li className="border-b text-lg text-center my-5">Book</li>
+          {/* <li className="border-b text-lg text-center my-5">View</li> */}
+          <li className="border-b text-lg text-center my-5">Contact Us</li>
           <div className="flex flex-row w-15 justify-center my-5">
             <button className="ml-4 capitalize md:hidden flex btn">
               Get The App Now
