@@ -97,11 +97,11 @@ const Navbar = () => {
         onClick={closeNav}
         className={
           nav
-            ? "fixed text-white/50 left-0 top-0 w-full bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20 px-4 py-6 flex flex-col z-20"
+            ? "fixed text-white/50 left-0 top-0 w-full bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20 px-4 py-3 flex flex-col z-20"
             : "fixed left-[-100%]"
         }
       >
-        <ul className="z-20  text-white/70 flex flex-col my-6">
+        <ul className="z-20  text-white/70 flex flex-col ">
           <h1>
             <img src={logoSN} alt="logo" width={55} height={55} />{" "}
           </h1>
@@ -113,7 +113,7 @@ const Navbar = () => {
             smooth={true}
             offset={-70} // Adjust the offset as needed
             duration={500}
-            className="border-b text-center text-lg my-5"
+            className="border-b text-center text-lg my-6 pb-4 "
           >
             Home
           </ScrollLink>
@@ -123,7 +123,7 @@ const Navbar = () => {
             smooth={true}
             offset={-70}
             duration={500}
-            className="border-b text-center text-lg my-5 "
+            className="border-b text-center text-lg my-5  pb-4"
             onClick={closeNav}
           >
             SERVICES
@@ -136,7 +136,7 @@ const Navbar = () => {
             smooth={true}
             offset={-70}
             duration={500}
-            className="border-b text-center my-5 text-lg"
+            className="border-b text-center my-5 text-lg pb-4"
             onClick={closeNav}
           >
             ABOUT US
@@ -149,7 +149,7 @@ const Navbar = () => {
             smooth={true}
             offset={-70}
             duration={500}
-            className="border-b text-center my-5 text-lg"
+            className="border-b text-center my-5 text-lg pb-4"
             onClick={closeNav}
           >
             CONTACT US
