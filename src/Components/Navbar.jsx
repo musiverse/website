@@ -89,7 +89,7 @@ const Navbar = () => {
         {nav ? (
           <AiOutlineClose className="text-white" size={30} />
         ) : (
-          <HiOutlineMenuAlt4 size={30} />
+          <HiOutlineMenuAlt4 className="text-white" size={30} />
         )}
       </div>
 
@@ -98,26 +98,25 @@ const Navbar = () => {
         onClick={closeNav}
         className={
           nav
-            ? "fixed text-white left-0 top-0 w-full bg-black/80 px-4 py-7 flex flex-col z-20"
+            ? "fixed text-white/60 left-0 top-0 w-full bg-black/80 px-4 py-6 flex flex-col z-20"
             : "fixed left-[-100%]"
         }
       >
-        <ul className="z-20">
-          <h1>STAGE </h1>
+        <ul className="z-20 ">
+          <h1>
+            <img src={logoSN} alt="logo" width={55} height={55} />{" "}
+          </h1>
           {/* <li className="border-b text-center">Home</li> */}
-          <li className="border-b text-center">SERVICES</li>
-          <li className="border-b text-center">ABOUT US</li>
-          <li className="border-b text-center">View</li>
-          <li className="border-b text-center">Book</li>
-          <div className="flex flex-row w-15 justify-center mt-2">
-            <GradientBtn
-              data-aos="fade-up"
-              data-aos-delay="600"
-              className=""
-              title="Get the app now"
-            />
+          <li className="border-b text-lg text-center my-5">SERVICES</li>
+          <li className="border-b text-lg text-center my-5">ABOUT US</li>
+          <li className="border-b text-lg text-center my-5">View</li>
+          <li className="border-b text-lg text-center my-5">Book</li>
+          <div className="flex flex-row w-15 justify-center my-5">
+            <button className="ml-4 capitalize md:hidden flex btn">
+              Get The App Now
+            </button>
           </div>
-          <div className="flex justify-between my-6">
+          <div className="flex justify-between my-6 text-xl">
             <FaFacebook className="icon" />
             <FaTwitter className="icon" />
             <FaYoutube className="icon" />
