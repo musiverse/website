@@ -53,7 +53,7 @@ const About = () => {
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl overflow-y-hidden font-medium p-4 text-center text-gray-300 mt-9 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
+        className="text-4xl overflow-y-hidden font-medium p-4 text-center text-red-500 mt-9 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </div>

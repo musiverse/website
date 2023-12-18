@@ -7,10 +7,10 @@ const Singers = () => {
       className="overflow-y-hidden gradient-bg-transactions text-gray-300 overflow-x-hidden"
     >
       <div className="text-center mb-2">
-        <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 font-bold bg-clip-text text-transparent">
+        <h2 className="text-2xl md:text-4xl pt-[50px] text-red-500 font-bold">
           Elevate Your Event with Unforgettable Artist
         </h2>
-        <hr className="border-t-2 border-violet-700 w-12 mx-auto mt-2" />
+        <hr className="border-t-2 border-accent w-52 mx-auto mt-2" />
       </div>
       <div className="p-2 mx-auto max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         {/* Added Heading */}

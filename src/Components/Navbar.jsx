@@ -50,7 +50,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={1200}
           className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
           onClick={closeNav}
         >
@@ -62,7 +62,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={1200}
           className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
           onClick={closeNav}
         >
@@ -77,7 +77,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={1200}
           className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
           onClick={closeNav}
         >
@@ -120,7 +120,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-70} // Adjust the offset as needed
-            duration={500}
+            duration={1200}
             className="border-b text-center text-lg my-6 pb-4 "
           >
             Home
@@ -130,7 +130,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}
+            duration={1200}
             className="border-b text-center text-lg my-5  pb-4"
             onClick={closeNav}
           >
@@ -143,7 +143,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}
+            duration={1200}
             className="border-b text-center my-5 text-lg pb-4"
             onClick={closeNav}
           >
@@ -156,7 +156,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}
+            duration={1200}
             className="border-b text-center my-5 text-lg pb-4"
             onClick={closeNav}
           >
