@@ -1,3 +1,5 @@
+import AvatarGroup from "./AvatarGroup";
+
 const Singers = () => {
   return (
     <div
@@ -30,8 +32,15 @@ const Singers = () => {
             <p className="flex items-center gap-4 overflow-y-hidden ">
               🎶 High-quality performances without compromise
             </p>
+            <div className="flex flex-row items-center space-x-3 pt-4">
+              <AvatarGroup />
+              <p className="capitalize text-green-500">
+                artist are online now!
+              </p>
+            </div>
           </div>
         </div>
+
         <div className="pt-4 md:pt-0 flex flex-1 items-center justify-center md:justify-start mx-auto overflow-y-hidden">
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"

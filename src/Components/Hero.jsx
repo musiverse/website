@@ -6,6 +6,7 @@ import { BsMusicNoteList } from "react-icons/bs";
 import { PiMicrophoneStageFill } from "react-icons/pi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGuitar } from "@fortawesome/free-solid-svg-icons";
+// import AvatarGroup from "./AvatarGroup";
 
 const Hero = () => {
   return (
@@ -29,7 +30,7 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="gradient-bg-footer bg-clip-text bg-transparent pb-5 font-secondary font-semibold text-xl md:text-4xl">
+        <h1 className="text-[#EB8159] pb-5 font-secondary font-semibold text-xl md:text-4xl">
           STAGESPLASH
         </h1>
 
@@ -40,7 +41,7 @@ const Hero = () => {
         >
           Find the Perfect{" "}
           <span className="text-transparent bg-clip-text bg-accent">
-            Artists
+            Services
           </span>{" "}
           for Your Event
         </h1>
@@ -61,7 +62,9 @@ const Hero = () => {
             HIGH-TECH GADGETS
           </p>
         </div>
-
+        {/* <div className="flex justify-center items-center">
+          <AvatarGroup />
+        </div> */}
         {/* Subheadline */}
         {/* <p
           data-aos="fade-down"

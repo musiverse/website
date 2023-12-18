@@ -21,7 +21,7 @@ const Footer = () => {
               <h1 className="overflow-y-hidden flex items-center mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
                 <a
                   href="/#home"
-                  className="mt-2 font-medium text-primary font-custom overflow-y-hidden bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
+                  className="mt-2 font-medium  font-custom overflow-y-hidden bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
                 >
                   StageSplash
                   {/* <span className="font-bold text-primary overflow-y-hidden">

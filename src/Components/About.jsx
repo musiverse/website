@@ -85,7 +85,7 @@ const About = () => {
                 <Lottie animationData={service.animationData} />
               </div>
               <div className="mt-3 text-white">
-                <div className="text-transparent bg-clip-text bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text text-3xl font-black font-secondary leading-10 ">
+                <div className=" bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text text-3xl font-black font-secondary leading-10 ">
                   {service.title}
                 </div>
                 <div className="font-normal text-lg text-center tracking-wide text-gray-400 mt-2 leading-6 p-1 font-secondary">

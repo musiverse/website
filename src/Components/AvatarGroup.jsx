@@ -34,7 +34,7 @@ const AvatarGroup = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="w-12 h-12 bg-slate-500 opacity-90 text-neutral-700 rounded-full flex items-center justify-center -ml-4">
+      <div className="w-12 h-12 bg-slate-500 opacity-30 text-white rounded-full flex items-center justify-center -ml-4">
         <span>+99</span>
       </div>
     </div>

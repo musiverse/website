@@ -1,5 +1,6 @@
 import { useState } from "react";
 // import logoF from "../assets/logoF.png";
+import GradientBtn from "./GradientBtn";
 import logoSN from "../assets/logoSN.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
@@ -83,7 +84,12 @@ const Navbar = () => {
           CONTACT US
         </ScrollLink>
       </ul>
-      <button className="ml-4 capitalize hidden md:flex btn">Download</button>
+      {/* <button className="ml-4 capitalize hidden md:flex btn">Download</button>
+       */}
+      <GradientBtn
+        className="ml-4 capitalize hidden md:flex "
+        title="download"
+      />
 
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-30">
@@ -158,9 +164,10 @@ const Navbar = () => {
           </ScrollLink>
 
           <div className="flex flex-row w-15 justify-center my-5">
-            <button className="ml-4 capitalize md:hidden flex btn">
+            {/* <button className="ml-4 capitalize md:hidden flex btn">
               Get The App Now
-            </button>
+            </button> */}
+            <GradientBtn title="Get the app now" className="capitalize" />
           </div>
           <div className="flex justify-between my-6 text-xl">
             <FaFacebook className="icon" />
