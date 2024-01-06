@@ -12,17 +12,17 @@ const Hero = () => {
   return (
     <div
       id="HeroSection"
-      className="relative h-screen gradient-bg-welcome bg-gradient-to-br from-gray-700 to-black  "
+      className="relative h-screen  bg-gradient-to-b from-black  via-blue-950 to-red-900  "
     >
       {/* Background Video */}
-      <video
+      {/* <video
         className="w-full h-full object-cover rounded-b-[4rem]"
         src={bg1}
         autoPlay
         loop
         muted
         playsInline
-      />
+      /> */}
 
       {/* Overlay */}
       <div className="font-new1 absolute w-full h-full top-0 left-0 right-0  bg-gray-900/30"></div>
@@ -30,8 +30,8 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="text-[#DB764F] pb-5 font-secondary font-semibold text-xl md:text-4xl">
-          STAGESPLASH
+        <h1 className="text-accent pb-5 font-secondary font-semibold text-xl md:text-4xl">
+          ＳＴΛＧΞＳＰＬΛＳＨ
         </h1>
 
         <h1
@@ -39,11 +39,11 @@ const Hero = () => {
           // data-aos-delay="500"
           className="font-new1 text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-5xl font-bold mb-4 text-gray-300 "
         >
-          Find the Perfect{" "}
+          Let's create{" "}
           <span className="text-transparent bg-clip-text bg-accent">
-            Services
+            unforgettable
           </span>{" "}
-          for Your Event
+          Moments.
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-center pt-4">
           <p className="flex flex-row p-1  items-center">

@@ -12,7 +12,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div id="ContactSection" className="font-sans gradient-bg-footer">
+    <div id="ContactSection" className="font-sans bg-stars">
       <section className="mx-auto max-w-[1200px] text-white">
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">

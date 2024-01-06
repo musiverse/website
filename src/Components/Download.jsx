@@ -7,7 +7,7 @@ import GooglePlay from "../assets/GooglePlay.png";
 
 const Download = () => {
   return (
-    <div className="h-[85vh] p-2 text-gray-400 md:h-[70vh] flex flex-col md:flex-row gradient-bg-services items-center justify-evenly">
+    <div className="h-[85vh] p-2 text-gray-400 md:h-[70vh] flex flex-col md:flex-row bg-stars items-center justify-evenly">
       <div className="ml-0 py-2 md:ml-[150px] overflow-visible">
         <img src={d1} alt="mobile" className="h-[250px] md:h-[600px] " />
       </div>

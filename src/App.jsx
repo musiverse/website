@@ -23,9 +23,8 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="app-background">
       <Navbar />
-      {/* <Header /> */}
       <Hero />
       <Singers />
       <Sound />
