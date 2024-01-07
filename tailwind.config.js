@@ -18,8 +18,13 @@ export default {
         accent: "#F13024",
         primary: "0a0a0a",
       },
+      // backgroundImage: {
+      //   videoBg: "url('/src/assets/video-bg.png')",
+      // },
       backgroundImage: {
-        videoBg: "url('/src/assets/video-bg.png')",
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },

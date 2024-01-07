@@ -38,7 +38,7 @@ const Faq = () => {
     },
   ];
   return (
-    <div className="w-screen h-[110vh] md:h-[100vh] bg-stars flex justify-center items-center overflow-hidden">
+    <div className="w-screen h-[110vh] bg-[#030014] md:h-[100vh]  flex justify-center items-center overflow-hidden">
       <div className="overflow-hidden h-[100%] m-2 text-2xl w-[1480px] font-semibold text-gray-300 font-tertiary flex flex-col items-center lg:flex-row justify-around">
         <div className=" flex flex-col space-y-3">
           <p
@@ -55,7 +55,7 @@ const Faq = () => {
             what you can expect.
           </p>
         </div>
-        <div className="sm:w-[90%] lg:w-[48%] pt-[-50px] rounded-lg shadow-md">
+        <div className="sm:w-[90%] lg:w-[48%] pt-[-50px] rounded-lg shadow-md z-10">
           {questions.map((q) => (
             <div key={q.id} className="mb-4 last:mb-0">
               <button

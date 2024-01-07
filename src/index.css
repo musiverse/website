@@ -135,12 +135,12 @@ body{
   background-image: url('/src/assets/praposal1.jpeg');
   border-radius: 5%;
 }
-.bg-stars {
+/* .bg-stars {
   background-image: url('/src/assets/starss.avif');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  
  margin: 0; 
   overflow: hidden; 
-} 
+}  */
 

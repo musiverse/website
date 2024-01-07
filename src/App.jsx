@@ -12,6 +12,7 @@ import Download from "./Components/Download";
 import Singers from "./Components/Singers";
 import Sound from "./Components/Sound";
 import Led from "./Components/Led";
+import StarsCanvas from "./Components/StarAnimation";
 // import Header from "./Components/Header";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
   });
 
   return (
-    <div className="app-background">
+    <div>
+      <StarsCanvas />
       <Navbar />
       <Hero />
       <Singers />

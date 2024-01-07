@@ -10,22 +10,18 @@ import { faGuitar } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
-    <div
-      id="HeroSection"
-      className="relative h-screen  bg-gradient-to-b from-black  via-blue-950 to-red-900  "
-    >
-      {/* Background Video */}
-      {/* <video
+    <div id="HeroSection" className="relative h-screen   ">
+      <video
         className="w-full h-full object-cover rounded-b-[4rem]"
         src={bg1}
         autoPlay
         loop
         muted
         playsInline
-      /> */}
+      />
 
       {/* Overlay */}
-      <div className="font-new1 absolute w-full h-full top-0 left-0 right-0  bg-gray-900/30"></div>
+      <div className="font-new1 absolute bg-[#030014] w-full h-full top-0 left-0 right-0  "></div>
 
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
@@ -39,7 +35,7 @@ const Hero = () => {
           // data-aos-delay="500"
           className="font-new1 text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-5xl font-bold mb-4 text-gray-300 "
         >
-          Let's create{" "}
+          Le create{" "}
           <span className="text-transparent bg-clip-text bg-accent">
             unforgettable
           </span>{" "}
