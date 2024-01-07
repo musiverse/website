@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex w-full justify-between items-center h-20 px-4 z-10 text-white fixed ${
+      className={`flex w-full justify-between items-center h-20 px-4 z-20 text-white fixed ${
         nav
           ? "bg-black bg-opacity-80"
           : "bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20"
