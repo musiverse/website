@@ -12,7 +12,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div id="ContactSection" className="font-sans bg-[#030014]">
+    <div id="ContactSection" className="font-sans bg-black">
       <section className="mx-auto  max-w-[1300px] text-white">
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">
@@ -40,7 +40,7 @@ const Footer = () => {
               <FaLocationArrow />
               <p>Noida, Uttar Pradesh</p>
             </div>
-            <div className="mt-3 flex items-center gap-3">
+            <div className="mt-3 flex items-center gap-3 z-10 cursor-pointer">
               <FaMobileAlt />
               <p>+91 7985179107</p>
             </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                     smooth={true}
                     offset={-70} // Adjust the offset as needed
                     duration={500}
-                    className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px]"
+                    className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
                   >
                     Home
                   </ScrollLink>
@@ -70,7 +70,7 @@ const Footer = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]"
+                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
                   >
                     About
                   </ScrollLink>
@@ -81,7 +81,7 @@ const Footer = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]"
+                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
                   >
                     Services
                   </ScrollLink>
@@ -96,14 +96,14 @@ const Footer = () => {
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Links
                 </h1>
-                <ul className="flex flex-col gap-3 ml-[-18px]">
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                <ul className="flex flex-col gap-3 space-y-8 ml-[-18px]">
+                  <li className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
                     Privacy Policy
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
                     Services
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
                     About us
                   </li>
                 </ul>
@@ -119,7 +119,7 @@ const Footer = () => {
                     Subscribe to our newsletter
                   </h1>
                   <input
-                    className="rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 "
+                    className="rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 z-10"
                     type="text"
                     placeholder="Email"
                   />
@@ -139,8 +139,18 @@ const Footer = () => {
             </div>
             <div className="py-[70px] md:py-0 space-y-3 flex   items-center flex-col">
               <p className="text-xl">Download Now!</p>
-              <img src={GooglePlay} alt="playstore" width={140} />
-              <img src={AppStore} alt="appstore" width={140} />
+              <img
+                src={GooglePlay}
+                alt="playstore"
+                width={140}
+                className="z-10 cursor-pointer"
+              />
+              <img
+                src={AppStore}
+                alt="appstore"
+                width={140}
+                className="z-10 cursor-pointer"
+              />
             </div>
           </div>
         </div>

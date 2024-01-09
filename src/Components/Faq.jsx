@@ -38,7 +38,7 @@ const Faq = () => {
     },
   ];
   return (
-    <div className="w-screen h-[110vh] bg-[#030014] md:h-[100vh]  flex justify-center items-center overflow-hidden">
+    <div className="w-screen h-[110vh] bg-black md:h-[100vh]  flex justify-center items-center overflow-hidden">
       <div className="overflow-hidden h-[100%] m-2 text-2xl w-[1480px] font-semibold text-gray-300 font-tertiary flex flex-col items-center lg:flex-row justify-around">
         <div className=" flex flex-col space-y-3">
           <p
@@ -59,7 +59,7 @@ const Faq = () => {
           {questions.map((q) => (
             <div key={q.id} className="mb-4 last:mb-0">
               <button
-                className="w-full text-black text-left text-lg md:text-xl focus:outline-none rounded-lg shadow-md flex justify-between items-center p-4 bg-gray-100"
+                className="w-full text-white/90 border-white border-2 text-left text-lg md:text-xl focus:outline-none rounded-lg shadow-md flex justify-between items-center p-4 bg-black/80"
                 onClick={() =>
                   setActiveQuestion(activeQuestion === q.id ? null : q.id)
                 }
@@ -73,7 +73,7 @@ const Faq = () => {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    className="mt-2 text-sm md:text-lg text-gray-400 ml-4"
+                    className="mt-2 text-sm md:text-lg text-white/90 ml-4"
                   >
                     <p>{q.answer}</p>
                   </motion.div>

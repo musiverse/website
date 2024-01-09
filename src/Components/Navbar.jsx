@@ -1,7 +1,7 @@
 import { useState } from "react";
-// import logoF from "../assets/logoF.png";
+import newLogo from "../assets/newLogo.png";
 import GradientBtn from "./GradientBtn";
-import logoSN from "../assets/logoSN.png";
+// import logoSN from "../assets/logoSN.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import {
@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="flex flex-row items-center space-x-1 text-2xl">
         <p onClick={handleNav} className={logo ? "hidden" : "block"}>
-          <img src={logoSN} alt="logo" width={70} height={70} />
+          <img src={newLogo} alt="logo" width={70} height={70} />
         </p>
         <p className="font-Aquire hidden md:block bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
           STAGESPLASH
@@ -111,7 +111,7 @@ const Navbar = () => {
       >
         <ul className="z-20  text-white/70 flex flex-col ">
           <h1>
-            <img src={logoSN} alt="logo" width={55} height={55} />{" "}
+            <img src={newLogo} alt="logo" width={55} height={55} />{" "}
           </h1>
           {/* <li className="border-b text-center text-lg my-5">Home</li>
            */}
