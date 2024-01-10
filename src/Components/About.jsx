@@ -53,13 +53,13 @@ const About = () => {
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl overflow-y-hidden font-medium p-4 text-center text-red-500 mt-9 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
+        className="text-4xl overflow-y-hidden font-medium font-new2 p-4 text-center text-red-500 mt-9 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </div>
       <div
         data-aos="fade-down"
-        className="overflow-y-hidden antialiased p-2 text-gray-400 font-medium font-primary text-center max-w-3xl text-xl"
+        className="overflow-y-hidden antialiased p-2 text-gray-400 font-normal font-tertiary text-center max-w-3xl text-lg"
       >
         At{" "}
         <span className=" bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text p-3 font-bold text-3xl underline underline-offset-2">
@@ -85,10 +85,10 @@ const About = () => {
                 <Lottie animationData={service.animationData} />
               </div>
               <div className="mt-3 text-white">
-                <div className=" bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text text-3xl font-black font-secondary leading-10 ">
+                <div className=" bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-3xl font-black font-new2 leading-10 ">
                   {service.title}
                 </div>
-                <div className="font-normal text-lg text-center tracking-wide text-gray-400 mt-2 leading-6 p-1 font-secondary">
+                <div className="font-normal text-lg text-center tracking-wide text-gray-400 mt-2 leading-6 p-1 font-tertiary">
                   {service.description}
                 </div>
               </div>

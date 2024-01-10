@@ -33,9 +33,9 @@ const Hero = () => {
         <h1
           // data-aos="fade-down"
           // data-aos-delay="500"
-          className="font-new1 text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-5xl font-bold mb-4 text-gray-300 "
+          className="font-stylish text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-5xl font-bold mb-4 text-gray-300 "
         >
-          Le create{" "}
+          Let's create{" "}
           <span className="text-transparent bg-clip-text bg-accent">
             unforgettable
           </span>{" "}

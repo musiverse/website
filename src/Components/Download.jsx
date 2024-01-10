@@ -12,10 +12,10 @@ const Download = () => {
         <img src={d1} alt="mobile" className="h-[250px] md:h-[600px] " />
       </div>
       <div className="overflow-hidden  p-3 w-[340px] md:w-[780px] sm:ml-0  font-tertiary md:ml-[420px] space-y-7 tracking-wider">
-        <p className="font-medium text-center md:text-left text-3xl overflow-y-hidden font-new bg-gradient-to-r from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
+        <p className="font-medium text-center md:text-left text-3xl overflow-y-hidden font-new2 bg-gradient-to-r from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
           Download Application
         </p>
-        <p className="sm:w-[10px] text-center md:text-left md:w-[550px] sm:text-base md:text-xl ">
+        <p className="sm:w-[10px] text-center md:text-left md:w-[550px] sm:text-base md:text-xl font-tertiary">
           Download our mobile app for iOS and android and enjoy unlimited access
           to your favorite music, anytime and anywhere .
         </p>

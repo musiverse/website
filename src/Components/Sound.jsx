@@ -7,18 +7,18 @@ const Sound = () => {
           <img
             src="https://images.pexels.com/photos/219101/pexels-photo-219101.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="h-[230px] object-contain rounded-2xl border-2 border-black/60 md:h-[400px] w-[600px] max-w-full "
+            className="h-[230px] object-contain rounded-2xl border-white md:h-[400px] w-[600px] max-w-full border-[1px]"
           />
         </div>
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start order-1 md:order-2">
-          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-secondary bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
+          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-new2 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
             Immerse in Seamless Sound
           </h1>
-          <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
+          {/* <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
             Access Top-Notch Sound
-          </p>
-          <div className="mt-4 text-blue-200 text-base md:text-lg space-y-3 flex flex-col font-secondary">
+          </p> */}
+          <div className="mt-4 text-blue-200 text-base md:text-lg space-y-3 flex flex-col font-tertiary">
             <p className="flex items-center gap-4 overflow-y-hidden">
               🔊 Seamless sound experience
             </p>

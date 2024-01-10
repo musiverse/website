@@ -10,6 +10,8 @@ export default {
         secondary: "Aldrich",
         tertiary: "Poppins",
         new1: ["Hedvig Letters Serif"],
+        stylish: ["Lemon"],
+        new2: ["Roboto Slab"],
       },
       colors: {
         thBlue: "#35EEED",

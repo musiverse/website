@@ -30,7 +30,7 @@ const Footer = () => {
                 </a>
               </h1>
             </div>
-            <p className="mt-6">
+            <p className="mt-6 font-tertiary">
               Elevate your moments with STAGESPLASH your go-to destination for
               connecting with talented musicians,captivating singers, and
               cutting-edge music systems.
@@ -123,8 +123,11 @@ const Footer = () => {
                     type="text"
                     placeholder="Email"
                   />
-                  <div className="mt-6 flex items-center gap-3">
-                    <a href="#" className="duration-200 hover:scale-105">
+                  <div className="mt-6 flex items-center gap-3 z-10">
+                    <a
+                      href="https://www.instagram.com/stagexsplash?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                      className="duration-200 hover:scale-105"
+                    >
                       <FaInstagram className="text-3xl" />
                     </a>
                     <a href="#" className="duration-200 hover:scale-105">
