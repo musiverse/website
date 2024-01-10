@@ -4,7 +4,8 @@ const Singers = () => {
   return (
     <div
       id="singersSection"
-      className="overflow-y-hidden bg-black text-gray-300 overflow-x-hidden"
+      className="overflow-y-hidden gradient-bg-services 
+        text-gray-300 overflow-x-hidden"
     >
       <div className="text-center mb-2">
         <h2 className="text-2xl md:text-4xl pt-[50px] text-red-500 font-bold font-new2">

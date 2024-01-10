@@ -58,64 +58,6 @@ const Hero = () => {
             HIGH-TECH GADGETS
           </p>
         </div>
-        {/* <div className="flex justify-center items-center">
-          <AvatarGroup />
-        </div> */}
-        {/* Subheadline */}
-        {/* <p
-          data-aos="fade-down"
-          data-aos-delay="600"
-          className="text-xl font-tertiary md:text-2xl text-center md:text-center overflow-y-hidden text-gray-200"
-        >
-          Discover talented musicians and music services for any occasion.{" "}
-          <TypeAnimation
-            className="ml-2 leading-10 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600"
-            sequence={[
-              // Same substring at the start will only be typed out once, initially
-              "Anytime,",
-              4000, // wait 1s before replacing "Mice" with "Hamsters"
-              "Anywhere.",
-              4000,
-              // 'We produce food for Guinea Pigs',
-              // 1000,
-              // 'We produce food for Chinchillas',
-              // 1000
-            ]}
-            wrapper="span"
-            speed={10}
-            // style={{ fontSize: '2em', display: 'inline-block' }}
-            deletionSpeed={10}
-            repeat={Infinity}
-          />
-        </p> */}
-        {/* <p
-          data-aos="fade-down"
-          data-aos-delay="600"
-          className="overflow-y-hidden pt-2 text-xl font-bold tracking-wider md:text-2xl text-center text-accent font-tertiary "
-        >
-          {" "}
-          Download our app today!
-        </p> */}
-
-        {/* CTA Button */}
-        {/* <div
-          data-aos="fade-down"
-          data-aos-delay="600"
-          className="flex flex-col space-y-2 md:flex-row space-x-0 md:space-x-3 mt-3 items-center justify-center sm:ml-[-80px] md:ml-0"
-        >
-          <button className="mt-2 bg-gradient-to-br from-black via-black to-green-500 text-gray-300 px-7 py-2 text-xl rounded-2xl font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate">
-            Download Now
-          </button>
-          <button className="px-[40px] tracking-widest py-2  rounded-2xl border text-xl text-center font-medium">
-            Learn More
-          </button>
-        </div> */}
-        {/* Unique Selling Proposition */}
-        {/* <p className="text-lg mt-4 font-secondary flex justify-center items-center">
-          <AvatarGroup />
-          Your curated collection of musicians, singers, and music systems, at
-          your fingertips.
-        </p> */}
       </div>
     </div>
   );
