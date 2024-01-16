@@ -46,7 +46,7 @@ body{
 
 @layer utilities {
     .gradient {
-        background: linear-gradient(120deg, #cc5a00, #f3ab49);
+        background: linear-gradient(120deg, #cc5a00, #ee660b);
         background-size: 200% 200%;
     }
 
