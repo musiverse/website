@@ -1,36 +1,37 @@
 // import vediofinal from "../assets/vediofinal.mp4";
 // import { TypeAnimation } from "react-type-animation";
 // import GradientBtn from "./GradientBtn";
-import bg1 from "../assets/bg1.mp4";
-import { BsMusicNoteList } from "react-icons/bs";
-import { PiMicrophoneStageFill } from "react-icons/pi";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGuitar } from "@fortawesome/free-solid-svg-icons";
+// import bg1 from "../assets/bg1.mp4";
+// import { BsMusicNoteList } from "react-icons/bs";
+// import { PiMicrophoneStageFill } from "react-icons/pi";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGuitar } from "@fortawesome/free-solid-svg-icons";
 // import AvatarGroup from "./AvatarGroup";
 
 const Hero = () => {
   return (
     <div id="HeroSection" className="relative h-screen   ">
-      <video
+      {/* <video
         className="w-full h-full object-cover rounded-b-[4rem]"
         src={bg1}
         autoPlay
         loop
         muted
         playsInline
-      />
+      /> */}
 
       {/* Overlay */}
-      <div className="font-new1 absolute bg-[#030014] w-full h-full top-0 left-0 right-0  "></div>
+      <div className="font-new1 absolute  w-full h-full top-0 left-0 right-0  bg-black/95"></div>
 
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="text-accent pb-5 font-secondary font-semibold text-xl md:text-4xl">
-          ＳＴΛＧΞＳＰＬΛＳＨ
+        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-xl md:text-6xl transform -skew-y-6">
+          {/* ＳＴΛＧΞＳＰＬΛＳＨ */}
+          STAGESPLASH
         </h1>
 
-        <h1
+        {/* <h1
           // data-aos="fade-down"
           // data-aos-delay="500"
           className="font-stylish text-2xl overflow-y-hidden text-center md:text-center md:text-5xl lg:text-5xl font-bold mb-4 text-gray-300 "
@@ -57,7 +58,7 @@ const Hero = () => {
             <PiMicrophoneStageFill className="text-accent text-2xl mx-2" />
             HIGH-TECH GADGETS
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -109,7 +109,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <ul className="z-20  text-white/70 flex flex-col ">
+        <ul className="z-20  text-white/70 flex flex-col font-new2 tracking-wider">
           <h1>
             <img src={newLogo} alt="logo" width={55} height={55} />{" "}
           </h1>
@@ -123,7 +123,7 @@ const Navbar = () => {
             duration={1200}
             className="border-b text-center text-lg my-6 pb-4 "
           >
-            Home
+            HOME
           </ScrollLink>
           <ScrollLink
             to="singersSection"

@@ -9,8 +9,33 @@ import logoS from "../assets/logoS.png";
 import AppStore from "../assets/AppStore.png";
 import GooglePlay from "../assets/GooglePlay.png";
 import { Link as ScrollLink } from "react-scroll";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = "service_xtt44ep";
+    const templateId = "template_o5gl63l";
+    const publicKey = "v7bwjRGgPQhA6cI_D";
+
+    const templateParams = {
+      from_email: email,
+    };
+
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("Email sent successfully", response);
+        setEmail("");
+      })
+      .catch((error) => {
+        console.error("error sending email:", error);
+      });
+  };
   return (
     <div id="ContactSection" className="font-sans gradient-bg-footer">
       <section className="mx-auto  max-w-[1300px] text-white">
@@ -100,12 +125,26 @@ const Footer = () => {
                   <li className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
                     Privacy Policy
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
+                  <ScrollLink
+                    to="singersSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
+                  >
                     Services
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
-                    About us
-                  </li>
+                  </ScrollLink>
+                  <ScrollLink
+                    to="aboutUsSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
+                  >
+                    About
+                  </ScrollLink>
                 </ul>
               </div>
             </div>
@@ -114,14 +153,26 @@ const Footer = () => {
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Social Links
                 </h1>
-                <div className="flex flex-col gap-3">
+                <div
+                  className="flex flex-col gap-3"
+                  name="contact-form"
+                  method="POST"
+                  data-netlify="true"
+                  action="POST"
+                  onSubmit={handleSubmit}
+                >
                   <h1 className="overflow-y-hidden">
                     Subscribe to our newsletter
                   </h1>
+
                   <input
                     className="rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 z-10"
                     type="text"
-                    placeholder="Email"
+                    id="email"
+                    placeholder="Enter your email address"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
                   />
                   <div className="mt-6 flex items-center gap-3 z-10">
                     <a
