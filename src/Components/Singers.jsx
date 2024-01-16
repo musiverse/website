@@ -5,7 +5,7 @@ const Singers = () => {
     <div
       id="singersSection"
       className="overflow-y-hidden gradient-bg-services 
-        text-gray-300 overflow-x-hidden"
+        text-gray-300 overflow-x-hidden z-10"
     >
       <div className="text-center mb-2">
         <h2 className="text-2xl md:text-4xl pt-[50px] text-red-500 font-bold font-new2">
