@@ -2,7 +2,7 @@
 // import { TypeAnimation } from "react-type-animation";
 // import GradientBtn from "./GradientBtn";
 // import bg1 from "../assets/bg1.mp4";
-import bgwall1 from "../assets/bgwall1.jpg";
+import bgwall2 from "../assets/bgwall2.jpg";
 // import { BsMusicNoteList } from "react-icons/bs";
 // import { PiMicrophoneStageFill } from "react-icons/pi";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -21,7 +21,7 @@ const Hero = () => {
         playsInline
       /> */}
       <img
-        src={bgwall1}
+        src={bgwall2}
         alt="bg photo"
         className="w-full h-full object-cover"
       />
