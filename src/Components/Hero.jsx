@@ -28,7 +28,7 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-3xl md:text-7xl ">
+        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-2xl md:text-7xl ">
           ＳＴΛＧΞＳＰＬΛＳＨ
           {/* STAGESPLASH */}
         </h1>
