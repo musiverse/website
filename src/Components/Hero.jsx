@@ -2,7 +2,7 @@
 // import { TypeAnimation } from "react-type-animation";
 // import GradientBtn from "./GradientBtn";
 // import bg1 from "../assets/bg1.mp4";
-import bgwall from "../assets/bgwall.jpg";
+import bgwall1 from "../assets/bgwall1.jpg";
 // import { BsMusicNoteList } from "react-icons/bs";
 // import { PiMicrophoneStageFill } from "react-icons/pi";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,10 +20,14 @@ const Hero = () => {
         muted
         playsInline
       /> */}
-      <img src={bgwall} alt="bg photo" className="w-full h-full object-cover" />
+      <img
+        src={bgwall1}
+        alt="bg photo"
+        className="w-full h-full object-cover"
+      />
 
       {/* Overlay */}
-      <div className="font-new1 absolute  w-full h-full top-0 left-0 right-0 bg-black/40 "></div>
+      <div className="font-new1 absolute  w-full h-full top-0 left-0 right-0  "></div>
 
       {/* Content Container */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
