@@ -48,7 +48,7 @@ const About = () => {
   return (
     <div
       id="aboutUsSection"
-      className="flex flex-col items-center bg-black space-y-8 overflow-hidden h-[360vh] md:h-[170vh] w-full "
+      className="flex flex-col items-center bg-black space-y-8 overflow-hidden h-[360vh] md:h-[140vh] w-full "
     >
       {/* Updated content... */}
       <div
