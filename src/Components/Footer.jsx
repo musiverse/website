@@ -174,6 +174,9 @@ const Footer = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                   />
+                  <button className="bg-black px-[1px] py-[1px] rounded-xl">
+                    Subscribe
+                  </button>
                   <div className="mt-6 flex items-center gap-3 z-10">
                     <a
                       href="https://www.instagram.com/stagexsplash?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -192,18 +195,20 @@ const Footer = () => {
               </div>
             </div>
             <div className="py-[70px] md:py-0 space-y-3 flex   items-center flex-col">
-              <p className="text-xl">Download Now!</p>
+              <p className="text-xl underline underline-offset-2">
+                Download Now!
+              </p>
               <img
                 src={GooglePlay}
                 alt="playstore"
                 width={140}
-                className="z-10 cursor-pointer"
+                className="z-10 cursor-pointer border-2 border-white rounded-xl"
               />
               <img
                 src={AppStore}
                 alt="appstore"
                 width={140}
-                className="z-10 cursor-pointer"
+                className="z-10 cursor-pointer border-2 border-white rounded-xl"
               />
             </div>
           </div>

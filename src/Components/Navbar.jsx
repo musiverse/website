@@ -38,9 +38,9 @@ const Navbar = () => {
         <p onClick={handleNav} className={logo ? "hidden" : "block"}>
           <img src={newLogo} alt="logo" width={70} height={70} />
         </p>
-        <p className="font-semibold hidden md:block bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
+        {/* <p className="font-semibold hidden md:block bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
           STAGESPLASH
-        </p>
+        </p> */}
       </div>
 
       {/* <li>Home</li> */}

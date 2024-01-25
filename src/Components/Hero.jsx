@@ -3,10 +3,10 @@
 // import GradientBtn from "./GradientBtn";
 // import bg1 from "../assets/bg1.mp4";
 import bgwall from "../assets/bgwall.jpg";
-// import { BsMusicNoteList } from "react-icons/bs";
-// import { PiMicrophoneStageFill } from "react-icons/pi";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faGuitar } from "@fortawesome/free-solid-svg-icons";
+import { BsMusicNoteList } from "react-icons/bs";
+import { PiMicrophoneStageFill } from "react-icons/pi";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGuitar } from "@fortawesome/free-solid-svg-icons";
 // import AvatarGroup from "./AvatarGroup";
 
 const Hero = () => {
@@ -28,9 +28,9 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-2xl md:text-7xl ">
-          ＳＴΛＧΞＳＰＬΛＳＨ
-          {/* STAGESPLASH */}
+        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-2xl md:text-7xl tracking-widest">
+          {/* ＳＴΛＧΞＳＰＬΛＳＨ */}
+          STAGESPLASH
         </h1>
 
         {/* <h1
@@ -43,10 +43,10 @@ const Hero = () => {
             unforgettable
           </span>{" "}
           Moments.
-        </h1>
+    </h1>*/}
         <div className="flex flex-col md:flex-row justify-center items-center pt-4">
           <p className="flex flex-row p-1  items-center">
-            <BsMusicNoteList className="text-accent text-2xl mx-2" />
+            <BsMusicNoteList className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-2xl mx-2" />
             ARTISTS
           </p>
           <p className="flex flex-row  p-1 items-center">
@@ -60,7 +60,7 @@ const Hero = () => {
             <PiMicrophoneStageFill className="text-accent text-2xl mx-2" />
             HIGH-TECH GADGETS
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
