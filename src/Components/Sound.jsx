@@ -7,9 +7,10 @@ const Sound = () => {
           <img
             src="https://images.pexels.com/photos/219101/pexels-photo-219101.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="h-[230px] object-contain rounded-2xl border-white md:h-[400px] w-[600px] max-w-full border-[1px]"
+            className="h-[230px] object-contain rounded-2xl border-white md:h-[400px] w-[600px] max-w-full border-[1px] shadow-2xl shadow-black"
           />
         </div>
+
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start order-1 md:order-2">
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-new2 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">

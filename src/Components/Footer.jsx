@@ -5,7 +5,8 @@ import {
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
-import logoS from "../assets/logoS.png";
+import newLogo from "../assets/newLogo.png";
+// import logoS from "../assets/logoS.png";
 import AppStore from "../assets/AppStore.png";
 import GooglePlay from "../assets/GooglePlay.png";
 import { Link as ScrollLink } from "react-scroll";
@@ -42,7 +43,7 @@ const Footer = () => {
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-4 py-8 ">
             <div className="flex items-center space-x-2">
-              <img src={logoS} alt="LOGO" width={49} height={49} />
+              <img src={newLogo} alt="LOGO" width={49} height={49} />
               <h1 className="overflow-y-hidden flex items-center mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
                 <a
                   href="/#home"

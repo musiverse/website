@@ -8,10 +8,10 @@ const Singers = () => {
         text-gray-300 overflow-x-hidden z-10"
     >
       <div className="text-center mb-2">
-        <h2 className="text-2xl md:text-4xl pt-[50px] text-red-500 font-bold font-new2">
+        <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text font-bold font-new2">
           Elevate Your Event with Unforgettable Artist
         </h2>
-        <hr className="border-t-2 border-accent w-52 mx-auto mt-2" />
+        <hr className="border-t-2 border-fuchsia-800 w-52 mx-auto mt-2" />
       </div>
       <div className="p-2 mx-auto max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         {/* Added Heading */}
@@ -46,7 +46,7 @@ const Singers = () => {
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="object-contain rounded-2xl border-[1px]  h-[230px] md:h-[400px] w-[600px] max-w-full border-white "
+            className="object-contain rounded-2xl border-[1px]  h-[230px] md:h-[400px] w-[600px] max-w-full border-black "
           />
         </div>
       </div>

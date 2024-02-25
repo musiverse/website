@@ -51,7 +51,7 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={1200}
-          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
+          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg px-4 py-2"
           onClick={closeNav}
         >
           SERVICES
@@ -63,7 +63,7 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={1200}
-          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
+          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg px-4 py-2"
           onClick={closeNav}
         >
           ABOUT US
@@ -78,7 +78,7 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={1200}
-          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg "
+          className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg px-4 py-2"
           onClick={closeNav}
         >
           CONTACT US
