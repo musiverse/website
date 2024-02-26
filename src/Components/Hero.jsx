@@ -44,7 +44,7 @@ const Hero = () => {
           </span>{" "}
           Moments.
     </h1>*/}
-        <div className="flex flex-col space-y-5 justify-around md:space-y-0 md:flex-row pt-20">
+        <div className="flex flex-col p-10 space-y-5 justify-around md:space-y-0 md:flex-row md:pt-44 ">
           <WeatherCard imageSrc={guitar1} city="Artists" />
           <WeatherCard imageSrc={techrider} city="Sound" />
           <WeatherCard imageSrc={hightech} city="High tech gadgets" />
