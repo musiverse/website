@@ -4,11 +4,10 @@
 // import bg1 from "../assets/bg1.mp4";
 import bgwall from "../assets/bgwall.jpg";
 import WeatherCard from "./WeatherCard";
-// import { BsMusicNoteList } from "react-icons/bs";
-// import { PiMicrophoneStageFill } from "react-icons/pi";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faGuitar } from "@fortawesome/free-solid-svg-icons";
-// import AvatarGroup from "./AvatarGroup";
+import guitar1 from "../assets/guitar1.png";
+import techrider from "../assets/techrider.jpg";
+import hightech from "../assets/hightech.jpg";
+// import guitar from "../assets/guitar.jpg";
 
 const Hero = () => {
   return (
@@ -45,25 +44,10 @@ const Hero = () => {
           </span>{" "}
           Moments.
     </h1>*/}
-        <div className="flex flex-col justify-around md:flex-row pt-4 ">
-          <WeatherCard />
-          <WeatherCard />
-          <WeatherCard />
-          {/* <p className="flex flex-row p-1  items-center">
-            <BsMusicNoteList className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-2xl mx-2" />
-            ARTISTS
-          </p>
-          <p className="flex flex-row  p-1 items-center">
-            <FontAwesomeIcon
-              icon={faGuitar}
-              className="text-accent text-2xl mx-2"
-            />
-            SOUND
-          </p>
-          <p className="flex flex-row p-1 items-center">
-            <PiMicrophoneStageFill className="text-accent text-2xl mx-2" />
-            HIGH-TECH GADGETS
-          </p> */}
+        <div className="flex flex-col space-y-5 justify-around md:space-y-0 md:flex-row pt-20">
+          <WeatherCard imageSrc={guitar1} city="Artists" />
+          <WeatherCard imageSrc={techrider} city="Sound" />
+          <WeatherCard imageSrc={hightech} city="High tech gadgets" />
         </div>
       </div>
     </div>

@@ -57,14 +57,14 @@
 
 // export default WeatherCard;
 import PropTypes from "prop-types";
-import WeatherContainer from "./WeatherContainer";
+// import WeatherContainer from "./WeatherContainer";
 
 const WeatherCard = ({ imageSrc, city }) => {
   return (
     <div className="cardContainer relative flex items-center justify-center">
-      <div className="card w-40 h-50 flex flex-col items-center justify-between p-5 rounded-lg bg-opacity-30 bg-gray-800 border border-white cursor-pointer backdrop-filter backdrop-blur-md">
-        <img src={imageSrc} alt="Weather Icon" className="w-20 h-20" />
-        <div className="city font-bold text-white text-lg leading-tight">
+      <div className="card w-40 h-50 flex flex-col items-center justify-between p-5 rounded-lg bg-opacity-10  border border-gray-300 cursor-pointer backdrop-filter backdrop-blur-md">
+        <img src={imageSrc} alt="wait" className="w-20 h-20" />
+        <div className="city font-medium text-white text-base leading-tight">
           {city}
         </div>
         {/* <div className="weather font-medium text-sm text-gray-400">
