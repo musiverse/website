@@ -44,11 +44,15 @@ const Hero = () => {
           </span>{" "}
           Moments.
     </h1>*/}
-        <div className="flex flex-row p-10 space-x-4 md:space-x-0 justify-around md:pt-44 w-18 overflow-x-scroll md:overflow-x-hidden">
+        <div className="flex flex-row p-20 space-x-4 md:space-x-0 justify-around md:pt-44 w-18 overflow-x-scroll  md:overflow-x-hidden">
           <WeatherCard imageSrc={guitar1} city="Artists" />
           <WeatherCard imageSrc={techrider} city="Sound" />
           <WeatherCard imageSrc={hightech} city="High tech gadgets" />
-          <WeatherCard imageSrc={hightech} city="High tech gadgets" />
+          <WeatherCard
+            imageSrc={hightech}
+            city="High tech gadgets"
+            className="md:hidden"
+          />
         </div>
       </div>
     </div>
