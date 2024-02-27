@@ -48,6 +48,7 @@ const Hero = () => {
           <WeatherCard imageSrc={guitar1} city="Artists" />
           <WeatherCard imageSrc={techrider} city="Sound" />
           <WeatherCard imageSrc={hightech} city="High tech gadgets" />
+          <WeatherCard imageSrc={hightech} city="High tech gadgets" />
         </div>
       </div>
     </div>
