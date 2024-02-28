@@ -33,12 +33,6 @@ const Singers = () => {
             <p className="flex items-center gap-4 overflow-y-hidden ">
               🎶 High-quality performances without compromise
             </p>
-            {/* <div className="flex flex-row items-center space-x-3 pt-4">
-              <AvatarGroup />
-              <p className="capitalize text-green-500 font-new2">
-                artist are online now!
-              </p>
-            </div> */}
           </div>
         </div>
 
