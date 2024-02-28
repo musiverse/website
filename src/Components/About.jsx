@@ -60,10 +60,10 @@ const About = () => {
       </div>
       <div
         data-aos="fade-down"
-        className="overflow-y-hidden antialiased p-2 text-gray-400 font-normal font-tertiary text-center max-w-3xl text-lg"
+        className="overflow-y-hidden antialiased p-2 text-black/ font-normal font-tertiary text-center max-w-3xl text-lg"
       >
         At{" "}
-        <span className=" text-[#7042f88b] p-3 font-bold text-3xl underline underline-offset-2">
+        <span className=" text-accent font-new2 p-3 font-bold text-3xl underline underline-offset-2">
           STAGExSPLASH,
         </span>{" "}
         our mission is to bring music to your doorstep. With our user-friendly
