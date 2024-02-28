@@ -9,9 +9,9 @@ import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
 import Download from "./Components/Download";
-import Singers from "./Components/Singers";
-import Sound from "./Components/Sound";
-import Led from "./Components/Led";
+// import Singers from "./Components/Singers";
+// import Sound from "./Components/Sound";
+// import Led from "./Components/Led";
 import StarsCanvas from "./Components/StarAnimation";
 // import Header from "./Components/Header";
 
@@ -28,9 +28,9 @@ function App() {
       <StarsCanvas />
       <Navbar />
       <Hero />
-      <Singers />
+      {/* <Singers />
       <Sound />
-      <Led />
+      <Led /> */}
       <Vedio />
       <About />
       <Download />

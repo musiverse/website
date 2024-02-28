@@ -1,23 +1,22 @@
 import PropTypes from "prop-types";
 
-const WeatherCard = ({ imageSrc, city }) => {
+const WeatherCard = ({ imageSrc, city, features }) => {
   return (
     <div className="cardContainer relative flex items-center justify-center">
-      <div className="card w-66 h-84 flex flex-col items-center justify-between p-5 rounded-lg bg-opacity-30 bg-gray-800 border border-white cursor-pointer backdrop-filter backdrop-blur-md">
+      <div className="card w-30 h-84 flex flex-col items-center justify-between p-5 rounded-lg bg-opacity-30 bg-gray-800 border border-white cursor-pointer backdrop-filter backdrop-blur-md">
         <div className="font-bold text-white text-lg leading-tight">{city}</div>
         <div className="font-medium text-sm text-gray-400">
           <img src={imageSrc} alt="wait" className="w-20 h-20" />
         </div>
-        <div className="mt-2 text-blue-200 text-base md:text-lg space-y-3 flex flex-col font-tertiary">
-          <p className="flex items-center gap-4 overflow-y-hidden">
-            🎤 Diverse range of talented artists
-          </p>
-          <p className="flex items-center gap-4 overflow-y-hidden ">
-            💸 Tailored to fit any budget
-          </p>
-          <p className="flex items-center gap-4 overflow-y-hidden ">
-            🎶 High-quality performances without compromise
-          </p>
+        <div className="mt-2 text-blue-200 text-sm md:text-lg space-y-3 flex flex-col font-tertiary">
+          {features.map((feature, index) => (
+            <p
+              key={index}
+              className="flex items-center gap-4 overflow-y-hidden"
+            >
+              {feature.icon} {feature.text}
+            </p>
+          ))}
         </div>
       </div>
     </div>
@@ -27,10 +26,15 @@ const WeatherCard = ({ imageSrc, city }) => {
 WeatherCard.propTypes = {
   imageSrc: PropTypes.string.isRequired,
   city: PropTypes.string.isRequired,
+  features: PropTypes.arrayOf(
+    PropTypes.shape({
+      icon: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default WeatherCard;
-
 // // const WeatherCard = () => {
 // //   return (
 // //     <div className="cardContainer relative flex items-center justify-center">

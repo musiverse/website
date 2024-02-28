@@ -60,10 +60,9 @@ const Hero = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={1}
-          spaceBetween={10}
-          navigation
+          spaceBetween={20}
           mousewheel-invert="true"
-          autoplay
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
@@ -71,13 +70,40 @@ const Hero = () => {
           className="flex flex-row p-20 space-x-4 md:space-x-0 justify-around md:pt-44 w-18 "
         >
           <SwiperSlide>
-            <WeatherCard imageSrc={guitar1} city="Artists" />
+            <WeatherCard
+              imageSrc={guitar1}
+              city="Artists"
+              features={[
+                { icon: "🎤", text: "Diverse range of artists" },
+                { icon: "💸", text: "Tailored to fit any budget" },
+                {
+                  icon: "🎶",
+                  text: "High-quality performances",
+                },
+              ]}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <WeatherCard imageSrc={techrider} city="Sound" />
+            <WeatherCard
+              imageSrc={techrider}
+              city="Sound"
+              features={[
+                { icon: "🔊", text: "High-quality sound systems" },
+                { icon: "🎚️", text: "Professional audio engineers" },
+                { icon: "🎛️", text: "Customizable audio setups" },
+              ]}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <WeatherCard imageSrc={hightech} city="High tech gadgets" />
+            <WeatherCard
+              imageSrc={hightech}
+              city="High tech gadgets"
+              features={[
+                { icon: "📱", text: "State-of-the-art technology" },
+                { icon: "💡", text: "Innovative lighting solutions" },
+                { icon: "🔧", text: "Technical support for events" },
+              ]}
+            />
           </SwiperSlide>
         </Swiper>
       </div>
