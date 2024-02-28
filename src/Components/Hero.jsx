@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="font-new1 absolute   w-full h-full top-0 left-0 right-0  bg-black/70"></div>
 
       {/* Content Container */}
-      <div className="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-center font-new1 w-4/5 mx-auto">
+      <div className="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/3 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
         <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-2xl md:text-7xl tracking-widest">
           {/* ＳＴΛＧΞＳＰＬΛＳＨ */}
