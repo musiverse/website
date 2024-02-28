@@ -60,9 +60,9 @@ const Hero = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={1}
-          spaceBetween={20}
+          spaceBetween={10}
           mousewheel-invert="true"
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          autoplay={{ delay: 50 }}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}

@@ -129,16 +129,17 @@ body{
 .gradient-bg-new {
   background-color: #0f0e13;
   background-image: 
-    radial-gradient(at 50% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 0% 0%, rgba(209, 123, 24, 0.894) 0, transparent 50%);
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 150%, rgba(209, 123, 24, 0.894) 0, transparent 70%);
 }
 
 .gradient-bg-new1 {
   background-color:#0f0e13;
   background-image: 
-    radial-gradient(at 50% 150%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 0% 110%,  rgba(209, 123, 24, 0.894) 0, transparent 50%);
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%,  rgba(209, 123, 24, 0.894) 0, transparent 64%);
 }
+
 
 .bg-videoBg1 {
   background-image: url('/src/assets/prop2.jpeg');

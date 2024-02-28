@@ -48,7 +48,7 @@ const About = () => {
   return (
     <div
       id="aboutUsSection"
-      className="flex flex-col items-center gradient-bg-new space-y-8 overflow-hidden h-[360vh] md:h-[155vh] w-full "
+      className="flex flex-col items-center gradient-bg-new1 space-y-8 overflow-hidden h-[360vh] md:h-[155vh] w-full "
     >
       {/*gradient-bg-transaction*/}
       {/* Updated content... */}
