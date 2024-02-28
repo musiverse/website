@@ -8,6 +8,12 @@ import animationData5 from "../assets/mobile.json";
 
 const services = [
   {
+    animationData: animationData4,
+    title: "Budget Friendly",
+    description:
+      "Discover a variety of genres that fit your budget without compromising on quality.",
+  },
+  {
     animationData: animationData,
     title: "Instant Access to Talent",
     description:
@@ -18,12 +24,6 @@ const services = [
     title: "Seamless Booking",
     description:
       "Enjoy a hassle-free booking process with our user-friendly interface.",
-  },
-  {
-    animationData: animationData4,
-    title: "Budget Friendly",
-    description:
-      "Discover a variety of genres that fit your budget without compromising on quality.",
   },
   {
     animationData: animationData2,
@@ -54,7 +54,7 @@ const About = () => {
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl overflow-y-hidden font-medium font-new2 p-4 text-center text-red-500 mt-9 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
+        className="text-4xl overflow-y-hidden font-medium font-new2 p-4 text-center text-black/80 mt-9 "
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </div>

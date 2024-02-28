@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 const WeatherCard = ({ imageSrc, city, features }) => {
   return (
     <div className="cardContainer relative flex items-center justify-center">
-      <div className="card w-30 h-84 flex flex-col items-center justify-between p-5 rounded-lg bg-opacity-30 bg-gray-800 border border-white cursor-pointer backdrop-filter backdrop-blur-md">
-        <div className="font-bold text-white text-lg leading-tight">{city}</div>
+      <div className="card w-30 h-84 flex flex-col items-center justify-between p-5 rounded-lg bg-opacity-30 bg-gray-800 border border-black cursor-pointer backdrop-filter backdrop-blur-md">
+        <div className="font-medium text-white text-lg leading-tight">
+          {city}
+        </div>
         <div className="font-medium text-sm text-gray-400">
           <img src={imageSrc} alt="wait" className="w-20 h-20" />
         </div>
