@@ -1,6 +1,6 @@
 const Led = () => {
   return (
-    <div className="overflow-y-hidden gradient-bg-services text-gray-300 overflow-x-hidden">
+    <div className="overflow-y-hidden gradient-bg-new text-gray-300 overflow-x-hidden">
       <div className="p-2 pt-7 mx-auto max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         <div className=" flex flex-col justify-center items-start">
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-new2 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">

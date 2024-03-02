@@ -1,15 +1,15 @@
 // import vediofinal from "../assets/vediofinal.mp4";
-// import bg1 from "../assets/bg1.mp4";
-import bgwall from "../assets/bgwall.jpg";
-import WeatherCard from "./WeatherCard";
-import guitar1 from "../assets/guitar1.png";
-import techrider from "../assets/techrider.jpg";
-import hightech from "../assets/hightech.jpg";
+import bg1 from "../assets/bg1.mp4";
+// import bgwall from "../assets/bgwall.jpg";
+// import WeatherCard from "./WeatherCard";
+// import guitar1 from "../assets/guitar1.png";
+// import techrider from "../assets/techrider.jpg";
+// import hightech from "../assets/hightech.jpg";
 
 // Import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+// import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 // import  { Pagination } from "swiper";
 
 // Import Swiper styles
@@ -21,19 +21,19 @@ import "swiper/css/scrollbar";
 const Hero = () => {
   return (
     <div id="HeroSection" className="relative h-screen   ">
-      {/* <video
-        className="w-full h-full object-cover rounded-b-[4rem]"
+      <video
+        className="w-full h-full object-cover "
         src={bg1}
         autoPlay
         loop
         muted
         playsInline
-      /> */}
-      <img
+      />
+      {/* <img
         src={bgwall}
         alt="bg photo"
         className="w-full h-full object-cover "
-      />
+      /> */}
 
       {/* Overlay */}
       <div className="font-new1 absolute   w-full h-full top-0 left-0 right-0  bg-black/70"></div>
@@ -41,7 +41,7 @@ const Hero = () => {
       {/* Content Container */}
       <div className="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/3 text-gray-100 text-center font-new1 w-4/5 mx-auto">
         {/* Headline */}
-        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 font-secondary font-semibold text-2xl md:text-7xl tracking-widest">
+        <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text pb-5 Aloevera font-semibold text-4xl md:text-8xl tracking-widest">
           {/* ＳＴΛＧΞＳＰＬΛＳＨ */}
           STAGESPLASH
         </h1>
@@ -57,10 +57,10 @@ const Hero = () => {
           />
         </div> */}
 
-        <Swiper
+        {/* <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          slidesPerView={1}
-          spaceBetween={10}
+          slidesPerView={3}
+          spaceBetween={80}
           mousewheel-invert="true"
           autoplay={{ delay: 50 }}
           pagination={{ clickable: true }}
@@ -105,7 +105,7 @@ const Hero = () => {
               ]}
             />
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
       </div>
     </div>
   );

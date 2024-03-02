@@ -54,16 +54,16 @@ const About = () => {
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl overflow-y-hidden font-medium font-new2 p-4 text-center text-black/80 mt-9 "
+        className="text-4xl overflow-y-hidden font-medium font-new2 p-4 text-center text-red-950 mt-9 "
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </div>
       <div
         data-aos="fade-down"
-        className="overflow-y-hidden antialiased p-2 text-black/ font-normal font-tertiary text-center max-w-3xl text-lg"
+        className="overflow-y-hidden antialiased p-2 text-red-950 font-normal font-tertiary text-center max-w-3xl text-lg"
       >
         At{" "}
-        <span className=" text-accent font-new2 p-3 font-bold text-3xl underline underline-offset-2">
+        <span className=" text-thBlue font-new2 p-3 font-bold text-3xl underline underline-offset-2">
           STAGExSPLASH,
         </span>{" "}
         our mission is to bring music to your doorstep. With our user-friendly

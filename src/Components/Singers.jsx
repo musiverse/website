@@ -4,11 +4,11 @@ const Singers = () => {
   return (
     <div
       id="singersSection"
-      className="overflow-y-hidden gradient-bg-services 
+      className="overflow-y-hidden gradient-bg-new
         text-gray-300 overflow-x-hidden z-10"
     >
       <div className="text-center mb-2">
-        <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text font-bold font-new2">
+        <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text font-bold AquireBold">
           Elevate Your Event with Unforgettable Artist
         </h2>
         <hr className="border-t-2 border-fuchsia-800 w-52 mx-auto mt-2" />

@@ -62,7 +62,32 @@ body{
     }    
 }
 
+@font-face {
+  font-family: Aloevera;
+  src: url(../src/assets/fonts/Aloevera-OVoWO.ttf);
+}
 
+.Aloevera {
+  font-family: Aloevera;
+}
+
+@font-face {
+  font-family: Rooster;
+  src: url(../src/assets/fonts/RoosterPersonalUse-3z8d8.ttf);
+}
+
+.Rooster {
+  font-family: Rooster;
+}
+
+@font-face {
+  font-family:AquireBold ;
+  src: url(../src/assets/fonts/AquireBold-8Ma60.otf);
+}
+
+.AquireBold{
+  font-family: AquireBold;
+}
 
 .border-opacity-20 {
   border-color: rgba(255, 255, 255, 0.2);
@@ -109,14 +134,14 @@ body{
   background-color:#0f0e13;
   background-image: 
     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);
+    radial-gradient(at 50% 100%, rgb(66,45,47) 0, transparent 50%);
 }
 
 .gradient-bg-transactions {
-  background-color: #0f0e13;
+  background-color: #080808;
   background-image: 
-    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
+    radial-gradient(at 0% 100%, rgb(14, 14, 14) 0, transparent 50%), 
+    radial-gradient(at 50% 0%,rgb(66,45,47) 0, transparent 50%);
 }
 
 .gradient-bg-footer {
@@ -127,17 +152,17 @@ body{
 }
 
 .gradient-bg-new {
-  background-color: #0f0e13;
+  background-color: #EB8159;
   background-image: 
     radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 150%, rgba(209, 123, 24, 0.894) 0, transparent 70%);
+    radial-gradient(at 50% 150%, rgba(209, 123, 24, 0.894) 0, transparent 50%);
 }
 
 .gradient-bg-new1 {
-  background-color:#0f0e13;
+  background-color:rgba(209, 123, 24, 0.894);
   background-image: 
     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%,  rgba(209, 123, 24, 0.894) 0, transparent 64%);
+    radial-gradient(at 50% 0%,  rgba(209, 123, 24, 0.894) 0, transparent 50%);
 }
 
 
