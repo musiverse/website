@@ -9,7 +9,7 @@ const Singers = () => {
     >
       {/*gradient-bg-new*/}
       <div className="text-center mb-2">
-        <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text font-bold AquireBold">
+        <h2 className="text-2xl md:text-4xl pt-[50px] bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text font-bold font-new2">
           Elevate Your Event with Unforgettable Artist
         </h2>
         <hr className="border-t-2 border-[#cc5a00] w-52 mx-auto mt-2" />
