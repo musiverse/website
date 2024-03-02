@@ -16,12 +16,12 @@ const StarBackground = (props) => {
 
   return (
     // eslint-disable-next-line react/no-unknown-property
-    <group rotation={[0, 0, Math.PI / 4]}>
+    <group rotation={[0, 0, Math.PI / 2]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
           color="#fff" //#A9A9A9,#A0A0A0
-          size={0.002}
+          size={0.001}
           sizeAttenuation={true}
           depthWrite={false}
         />
