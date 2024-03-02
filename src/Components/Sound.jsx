@@ -1,6 +1,7 @@
 const Sound = () => {
   return (
-    <div className="overflow-y-hidden gradient-bg-new1 text-gray-300 overflow-x-hidden">
+    <div className="overflow-y-hidden bg-[#0f0e13] text-gray-300 overflow-x-hidden">
+      {/*gradient-bg-new1*/}
       <div className="p-2 pt-7 mx-auto max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         {/* Image Section */}
         <div className="pt-4 md:pt-0 flex flex-1 items-center justify-center md:justify-start mx-auto order-2 md:order-1 overflow-y-hidden">
@@ -13,7 +14,7 @@ const Sound = () => {
 
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start order-1 md:order-2">
-          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-new2 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
+          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-new2 bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text">
             Immerse in Seamless Sound
           </h1>
           {/* <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">

@@ -48,19 +48,19 @@ const About = () => {
   return (
     <div
       id="aboutUsSection"
-      className="flex flex-col items-center gradient-bg-new1 space-y-8 overflow-hidden h-[360vh] md:h-[155vh] w-full "
+      className="flex flex-col items-center bg-[#0f0e13] space-y-8 overflow-hidden h-[360vh] md:h-[155vh] w-full "
     >
-      {/*gradient-bg-transaction*/}
+      {/*gradient-bg-new1*}
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl overflow-y-hidden font-medium font-new2 p-4 text-center text-red-950 mt-9 "
+        className="text-4xl overflow-y-hidden font-medium p-4 text-center bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text mt-9 "
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </div>
       <div
         data-aos="fade-down"
-        className="overflow-y-hidden antialiased p-2 text-red-950 font-normal font-tertiary text-center max-w-3xl text-lg"
+        className="overflow-y-hidden antialiased p-2 text-blue-200 font-normal font-tertiary text-center max-w-3xl text-lg"
       >
         At{" "}
         <span className=" text-thBlue font-new2 p-3 font-bold text-3xl underline underline-offset-2">

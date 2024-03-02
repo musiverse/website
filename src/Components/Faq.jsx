@@ -38,12 +38,12 @@ const Faq = () => {
     },
   ];
   return (
-    <div className="w-screen h-[110vh] gradient-bg-new1 md:h-[70vh]  flex justify-center items-center overflow-hidden">
+    <div className="w-screen h-[110vh] bg-[#0f0e13] md:h-[70vh]  flex justify-center items-center overflow-hidden">
       <div className="overflow-hidden h-[100%] m-2 text-2xl w-[1480px] font-semibold text-gray-300 font-tertiary flex flex-col items-center lg:flex-row justify-around">
         <div className=" flex flex-col space-y-3">
           <p
             data-aos="fade-down"
-            className="overflow-y-hidden text-3xl xl:text-5xl w-[480px] pl-[70px] bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 bg-clip-text text-transparent"
+            className="overflow-y-hidden text-3xl xl:text-5xl w-[480px] pl-[70px] bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text"
           >
             Frequently Asked Questions
           </p>
