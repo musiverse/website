@@ -39,9 +39,9 @@ const Footer = () => {
   };
   return (
     <div id="ContactSection" className="font-sans gradient-bg-footer">
-      <section className="mx-auto  max-w-[1300px] text-white">
-        <div className=" grid py-5 md:grid-cols-3">
-          <div className=" px-4 py-8 ">
+      <section className="mx-auto max-w-[1300px] text-white">
+        <div className="grid py-5 md:grid-cols-3">
+          <div className="px-4 py-8">
             <div className="flex items-center space-x-2">
               <img src={newLogo} alt="LOGO" width={49} height={49} />
               <h1 className="overflow-y-hidden flex items-center mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">

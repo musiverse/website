@@ -63,7 +63,7 @@ const About = () => {
         className="overflow-y-hidden antialiased p-2 text-blue-200 font-normal font-tertiary text-center max-w-3xl text-lg"
       >
         At{" "}
-        <span className=" text-thBlue font-new2 p-3 font-bold text-3xl underline underline-offset-2">
+        <span className=" text-slate-300  font-new2 p-3 font-bold text-3xl underline underline-offset-2">
           STAGExSPLASH,
         </span>{" "}
         our mission is to bring music to your doorstep. With our user-friendly
