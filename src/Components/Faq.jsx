@@ -38,7 +38,7 @@ const Faq = () => {
     },
   ];
   return (
-    <div className="w-screen h-[110vh] bg-[#171419] md:h-[70vh]  border-black border-b-[12px] flex justify-center items-center overflow-hidden">
+    <div className="w-screen h-[110vh] bg-[#171419] md:h-[70vh] flex justify-center items-center overflow-hidden">
       <div className="overflow-hidden h-[100%] m-2 text-2xl w-[1480px] font-semibold text-gray-300 font-tertiary flex flex-col items-center lg:flex-row justify-around">
         <div className=" flex flex-col space-y-3">
           <p
