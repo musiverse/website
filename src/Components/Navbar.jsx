@@ -42,9 +42,8 @@ const Navbar = () => {
           STAGESPLASH
         </p> */}
       </div>
-
       {/* <li>Home</li> */}
-      <ul className="hidden md:flex  text-thBlue text-xl font-medium space-x-6 ">
+      {/* <ul className="hidden md:flex  text-thBlue text-xl font-medium space-x-6 ">
         <ScrollLink
           to="singersSection"
           spy={true}
@@ -72,7 +71,7 @@ const Navbar = () => {
         {/* <li className="hover:bg-indigo-900 text-slate-50 duration-1000 rounded-lg space-x-1">
           TESTIMONIAL
         </li> */}
-        <ScrollLink
+      {/* <ScrollLink
           to="ContactSection"
           spy={true}
           smooth={true}
@@ -83,14 +82,11 @@ const Navbar = () => {
         >
           CONTACT US
         </ScrollLink>
-      </ul>
-      {/* <button className="ml-4 capitalize hidden md:flex btn">Download</button>
-       */}
+      </ul> */}{" "}
       <GradientBtn
         className="ml-4 capitalize hidden md:flex "
         title="download"
       />
-
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-30">
         {nav ? (
@@ -99,7 +95,6 @@ const Navbar = () => {
           <HiOutlineMenuAlt4 className="text-white" size={30} />
         )}
       </div>
-
       {/* Mobile menu dropdown */}
       <div
         onClick={closeNav}

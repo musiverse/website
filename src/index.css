@@ -89,6 +89,15 @@ body{
   font-family: AquireBold;
 }
 
+@font-face {
+  font-family: AquireLight;
+  src: url(../src/assets/fonts/AquireLight-YzE0o.otf);
+}
+
+.AquireLight{
+  font-family: AquireLight;
+}
+
 .border-opacity-20 {
   border-color: rgba(255, 255, 255, 0.2);
 }

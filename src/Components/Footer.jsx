@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   FaFacebook,
   FaInstagram,
@@ -6,37 +7,45 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 import newLogo from "../assets/newLogo.png";
-// import logoS from "../assets/logoS.png";
 import AppStore from "../assets/AppStore.png";
 import GooglePlay from "../assets/GooglePlay.png";
 import { Link as ScrollLink } from "react-scroll";
-import emailjs from "@emailjs/browser";
-import { useState } from "react";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  const [formData, setFormData] = useState({
+    email: "",
+  });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const { email } = formData;
 
-    const serviceId = "service_xtt44ep";
-    const templateId = "template_o5gl63l";
-    const publicKey = "v7bwjRGgPQhA6cI_D";
-
-    const templateParams = {
-      from_email: email,
-    };
-
-    emailjs
-      .send(serviceId, templateId, templateParams, publicKey)
-      .then((response) => {
-        console.log("Email sent successfully", response);
-        setEmail("");
-      })
-      .catch((error) => {
-        console.error("error sending email:", error);
-      });
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("Form submitted");
+
+    try {
+      const response = await fetch(
+        "https://v1.nocodeapi.com/0xsahilx/google_sheets/hEQnIhwDNXKIqxnk?tabId=Sheet1",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify([[email, new Date().toLocaleString()]]),
+        }
+      );
+      console.log("Response:", response);
+      await response.json();
+      setFormData({ email: "" });
+      console.log("Form data reset");
+    } catch (err) {
+      console.log("Error:", err);
+    }
+  };
+
   return (
     <div id="ContactSection" className="font-sans gradient-bg-footer">
       <section className="mx-auto max-w-[1300px] text-white">
@@ -50,15 +59,12 @@ const Footer = () => {
                   className="mt-2 font-medium  font-custom overflow-y-hidden bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text"
                 >
                   StageSplash
-                  {/* <span className="font-bold text-primary overflow-y-hidden">
-                  Splash
-                </span> */}
                 </a>
               </h1>
             </div>
             <p className="mt-6 font-tertiary">
               Elevate your moments with STAGESPLASH your go-to destination for
-              connecting with talented musicians,captivating singers, and
+              connecting with talented musicians, captivating singers, and
               cutting-edge music systems.
             </p>
             <br />
@@ -70,26 +76,24 @@ const Footer = () => {
               <FaMobileAlt />
               <p>+91 7985179107</p>
             </div>
-            {/* Social Handle */}
           </div>
-          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
-            <div className="">
+          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
+            <div>
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Important Links
                 </h1>
                 <ul className={`flex flex-col gap-3 space-y-8`}>
                   <ScrollLink
-                    to="HeroSection" // Add the appropriate section ID
+                    to="HeroSection"
                     spy={true}
                     smooth={true}
-                    offset={-70} // Adjust the offset as needed
+                    offset={-70}
                     duration={500}
                     className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
                   >
                     Home
                   </ScrollLink>
-
                   <ScrollLink
                     to="aboutUsSection"
                     spy={true}
@@ -100,7 +104,6 @@ const Footer = () => {
                   >
                     About
                   </ScrollLink>
-
                   <ScrollLink
                     to="singersSection"
                     spy={true}
@@ -111,13 +114,10 @@ const Footer = () => {
                   >
                     Services
                   </ScrollLink>
-                  {/* <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Login
-                  </li> */}
                 </ul>
               </div>
             </div>
-            <div className="">
+            <div>
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Links
@@ -149,33 +149,28 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="">
+            <div>
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Social Links
                 </h1>
-                <div
-                  className="flex flex-col gap-3"
-                  name="contact-form"
-                  method="POST"
-                  data-netlify="true"
-                  action="POST"
-                  onSubmit={handleSubmit}
-                >
+                <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
                   <h1 className="overflow-y-hidden">
                     Subscribe to our newsletter
                   </h1>
-
                   <input
                     className="rounded-full px-3 py-1 text-black focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 z-10"
                     type="text"
-                    id="email"
                     placeholder="Enter your email address"
+                    name="email"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={handleChange}
                     required
                   />
-                  <button className="bg-black px-[1px] py-[1px] rounded-xl">
+                  <button
+                    type="submit"
+                    className="bg-black px-[1px] py-[1px] rounded-xl"
+                  >
                     Subscribe
                   </button>
                   <div className="mt-6 flex items-center gap-3 z-10">
@@ -192,10 +187,10 @@ const Footer = () => {
                       <FaLinkedin className="text-3xl" />
                     </a>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
-            <div className="py-[70px] md:py-0 space-y-3 flex   items-center flex-col">
+            <div className="py-[70px] md:py-0 space-y-3 flex items-center flex-col">
               <p className="text-xl underline underline-offset-2">
                 Download Now!
               </p>

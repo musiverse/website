@@ -15,7 +15,7 @@ const Sound = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start order-1 md:order-2">
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-new2 bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text">
-            Immerse in Seamless Sound
+            Sound Equipments
           </h1>
           {/* <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
             Access Top-Notch Sound
