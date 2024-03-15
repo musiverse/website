@@ -18,8 +18,9 @@ import Led from "./Components/Led";
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
-      delay: 10,
+      duration: 700,
+      delay: 0,
+      easing: "ease-in-quart",
     });
   });
 
