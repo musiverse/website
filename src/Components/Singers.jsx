@@ -5,7 +5,7 @@ const Singers = () => {
     <div
       id="singersSection"
       className="overflow-y-hidden bg-[#171419]
-        text-gray-300 overflow-x-hidden z-10 border-black border-b-8 border-"
+        text-gray-300 overflow-x-hidden z-10 border-black border-b-[12px] border-"
     >
       {/*gradient-bg-new*/}
       <div className="text-center mb-2">

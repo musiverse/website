@@ -36,7 +36,7 @@ const Hero = () => {
       /> */}
 
       {/* Overlay */}
-      <div className="font-new1 absolute   w-full h-full top-0 left-0 right-0  bg-black/70"></div>
+      <div className="font-new1 absolute   w-full h-full top-0 left-0 right-0  bg-black/70 border-black border-b-[12px]"></div>
 
       {/* Content Container */}
       <div className="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/3 text-gray-100 text-center font-new1 w-4/5 mx-auto">

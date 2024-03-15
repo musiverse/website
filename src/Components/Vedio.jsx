@@ -9,7 +9,7 @@ import { BsPlayCircleFill } from "react-icons/bs";
 const Vedio = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="bg-gradient-to-l from-slate-700 to-gray-900  border-black border-b-8 py-6">
+    <div className="bg-gradient-to-l from-slate-700 to-gray-900  border-black border-b-[12px] py-6">
       <div className="container mx-auto ">
         <div className="flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around">
           <h3 className="text-center md:text-left text-xl md:text-2xl font-tertiary font-medium mb-8 text-gray-300 lg:mb-0 w-[380px] md:w-[800px] pl-3 pr-3">
