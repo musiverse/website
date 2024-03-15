@@ -88,7 +88,7 @@ const Navbar = () => {
         title="download"
       />
       {/* Hamburger */}
-      <div onClick={handleNav} className="md:hidden z-30">
+      <div onClick={handleNav} className="md:hidden z-30 w-28">
         {nav ? (
           <AiOutlineClose className="text-white " size={30} />
         ) : (

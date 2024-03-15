@@ -47,7 +47,7 @@ const Singers = () => {
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
-            className="object-contain  rounded-ss-[90px] rounded-ee-[90px] border-[1px]  h-[230px] md:h-[400px] w-[600px] max-w-full border-white "
+            className="object-contain  rounded-ss-[90px] rounded-ee-[90px] border-[1px] h-[230px] md:h-[400px] w-[600px] max-w-full border-white "
           />
         </div>
       </div>
