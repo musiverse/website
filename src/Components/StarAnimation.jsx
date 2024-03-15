@@ -19,7 +19,7 @@ const StarBackground = (props) => {
 
   return (
     // eslint-disable-next-line react/no-unknown-property
-    <group rotation={[0, 0, Math.PI / 2]}>
+    <group rotation={[0, 0, Math.PI / 1]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
@@ -34,7 +34,7 @@ const StarBackground = (props) => {
 };
 
 const StarsCanvas = () => (
-  <div className="w-full h-auto fixed inset-0 z-1">
+  <div className="w-full h-auto fixed inset-0 z-0">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground />

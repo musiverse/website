@@ -4,8 +4,8 @@ const Singers = () => {
   return (
     <div
       id="singersSection"
-      className="overflow-y-hidden bg-[#0f0e13]
-        text-gray-300 overflow-x-hidden z-10"
+      className="overflow-y-hidden bg-[#171419]
+        text-gray-300 overflow-x-hidden z-10 border-black border-b-8 border-"
     >
       {/*gradient-bg-new*/}
       <div className="text-center mb-2">
