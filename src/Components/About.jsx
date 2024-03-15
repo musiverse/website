@@ -54,7 +54,7 @@ const About = () => {
       {/* Updated content... */}
       <div
         data-aos="fade-down"
-        className="text-4xl overflow-y-hidden font-medium p-4 text-center bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text mt-9 "
+        className="text-4xl overflow-y-hidden font-medium pt-8 p-4 text-center bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text mt-9 "
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </div>

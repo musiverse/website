@@ -33,6 +33,7 @@ const Navbar = () => {
           ? "bg-black bg-opacity-80"
           : "bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20"
       }`}
+      data-aos="fade-down"
     >
       <div className="flex flex-row items-center space-x-1 text-2xl">
         <p onClick={handleNav} className={logo ? "hidden" : "block"}>
