@@ -48,7 +48,7 @@ const Faq = () => {
             Frequently Asked Questions
           </p>
           <p
-            data-aos="fade-down"
+            data-aos="fade-right"
             className="xl:w-[550px] text-base overflow-hidden w-[350px] pl-[70px] text-gray-400"
           >
             Find answers to common questions about how our service works and
@@ -57,7 +57,7 @@ const Faq = () => {
         </div>
         <div className="sm:w-[90%] lg:w-[48%] pt-[-50px] rounded-lg shadow-md z-10">
           {questions.map((q) => (
-            <div key={q.id} className="mb-4 last:mb-0">
+            <div key={q.id} className="mb-4 last:mb-0" data-aos="fade-down">
               <button
                 className="w-full text-white/90 border-white border-2 text-left text-lg md:text-xl focus:outline-none rounded-lg shadow-md flex justify-between items-center p-4 bg-black/80"
                 onClick={() =>

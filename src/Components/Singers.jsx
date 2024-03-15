@@ -1,14 +1,11 @@
-// import AvatarGroup from "./AvatarGroup";
-
 const Singers = () => {
   return (
     <div
       id="singersSection"
-      className="overflow-y-hidden bg-[#171419]
-        text-gray-300 overflow-x-hidden z-10 border-black border-b-[12px] border-"
+      className="overflow-y-hidden bg-[#171419] text-gray-300 overflow-x-hidden z-10 border-black border-b-[12px] border-"
     >
       {/*gradient-bg-new*/}
-      <div className="text-center mb-2">
+      <div className="text-center mb-2" data-aos="fade-down">
         <h2 className="text-2xl md:text-4xl pt-[50px] text-blue-200 font-bold font-new2">
           Elevate Your Event with Unforgettable Artists
         </h2>
@@ -17,11 +14,11 @@ const Singers = () => {
         </h2>
         <hr className="border-t-2 border-[#cc5a00] w-52 mx-auto mt-2" />
       </div>
-      <div className="p-2 mx-auto max-w-6xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
+      <div className="overflow-x-hidden p-2 mx-auto max-w-6xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         {/* Added Heading */}
 
         <div
-          className="flex flex-col justify-center items-start overflow-x-hidden"
+          className="flex flex-col justify-center items-start overflow-x-hidden "
           data-aos="fade-right"
         >
           <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2">
