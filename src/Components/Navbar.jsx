@@ -42,6 +42,7 @@ const Navbar = () => {
           STAGESPLASH
         </p> */}
       </div>
+      {/* <div className="PolarisRegular text-3xl">Introducing</div> */}
       {/* <li>Home</li> */}
       {/* <ul className="hidden md:flex  text-thBlue text-xl font-medium space-x-6 ">
         <ScrollLink

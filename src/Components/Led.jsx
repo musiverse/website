@@ -21,10 +21,10 @@ const Led = () => {
               📲 High-tech gadgets
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              🌈 From photography to drone camera shoots{" "}
+              📸 From photography to drone camera shoots{" "}
             </p>
             <p className="flex items-center gap-4 overflow-y-hidden ">
-              🌈 Decor or any other services
+              🎨 Decor or any other services
             </p>
           </div>
         </div>
