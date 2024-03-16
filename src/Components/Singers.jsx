@@ -19,7 +19,7 @@ const Singers = () => {
 
         <div
           className="flex flex-col justify-center items-start overflow-x-hidden "
-          data-aos="fade-right"
+          data-aos="fade-down"
         >
           <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2">
             Artists
@@ -42,7 +42,7 @@ const Singers = () => {
 
         <div
           className="pt-4 md:pt-0 flex flex-1 items-center overflow-x-hidden justify-center md:justify-end mx-auto overflow-y-hidden"
-          data-aos="fade-left"
+          data-aos="fade-up"
         >
           <img
             src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&w=600"

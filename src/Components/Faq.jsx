@@ -48,7 +48,7 @@ const Faq = () => {
             Frequently Asked Questions
           </p>
           <p
-            data-aos="fade-right"
+            data-aos="fade-down"
             className="xl:w-[550px] text-base overflow-hidden w-[350px] pl-[70px] text-gray-400"
           >
             Find answers to common questions about how our service works and

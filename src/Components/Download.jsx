@@ -10,13 +10,13 @@ const Download = () => {
     <div className="h-[100vh] bg-[#171419] p-2 text-gray-400 md:h-[70vh]  border-black border-b-[12px] flex flex-col md:flex-row items-center justify-evenly">
       <div
         className="ml-0 py-2 md:ml-[150px] overflow-visible"
-        data-aos="fade-right"
+        data-aos="fade-down"
       >
         <img src={d1} alt="mobile" className="h-[250px] md:h-[600px] " />
       </div>
       <div
         className="overflow-hidden  p-3 w-[340px] md:w-[780px] sm:ml-0  font-tertiary md:ml-[420px] space-y-7 tracking-wider"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <p className="font-medium text-center md:text-left text-3xl overflow-y-hidden font-new2 bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text">
           Download Application

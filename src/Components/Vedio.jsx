@@ -14,7 +14,7 @@ const Vedio = () => {
         <div className="flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around">
           <h3
             className="text-center md:text-left text-xl md:text-2xl font-tertiary font-medium mb-8 text-gray-300 lg:mb-0 w-[380px] md:w-[800px] pl-3 pr-3"
-            data-aos="fade-right"
+            data-aos="fade-down"
           >
             Surprise Moments, Unforgettable Memories - Hire a Singer in Just 5
             Minutes!
