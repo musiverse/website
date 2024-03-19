@@ -115,9 +115,10 @@ body{
   background-size: 200% auto;
   color: white;
   border-radius: 50px;
-    border: 0px;
+  border: 0px;
   font-weight: 550;
   box-shadow: 0px 0px 14px -7px #f09819;
+  
  }
  
  .btn:hover {
@@ -173,6 +174,30 @@ body{
     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
     radial-gradient(at 50% 0%,  rgba(209, 123, 24, 0.894) 0, transparent 50%);
 }
+
+.gradient-text {
+  background: linear-gradient(to right, #462523 0%, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: 0.25rem; */
+}
+
+.gradient-textnew {
+  background: linear-gradient(to bottom right, #9a5916 10%, #e4b04d 18%, #fff1a3 22%, #e7b14f 30%, #ae6f27 38%, #f8c65d 50%, #e4b04d 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: 0.25rem; */
+}
+
+
 
 .custom-hover {
   background-color: transparent;
