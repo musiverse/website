@@ -197,6 +197,19 @@ body{
   letter-spacing: 0.25rem; */
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #000000;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#EB8159,#ff2f2f );
+  border-radius: 10px;
+}
+::webkit
+
 
 
 .custom-hover {
