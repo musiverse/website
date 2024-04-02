@@ -199,16 +199,17 @@ body{
 
 ::-webkit-scrollbar{
   width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track{
   background: #000000;
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(#EB8159,#ff2f2f );
+  background: linear-gradient(#000000,#000000,#000000,#EB8159,#ff2f2f );
   border-radius: 10px;
 }
-::webkit
+
 
 
 
