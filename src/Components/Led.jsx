@@ -1,6 +1,6 @@
 const Led = () => {
   return (
-    <div className="overflow-y-hidden bg-[#171419] text-gray-300 overflow-x-hidden  border-black border-b-[12px]">
+    <div className="overflow-y-hidden bg-[#030014] text-gray-300 overflow-x-hidden  ">
       {/*new*/}
       <div className="overflow-x-hidden p-2 pt-7 mx-auto max-w-6xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         <div

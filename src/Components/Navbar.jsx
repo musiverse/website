@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex w-full justify-between items-center h-20 px-4 z-20 text-white fixed ${
+      className={`flex w-full h-[65px] justify-between items-center shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50  px-5  fixed ${
         nav
           ? "bg-black bg-opacity-80"
           : "bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20"
@@ -36,11 +36,24 @@ const Navbar = () => {
     >
       <div className="flex flex-row items-center space-x-1 text-2xl">
         <p onClick={handleNav} className={logo ? "hidden" : "block"}>
-          <img src={newLogo} alt="logo" width={70} height={70} />
+          <img src={newLogo} alt="logo" width={60} height={60} />
         </p>
         {/* <p className="font-semibold hidden md:block bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
           STAGESPLASH
         </p> */}
+      </div>
+      <div className="hidden md:flex w-[200px] h-full flex-row items-center justify-between ml-[120px]">
+        <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+          {/* <a href="#about-me" className="cursor-pointer">
+              About me
+            </a> */}
+          <a href="#skills" className="cursor-pointer">
+            STAGESPLASH
+          </a>
+          {/* <a href="#projects" className="cursor-pointer">
+              Projects
+            </a> */}
+        </div>
       </div>
       {/* <div className="PolarisRegular text-3xl">Introducing</div> */}
       {/* <li>Home</li> */}
@@ -84,10 +97,15 @@ const Navbar = () => {
           CONTACT US
         </ScrollLink>
       </ul> */}{" "}
-      <GradientBtn
+      {/* <GradientBtn
         className="ml-4 capitalize hidden md:flex "
         title="download"
-      />
+      /> */}
+      <button className="ml-4 capitalize hidden md:flex px-[4px] py-[3px] rounded-3xl bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-800 text-white">
+        <span className="text-lg flex items-center gradient-bg-services hover:bg-fuchsia-500 rounded-3xl px-5 py-[7px]">
+          Download
+        </span>
+      </button>
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-30 ">
         {nav ? (

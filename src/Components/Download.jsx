@@ -7,7 +7,7 @@ import GooglePlay from "../assets/GooglePlay.png";
 
 const Download = () => {
   return (
-    <div className="h-[100vh] bg-[#171419] p-2 text-gray-400 md:h-[70vh]  border-black border-b-[12px] flex flex-col md:flex-row items-center justify-evenly">
+    <div className="h-[100vh] bg-[#030014] p-2 text-gray-400 md:h-[70vh]   flex flex-col md:flex-row items-center justify-evenly">
       <div
         className="ml-0 py-2 md:ml-[150px] overflow-visible"
         data-aos="fade-down"

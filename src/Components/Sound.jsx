@@ -1,6 +1,6 @@
 const Sound = () => {
   return (
-    <div className="overflow-y-hidden bg-[#171419] text-gray-300 overflow-x-hidden border-black border-b-[12px]">
+    <div className="overflow-y-hidden bg-[#030014] text-gray-300 overflow-x-hidden ">
       {/*gradient-bg-new1*/}
       <div className="overflow-x-hidden p-2 pt-7 mx-auto md:mx-36 max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         {/* Image Section */}

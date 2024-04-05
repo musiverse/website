@@ -9,6 +9,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
@@ -28,6 +31,69 @@ body{
   font-family: 'Aquire';
   src: url('../assets/fonts/Aquire-BW0ox.otf');
 }
+.cursive {
+  font-family: "Cedarville Cursive", cursive;
+}
+.Welcome-text {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Welcome-box {
+  isolation: isolate;
+  overflow: hidden;
+  align-items: center;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 32px;
+  box-shadow: inset 0 -7px 11px #a48fff1f;
+  display: flex;
+
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+}
+
+.button-primary {
+  background: linear-gradient(
+      180deg,
+      rgba(60, 8, 126, 0) 0%,
+      rgba(60, 8, 126, 0.32) 100%
+    ),
+    rgba(113, 47, 255, 0.12);
+  box-shadow: inset 0 0 12px #bf97ff3d;
+}
+.button-primary:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(60, 8, 126, 0) 0%,
+      rgba(60, 8, 126, 0.42) 100%
+    ),
+    rgba(113, 47, 255, 0.24);
+  box-shadow: inset 0 0 12px #bf97ff70;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 @keyframes gradientChange {
     0% {
@@ -141,7 +207,7 @@ body{
 }
 
 .gradient-bg-services {
-  background-color:#0f0e13;
+  background-color:#030014;
   background-image: 
     radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
     radial-gradient(at 50% 100%, rgb(66,45,47) 0, transparent 50%);
@@ -155,7 +221,7 @@ body{
 }
 
 .gradient-bg-footer {
-  background-color: #171419;
+  background-color: #030014;
   background-image: 
     radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
     radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);
@@ -197,7 +263,7 @@ body{
   letter-spacing: 0.25rem; */
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   width: 10px;
   height: 10px;
 }
@@ -208,7 +274,7 @@ body{
 ::-webkit-scrollbar-thumb{
   background: linear-gradient(#000000,#000000,#000000,#EB8159,#ff2f2f );
   border-radius: 10px;
-}
+} */
 
 
 
@@ -245,6 +311,5 @@ body{
  margin: 0; 
   overflow: hidden; 
 }  */
-
 
 

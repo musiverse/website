@@ -1,3 +1,6 @@
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { slideInFromTop, slideInFromLeft } from "../utils/motion"; // Update motion import
 import Lottie from "lottie-react";
 import animationData from "../assets/star-animation.json";
 import animationData1 from "../assets/book.json";
@@ -45,21 +48,27 @@ const services = [
 ];
 
 const About = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
+  const animationDelay = 0.3;
+
   return (
     <div
+      ref={ref}
       id="aboutUsSection"
-      className="flex flex-col items-center bg-[#171419] space-y-8  border-black border-b-[12px] overflow-hidden h-[360vh] md:h-[140vh] w-full "
+      className="flex flex-col items-center bg-[#030014] space-y-8   overflow-hidden h-[360vh] md:h-[140vh] w-full "
     >
       {/*gradient-bg-new1*}
       {/* Updated content... */}
-      <div
-        data-aos="fade-down"
+      <motion.div
+        variants={slideInFromTop}
         className="text-4xl overflow-y-hidden font-medium pt-12 p-4 text-center bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text mt-9 "
       >
         Connecting Artists and Music Enthusiasts with Ease!
-      </div>
-      <div
-        data-aos="fade-down"
+      </motion.div>
+      <motion.div
+        variants={slideInFromTop}
         className="overflow-y-hidden antialiased p-2 text-blue-200 font-normal font-tertiary text-center max-w-3xl text-lg"
       >
         At{" "}
@@ -71,14 +80,17 @@ const About = () => {
         music systems. We value reliability, quality, diversity, and
         convenience, ensuring that every occasion is filled with the perfect
         rhythm and soul.
-      </div>
+      </motion.div>
       {/* Updated animation data */}
       <div className="max-w-[1240px] mx-auto overflow-y-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-20 mt-8 font-new">
           {services.map((service, index) => (
-            <div
+            <motion.div
               key={index}
-              data-aos="fade-down"
+              initial="hidden"
+              variants={slideInFromLeft(0.8)} // Alternate direction based on index
+              animate={inView ? "visible" : "hidden"}
+              transition={{ delay: index * animationDelay }}
               // data-aos-delay={`${400 + index * 100}`}npm
               className="text-center flex flex-col items-center"
             >
@@ -93,7 +105,7 @@ const About = () => {
                   {service.description}
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
