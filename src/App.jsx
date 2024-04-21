@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import About from "./Components/About";
+// import Explore from "./Components/Explore.jsx";
 import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
@@ -11,7 +12,7 @@ import Download from "./Components/Download";
 import Singers from "./Components/Singers";
 import Sound from "./Components/Sound";
 import Led from "./Components/Led";
-// import StarsCanvas from "./Components/StarAnimation";
+import StarsCanvas from "./Components/StarAnimation";
 // import Header from "./Components/Header";
 
 function App() {
@@ -25,9 +26,10 @@ function App() {
 
   return (
     <div>
-      {/* <StarsCanvas /> */}
+      <StarsCanvas />
       <Navbar />
       <Hero />
+      {/* <Explore /> */}
       <Singers />
       <Sound />
       <Led />
