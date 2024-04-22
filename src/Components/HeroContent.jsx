@@ -5,7 +5,7 @@ import {
   // slideInFromTop,
 } from "../utils/motion";
 import { IoSparklesSharp } from "react-icons/io5";
-import herop from "../assets/herop.png";
+// import herop from "../assets/herop.png";
 
 const HeroContent = () => {
   return (
@@ -61,14 +61,14 @@ const HeroContent = () => {
         </motion.a>
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideInFromRight(1)}
         initial="hidden"
         animate="visible"
         className="w-full h-full flex justify-center items-center z-[-1]"
       >
         <img src={herop} alt="work icons" height={600} width={600} />
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
