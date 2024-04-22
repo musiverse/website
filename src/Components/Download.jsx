@@ -18,7 +18,7 @@ const Download = () => {
         className="overflow-hidden  p-3 w-[340px] md:w-[780px] sm:ml-0  font-tertiary md:ml-[420px] space-y-7 tracking-wider"
         data-aos="fade-up"
       >
-        <p className="font-medium text-center md:text-left text-3xl overflow-y-hidden font-new2 bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text">
+        <p className="font-medium text-center md:text-left text-3xl overflow-y-hidden font-new2 bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text">
           Download Application
         </p>
         <p className="sm:w-[300px] text-center md:text-left md:w-[550px] sm:text-base md:text-xl font-tertiary">

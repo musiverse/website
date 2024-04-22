@@ -57,13 +57,13 @@ const About = () => {
     <div
       ref={ref}
       id="aboutUsSection"
-      className="flex flex-col items-center bg-[#030014] space-y-8   overflow-hidden h-[360vh] md:h-[140vh] w-full "
+      className="flex flex-col items-center bg-[#030014] space-y-8   overflow-hidden h-[360vh] md:h-[140vh] w-full cursor"
     >
       {/*gradient-bg-new1*}
       {/* Updated content... */}
       <motion.div
         variants={slideInFromTop}
-        className="text-4xl overflow-y-hidden font-medium pt-12 p-4 text-center bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text mt-9 "
+        className="text-4xl overflow-y-hidden font-medium pt-12 p-4 text-center bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text mt-9 "
       >
         Connecting Artists and Music Enthusiasts with Ease!
       </motion.div>

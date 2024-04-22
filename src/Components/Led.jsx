@@ -7,7 +7,7 @@ const Led = () => {
           className=" flex flex-col justify-center items-start"
           data-aos="fade-down"
         >
-          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2 bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text">
+          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Other technical gadgets
           </h1>
           {/* <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">

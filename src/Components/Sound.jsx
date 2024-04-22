@@ -20,7 +20,7 @@ const Sound = () => {
           className="flex flex-col justify-center items-start order-1 md:order-2"
           data-aos="fade-up"
         >
-          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2 bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text">
+          <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Sound Equipments
           </h1>
           {/* <p className="pt-3 text-lg w-full md:max-w-[550px] font-secondary text-gray-300">

@@ -9,9 +9,9 @@ const Singers = () => {
         <h2 className="text-2xl md:text-4xl pt-[50px] text-blue-200 font-bold font-new2">
           Elevate Your Event with Unforgettable Artists
         </h2>
-        <h2 className="text-2xl md:text-4xl pt-[25px] bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text font-bold font-new2">
+        {/* <h2 className="text-2xl md:text-4xl pt-[25px] bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text font-bold font-new2">
           Our Services
-        </h2>
+        </h2> */}
         <hr className="border-t-2 border-[#cc5a00] w-52 mx-auto mt-2" />
       </div>
       <div className="overflow-x-hidden p-2 mx-auto max-w-6xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
@@ -21,7 +21,7 @@ const Singers = () => {
           className="flex flex-col justify-center items-start overflow-x-hidden "
           data-aos="fade-down"
         >
-          <h1 className="bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2">
+          <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2">
             Artists
           </h1>
           {/* <p className="pt-3   text-lg w-full md:max-w-[550px] font-secondary text-gray-300">
