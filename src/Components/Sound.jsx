@@ -1,24 +1,54 @@
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+
+import { slideInFromLeft, slideInFromRight } from "../utils/motion";
+
 const Sound = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const singersSection = document.getElementById("singersSection");
+      if (singersSection) {
+        const top = singersSection.getBoundingClientRect().top;
+        setIsVisible(top < window.innerHeight - 100);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="overflow-y-hidden bg-[#030014] text-gray-300 overflow-x-hidden ">
+    <motion.div
+      initial="hidden"
+      animate={isVisible ? "visible" : "hidden"}
+      className="overflow-y-hidden bg-[#030014] text-gray-300 overflow-x-hidden "
+    >
       {/*gradient-bg-new1*/}
       <div className="overflow-x-hidden p-2 pt-7 mx-auto md:mx-36 max-w-7xl h-[80vh] md:h-[70vh] space-y-4 md:space-y-0 md:space-x-10 flex flex-col md:flex-row justify-around overflow-y-hidden">
         {/* Image Section */}
-        <div
+        <motion.div
+          variants={slideInFromLeft(0.5)}
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"}
           className="pt-4 md:pt-0 flex flex-1 items-center justify-center md:justify-start mx-auto order-2 md:order-1 overflow-y-hidden"
-          data-aos="fade-down"
         >
           <img
             src="https://images.pexels.com/photos/219101/pexels-photo-219101.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Singers"
             className="h-[230px] object-contain  rounded-ss-[90px] rounded-ee-[90px] border-white md:h-[400px] w-[600px] max-w-full border-[1px] shadow-2xl shadow-black"
           />
-        </div>
+        </motion.div>
 
         {/* Text Section */}
-        <div
+        <motion.div
+          variants={slideInFromRight(0.5)}
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"}
           className="flex flex-col justify-center items-start order-1 md:order-2"
-          data-aos="fade-up"
         >
           <h1 className="text-3xl md:text-4xl w-full md:max-w-[600px] overflow-y-hidden tracking-wide font-semibold font-new2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Sound Equipments
@@ -37,9 +67,9 @@ const Sound = () => {
               🎵 Crystal-clear audio, powerful bass
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
