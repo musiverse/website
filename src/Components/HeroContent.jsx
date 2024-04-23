@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
-  slideInFromRight,
+  // slideInFromRight,
   // slideInFromTop,
 } from "../utils/motion";
 import { IoSparklesSharp } from "react-icons/io5";

@@ -1,4 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+
+import { slideInFromLeft, slideInFromRight } from "../utils/motion";
 import ModalVideo from "react-modal-video";
 import "../modalVideo.scss";
 import { BsPlayCircleFill } from "react-icons/bs";
@@ -8,17 +11,40 @@ import { BsPlayCircleFill } from "react-icons/bs";
 
 const Vedio = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const singersSection = document.getElementById("singersSection");
+      if (singersSection) {
+        const top = singersSection.getBoundingClientRect().top;
+        setIsVisible(top < window.innerHeight - 100);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="bg-gradient-to-l from-slate-700 to-gray-900 border border-black border-y-4 py-6">
+    <motion.div
+      initial="hidden"
+      animate={isVisible ? "visible" : "hidden"}
+      className="bg-gradient-to-l from-slate-700 to-gray-900 border border-black border-y-4 py-6"
+    >
       <div className="container mx-auto ">
         <div className="flex flex-col justify-center items-center text-center lg:flex-row lg:justify-around">
-          <h3
+          <motion.h3
+            variants={slideInFromLeft(0.8)}
+            initial="hidden"
+            animate={isVisible ? "visible" : "hidden"}
             className="text-center md:text-left text-xl md:text-2xl font-tertiary font-medium mb-8 text-gray-300 lg:mb-0 w-[380px] md:w-[800px] pl-3 pr-3"
-            data-aos="fade-down"
           >
             Surprise Moments, Unforgettable Memories - Hire a Singer in Just 5
             Minutes!
-          </h3>
+          </motion.h3>
           <ModalVideo
             channel="youtube"
             autoplay
@@ -27,18 +53,21 @@ const Vedio = () => {
             onClose={() => setIsOpen(false)}
           />
           {/* {vedi0} */}
-          <div>
+          <motion.div
+            variants={slideInFromRight(0.8)}
+            initial="hidden"
+            animate={isVisible ? "visible" : "hidden"}
+          >
             <div
               onClick={() => setIsOpen(!isOpen)}
               className=" overflow-hidden cursor-pointer bg-videoBg3 bg-no-repeat bg-cover  w-[270px] h-[180px] flex items-center justify-center"
-              data-aos="fade-down"
             >
               <BsPlayCircleFill className="text-4xl text-white/80 hover:text-white hover:scale-110 transition z-10" />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
