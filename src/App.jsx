@@ -13,6 +13,7 @@ import Singers from "./Components/Singers";
 import Sound from "./Components/Sound";
 import Led from "./Components/Led";
 import StarsCanvas from "./Components/StarAnimation";
+// import MagicMouseEffect from "./Components/MagicMouseEffect";
 // import Header from "./Components/Header";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div>
+      {/* <MagicMouseEffect /> */}
       <StarsCanvas />
       <Navbar />
       <Hero />

@@ -60,7 +60,7 @@ const Vedio = () => {
           >
             <div
               onClick={() => setIsOpen(!isOpen)}
-              className=" overflow-hidden cursor-pointer bg-videoBg3 bg-no-repeat bg-cover  w-[270px] h-[180px] flex items-center justify-center"
+              className=" overflow-hidden cursor-pointer bg-videoBg1 bg-no-repeat bg-cover  w-[270px] h-[180px] flex items-center justify-center"
             >
               <BsPlayCircleFill className="text-4xl text-white/80 hover:text-white hover:scale-110 transition z-10" />
             </div>
