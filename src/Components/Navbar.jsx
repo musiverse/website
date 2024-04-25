@@ -119,7 +119,7 @@ const Navbar = () => {
         onClick={closeNav}
         className={
           nav
-            ? "fixed text-white/50 left-0 top-0 w-full bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20 px-4 py-3 flex flex-col z-20"
+            ? "fixed text-white/50 left-0 top-0 w-full bg-opacity-80 bg-black backdrop-filter backdrop-blur-lg border-b-2 border-opacity-20 px-4 py-3 flex flex-col z-20"
             : "fixed left-[-100%]"
         }
       >

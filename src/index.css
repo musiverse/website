@@ -24,7 +24,8 @@
 } */
 body{
     overflow-x: hidden;
-    cursor: url('./assets/music.png'),default;
+    margin-right: 0;
+    
     }
 
 
@@ -132,11 +133,6 @@ html {
     }    
 }
 
-@media (max-width: 768px) {
-  .hero-content {
-    display: none;
-  }
-}
 
 
 @font-face {

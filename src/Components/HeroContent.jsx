@@ -1,19 +1,26 @@
 import { motion } from "framer-motion";
-import { slideInFromLeft } from "../utils/motion";
+import {
+  slideInFromLeft,
+  // slideInFromRight,
+  // slideInFromTop,
+} from "../utils/motion";
 import { IoSparklesSharp } from "react-icons/io5";
+// import herop from "../assets/herop.png";
 
 const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col md:flex-row h-[75vh] md:h-[90vh] items-center justify-center px-10 md:px-20 mt-10 md:mt-40 w-full z-[20]"
+      className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-10 md:px-20 mt-10 md:mt-40 w-full z-[20] "
+      // className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-20 mt-40 w-full z-[20] "
     >
-      <div className="text-center md:text-start h-full w-full flex flex-col gap-5 justify-center m-auto">
+      <div className="text-center md:text-start h-full w-full flex flex-col gap-5 justify-center m-auto ">
         <motion.div
+          // variants={slideInFromTop}
           initial="hidden"
           animate="visible"
-          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9] top-[-900px] md:top-[-200px]"
+          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]  "
         >
           <IoSparklesSharp className="text-[#b49bff] mr-[7px] h-6 w-10" />
           <h1 className="Welcome-text text-[13px]">BOOK NOW!</h1>
@@ -23,7 +30,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           initial="hidden"
           animate="visible"
-          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto z-[999] absolute  top-[225px] "
+          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -39,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           initial="hidden"
           animate="visible"
-          className="text-xl text-gray-400 md:my-5 max-w-[600px] top-[700px]"
+          className="text-xl text-gray-400 my-5 max-w-[600px]"
         >
           We are one stop to hire the finest musicians, singers and top-tier
           sound system.
@@ -53,6 +60,15 @@ const HeroContent = () => {
           Learn More!
         </motion.a>
       </div>
+
+      {/* <motion.div
+        variants={slideInFromRight(1)}
+        initial="hidden"
+        animate="visible"
+        className="w-full h-full flex justify-center items-center z-[-1]"
+      >
+        <img src={herop} alt="work icons" height={600} width={600} />
+      </motion.div> */}
     </motion.div>
   );
 };

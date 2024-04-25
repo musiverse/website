@@ -21,7 +21,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="object-cover w-full h-full block md:hidden z-0 relative"
+        className="object-cover w-full h-full left-0 bottom-0 block md:hidden z-0 relative "
       >
         <source src="/mobbg.mp4" type="video/mp4" />
       </video>
