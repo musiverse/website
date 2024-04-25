@@ -132,6 +132,13 @@ html {
     }    
 }
 
+@media (max-width: 768px) {
+  .hero-content {
+    display: none;
+  }
+}
+
+
 @font-face {
   font-family: Aloevera;
   src: url(../src/assets/fonts/Aloevera-OVoWO.ttf);
