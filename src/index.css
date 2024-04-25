@@ -17,16 +17,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* *{
-   margin: 0;
-   padding: 0;
-   width: auto;
-} */
+*{
+   margin: 0px;
+   padding: 0px;
+} 
+
 body{
-    overflow-x: hidden;
-    margin-right: 0;
-    
-    }
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 
 @font-face {
