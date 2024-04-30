@@ -6,6 +6,7 @@ import {
 } from "../utils/motion";
 import { IoSparklesSharp } from "react-icons/io5";
 import { Link as ScrollLink } from "react-scroll";
+import Circle from "./Circle";
 // import Carousel from "./Carousel";
 // import herop from "../assets/herop.png";
 
@@ -14,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-10 md:px-20 mt-10 md:mt-40 w-full z-[20] "
+      className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-8 md:px-20 mt-10 md:mt-40 w-full z-[20] "
       // className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-20 mt-40 w-full z-[20] "
     >
       <div className="text-center md:text-start h-full w-full flex flex-col gap-5 justify-center m-auto ">
@@ -41,7 +42,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           initial="hidden"
           animate="visible"
-          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-5xl font-bold text-white max-w-[650px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Our
@@ -78,6 +79,7 @@ const HeroContent = () => {
           Learn More!
         </motion.a>
       </div>
+      <Circle />
 
       {/* <motion.div
         variants={slideInFromRight(1)}
