@@ -13,6 +13,7 @@ import Singers from "./Components/Singers";
 import Sound from "./Components/Sound";
 import Led from "./Components/Led";
 import StarsCanvas from "./Components/StarAnimation";
+import Carousel from "./Components/Carousel";
 // import MagicMouseEffect from "./Components/MagicMouseEffect";
 // import Header from "./Components/Header";
 
@@ -31,6 +32,7 @@ function App() {
       <StarsCanvas />
       <Navbar />
       <Hero />
+      <Carousel />
       {/* <Explore /> */}
       <Singers />
       <Sound />

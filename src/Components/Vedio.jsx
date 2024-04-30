@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight } from "../utils/motion";
 import ModalVideo from "react-modal-video";
 import "../modalVideo.scss";
-import { BsPlayCircleFill } from "react-icons/bs";
+// import { BsPlayCircleFill } from "react-icons/bs";
 // import praposal1 from "../assets/praposal.jpeg";
 // import prop2 from "../assets/prop2";
 // import prop3 from "../assets/prop3";
@@ -62,7 +62,7 @@ const Vedio = () => {
               onClick={() => setIsOpen(!isOpen)}
               className=" overflow-hidden cursor-pointer bg-videoBg1 bg-no-repeat bg-cover  w-[270px] h-[180px] flex items-center justify-center"
             >
-              <BsPlayCircleFill className="text-4xl text-white/80 hover:text-white hover:scale-110 transition z-10" />
+              {/* <BsPlayCircleFill className="text-4xl text-white/80 hover:text-white hover:scale-110 transition z-10" /> */}
             </div>
           </motion.div>
         </div>

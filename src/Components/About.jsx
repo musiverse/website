@@ -65,7 +65,7 @@ const About = () => {
         variants={slideInFromTop}
         className="text-4xl overflow-y-hidden font-medium pt-12 p-4 text-center bg-gradient-to-r  from-sky-700 via-violet-600 to-pink-400 text-transparent bg-clip-text mt-9 "
       >
-        Connecting Artists and Music Enthusiasts with Ease!
+        Connecting Artist and Users with Ease!
       </motion.div>
       <motion.div
         variants={slideInFromTop}
@@ -98,7 +98,7 @@ const About = () => {
                 <Lottie animationData={service.animationData} />
               </div>
               <div className="mt-3 text-white">
-                <div className=" bg-gradient-to-r  from-[#cc5a00] via-[#cc5a00] to-[#f3ab49] text-transparent bg-clip-text text-3xl font-black font-new2 leading-10 ">
+                <div className="bg-cyan-800 text-transparent bg-clip-text text-3xl font-black font-new2 leading-10 ">
                   {service.title}
                 </div>
                 <div className="font-normal text-lg text-center tracking-wide text-gray-400 mt-2 leading-6 p-1 font-tertiary">

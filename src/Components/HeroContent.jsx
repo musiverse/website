@@ -5,6 +5,8 @@ import {
   // slideInFromTop,
 } from "../utils/motion";
 import { IoSparklesSharp } from "react-icons/io5";
+import { Link as ScrollLink } from "react-scroll";
+// import Carousel from "./Carousel";
 // import herop from "../assets/herop.png";
 
 const HeroContent = () => {
@@ -16,29 +18,45 @@ const HeroContent = () => {
       // className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-20 mt-40 w-full z-[20] "
     >
       <div className="text-center md:text-start h-full w-full flex flex-col gap-5 justify-center m-auto ">
-        <motion.div
-          // variants={slideInFromTop}
-          initial="hidden"
-          animate="visible"
-          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]  "
+        <ScrollLink
+          to="DownloadSec" // Add the appropriate section ID
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset as needed
+          duration={1200}
         >
-          <IoSparklesSharp className="text-[#b49bff] mr-[7px] h-6 w-10" />
-          <h1 className="Welcome-text text-[13px]">BOOK NOW!</h1>
-        </motion.div>
+          {" "}
+          <motion.div
+            // variants={slideInFromTop}
+            initial="hidden"
+            animate="visible"
+            className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]  "
+          >
+            <IoSparklesSharp className="text-[#b49bff] mr-[7px] h-6 w-10" />
+            <h1 className="Welcome-text text-[13px]">BOOK NOW!</h1>
+          </motion.div>
+        </ScrollLink>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
           initial="hidden"
           animate="visible"
-          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-5xl font-bold text-white max-w-[650px] w-auto h-auto"
         >
           <span>
-            Providing
+            Our
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              the best{" "}
+              {} Artists{" "}
             </span>
-            Artists like never before!
+            <br />
+            Your
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {} Budget,{" "}
+            </span>
+            Uncompromised
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {} Quality!{" "}
+            </span>
           </span>
         </motion.div>
 
