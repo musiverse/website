@@ -6,7 +6,7 @@ import {
 } from "../utils/motion";
 import { IoSparklesSharp } from "react-icons/io5";
 import { Link as ScrollLink } from "react-scroll";
-import Circles from "./Circles";
+// import Circles from "./Circles";
 // import Carousel from "./Carousel";
 // import herop from "../assets/herop.png";
 
@@ -79,7 +79,7 @@ const HeroContent = () => {
           Learn More!
         </motion.a>
       </div>
-      <Circles />
+      {/* <Circles /> */}
 
       {/* <motion.div
         variants={slideInFromRight(1)}
