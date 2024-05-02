@@ -717,8 +717,8 @@ body{
 
 @media (max-width: 768px) {
   .container {
-    width: 350px; /* Adjust width for smaller devices */
-    height: 350px; /* Adjust height for smaller devices */
+    width: 300px; /* Adjust width for smaller devices */
+    height: 300px; /* Adjust height for smaller devices */
     max-width: none;
     max-height: none;
   }
@@ -737,7 +737,7 @@ body{
   .container .icon .imgBx {
     width: 45px; /* Adjust icon size for smaller devices */
     height: 45px;
-    transform-origin: 200px; /* Adjust icon size for smaller devices */
+    transform-origin: 170px; /* Adjust icon size for smaller devices */
   }
 
   .content:before{
@@ -763,6 +763,8 @@ body{
     animation: anim2 2.6s linear infinite;
     z-index: 1;
     pointer-events: none;
+    display: none;
+
   }
 
   .contentBx .card .imgBx{

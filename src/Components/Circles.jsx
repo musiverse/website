@@ -171,7 +171,7 @@ const Circles = () => {
             <div className="imgBx">
               <img src={clubs} alt="" />
             </div>
-            <div className="textBx">
+            <div className="textBx ">
               <h2>
                 Clubs
                 <br />
