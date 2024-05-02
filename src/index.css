@@ -714,3 +714,97 @@ body{
 .contentBx .card .textBx .sci li a:hover{
   background: #2196f3;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 350px; /* Adjust width for smaller devices */
+    height: 350px; /* Adjust height for smaller devices */
+    max-width: none;
+    max-height: none;
+  }
+
+  .container .icon{
+    position: relative;
+    width: 20%;
+    height: 50%;
+    left: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .container .icon .imgBx {
+    width: 45px; /* Adjust icon size for smaller devices */
+    height: 45px;
+    transform-origin: 200px; /* Adjust icon size for smaller devices */
+  }
+
+  .content:before{
+    content: '';
+    position: absolute;
+    inset: 40px;
+    border: 4px solid transparent;
+    border-left: 12px solid rgb(168 85 247);
+    border-right: 12px solid rgb(165 243 252);
+    border-radius: 50%;
+    animation: anim1 5s linear infinite;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .content:after{
+    content: '';
+    position: absolute;
+    inset: 65px;
+    border: 4px solid transparent;
+    border-top: 12px solid rgb(165 243 252);
+    border-bottom: 12px solid rgb(168 85 247);
+    border-radius: 50%;
+    animation: anim2 2.6s linear infinite;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .contentBx .card .imgBx{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+    /* border-radius: ; */
+  }
+
+  .contentBx .card .textBx h2{
+    margin-top: 10px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .contentBx .card .textBx h2 span{
+    font-size: 0.65em;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+  }
+
+  .contentBx .card .textBx .sci li a{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+}

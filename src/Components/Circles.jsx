@@ -2,7 +2,7 @@ import { useState } from "react";
 import Wedding from "../assets/Wedding.jpg";
 import surprise from "../assets/surprise.jpg";
 import jagran from "../assets/jagran.jpg";
-import fests from "../assets/fests.jpg";
+// import fests from "../assets/fests.jpg";
 import College from "../assets/College.jpg";
 import clubs from "../assets/clubs.jpg";
 import cafes from "../assets/cafes.webp";
