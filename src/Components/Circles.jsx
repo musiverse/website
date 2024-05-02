@@ -1,5 +1,13 @@
 import { useState } from "react";
-// import Wedding from "../assets/Wedding.jpg";
+import Wedding from "../assets/Wedding.jpg";
+import surprise from "../assets/surprise.jpg";
+import jagran from "../assets/jagran.jpg";
+import fests from "../assets/fests.jpg";
+import College from "../assets/College.jpg";
+import clubs from "../assets/clubs.jpg";
+import cafes from "../assets/cafes.webp";
+import birthday from "../assets/birthday.jpg";
+import Restraunt from "../assets/Restraunt.jpg";
 
 const Circles = () => {
   const [activeContent, setActiveContent] = useState("content1");
@@ -17,7 +25,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content1")}
           data-id="content1"
         >
-          <img src="/public/Wedding.jpg" alt="" />
+          <img src={Wedding} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content2" && "active"}`}
@@ -25,7 +33,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content2")}
           data-id="content2"
         >
-          <img src="/public/cafes.webp" alt="" />
+          <img src={cafes} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content3" && "active"}`}
@@ -33,7 +41,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content3")}
           data-id="content3"
         >
-          <img src="/public/clubs.jpg" alt="" />
+          <img src={clubs} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content4" && "active"}`}
@@ -41,7 +49,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content4")}
           data-id="content4"
         >
-          <img src="/public/birthday.jpg" alt="" />
+          <img src={birthday} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content5" && "active"}`}
@@ -49,7 +57,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content5")}
           data-id="content5"
         >
-          <img src="/public/Restraunt.jpg" alt="" />
+          <img src={Restraunt} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content6" && "active"}`}
@@ -57,7 +65,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content6")}
           data-id="content6"
         >
-          <img src="/public/College.jpg" alt="" />
+          <img src={College} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content7" && "active"}`}
@@ -65,7 +73,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content7")}
           data-id="content7"
         >
-          <img src="/public/jagran.jpg" alt="" />
+          <img src={jagran} alt="" />
         </div>
         <div
           className={`imgBx ${activeContent === "content8" && "active"}`}
@@ -73,7 +81,7 @@ const Circles = () => {
           onMouseOver={() => handleMouseOver("content8")}
           data-id="content8"
         >
-          <img src="/public/surprise.jpg" alt="" />
+          <img src={surprise} alt="" />
         </div>
       </div>
       <div className="content">
@@ -83,7 +91,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/Wedding.jpg" alt="" />
+              <img src={Wedding} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -122,7 +130,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/cafes.webp" alt="" />
+              <img src={cafes} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -161,7 +169,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/clubs.jpg" alt="" />
+              <img src={clubs} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -200,7 +208,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/birthday.jpg" alt="" />
+              <img src={birthday} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -239,7 +247,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/Restraunt.jpg" alt="" />
+              <img src={Restraunt} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -278,7 +286,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/College.jpg" alt="" />
+              <img src={College} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -317,7 +325,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/jagran.jpg" alt="" />
+              <img src={jagran} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -356,7 +364,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/surprise.jpg" alt="" />
+              <img src={surprise} alt="" />
             </div>
             <div className="textBx">
               <h2>
@@ -396,7 +404,7 @@ const Circles = () => {
         >
           <div className="card">
             <div className="imgBx">
-              <img src="/public/jagran.jpg" alt="" />
+              <img src={jagran} alt="" />
             </div>
             <div className="textBx">
               <h2>
