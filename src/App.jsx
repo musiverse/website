@@ -9,11 +9,12 @@ import Footer from "./Components/Footer";
 import Vedio from "./Components/Vedio";
 import Faq from "./Components/Faq";
 import Download from "./Components/Download";
-import Singers from "./Components/Singers";
-import Sound from "./Components/Sound";
-import Led from "./Components/Led";
+// import Singers from "./Components/Singers";
+// import Sound from "./Components/Sound";
+// import Led from "./Components/Led";
 import StarsCanvas from "./Components/StarAnimation";
 import Services from "./Components/Services";
+import Work from "./Components/Work";
 // import Carousel from "./Components/Carousel";
 // import MagicMouseEffect from "./Components/MagicMouseEffect";
 // import Header from "./Components/Header";
@@ -34,11 +35,12 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <Work />
       {/* <Carousel /> */}
       {/* <Explore /> */}
-      <Singers />
-      <Sound />
-      <Led />
+      {/* <Singers /> */}
+      {/* <Sound /> */}
+      {/* <Led /> */}
       <Vedio />
       <About />
       <Download />

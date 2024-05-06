@@ -8,6 +8,7 @@ import clubs from "../assets/clubs.jpg";
 import cafes from "../assets/cafes.webp";
 import birthday from "../assets/birthday.jpg";
 import Restraunt from "../assets/Restraunt.jpg";
+// import "../styles/styles.css";
 
 const Circles = () => {
   const [activeContent, setActiveContent] = useState("content1");
@@ -17,7 +18,7 @@ const Circles = () => {
   };
 
   return (
-    <div className="container flex justify-center items-center">
+    <div className="containers flex justify-center items-center">
       <div className="icon">
         <div
           className={`imgBx ${activeContent === "content1" && "active"}`}
@@ -136,7 +137,7 @@ const Circles = () => {
               <h2>
                 Cafes
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>
@@ -175,7 +176,7 @@ const Circles = () => {
               <h2>
                 Clubs
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>
@@ -214,7 +215,7 @@ const Circles = () => {
               <h2>
                 Birthdays
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>
@@ -253,7 +254,7 @@ const Circles = () => {
               <h2>
                 Restraunt & Bar
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>
@@ -331,7 +332,7 @@ const Circles = () => {
               <h2>
                 Jagran
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>
@@ -370,7 +371,7 @@ const Circles = () => {
               <h2>
                 Surprise
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>
@@ -410,7 +411,7 @@ const Circles = () => {
               <h2>
                 Jagran
                 <br />
-                <span>Stagesplash</span>
+                {/* <span>Stagesplash</span> */}
               </h2>
               {/* <ul className="sci">
                 <li>

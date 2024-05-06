@@ -499,15 +499,15 @@ body{
   background: #222;
 }
 
-.container{
+.containers{
   position: relative;
   width: 600px;
   height: 600px;
   border: 1px solid #f5f5f5;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
-.container .icon{
+.containers .icon{
   position: relative;
   width: 20%;
   height: 50%;
@@ -518,10 +518,10 @@ body{
   cursor: pointer;
 }
 
-.container .icon .imgBx{
+.containers .icon .imgBx{
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #fff;
@@ -533,16 +533,16 @@ body{
   overflow: hidden;
 }
 
-.container .icon .imgBx:hover{
+.containers .icon .imgBx:hover{
   margin-top: -10px;
 }
 
-.container .icon .imgBx.active{
+.containers .icon .imgBx.active{
   box-shadow: 0 0 0 4px #222,
   0 0 0 10px #c91c48;
 }
 
-.container .icon .imgBx img{
+.containers .icon .imgBx img{
   position: absolute;
   top: 0;
   left: 0;
@@ -555,7 +555,7 @@ body{
   filter: grayscale(1);
 }
 
-.container .icon .imgBx.active img{
+.containers .icon .imgBx.active img{
   filter: grayscale(0);
 }
 
@@ -573,8 +573,8 @@ body{
   position: absolute;
   inset: 70px;
   border: 4px solid transparent;
-  border-left: 15px solid rgb(168 85 247);
-  border-right: 15px solid rgb(165 243 252);
+  border-left: 10px solid rgb(168 85 247);
+  border-right: 10px solid rgb(165 243 252);
   border-radius: 50%;
   animation: anim1 5s linear infinite;
   z-index: 1;
@@ -597,8 +597,8 @@ body{
   position: absolute;
   inset: 125px;
   border: 4px solid transparent;
-  border-top: 28px solid rgb(165 243 252);
-  border-bottom: 18px solid rgb(168 85 247);
+  border-top: 10px solid rgb(165 243 252);
+  border-bottom: 10px solid rgb(168 85 247);
   border-radius: 50%;
   animation: anim2 2.6s linear infinite;
   z-index: 1;
@@ -648,7 +648,7 @@ body{
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid #f5f5f5;
-  /* border-radius: ; */
+  
 }
 
 .contentBx .card .imgBx img{
@@ -716,14 +716,14 @@ body{
 }
 
 @media (max-width: 768px) {
-  .container {
+  .containers {
     width: 300px; /* Adjust width for smaller devices */
     height: 300px; /* Adjust height for smaller devices */
     max-width: none;
     max-height: none;
   }
 
-  .container .icon{
+  .containers .icon{
     position: relative;
     width: 20%;
     height: 50%;
@@ -734,7 +734,7 @@ body{
     cursor: pointer;
   }
 
-  .container .icon .imgBx {
+  .containers .icon .imgBx {
     width: 45px; /* Adjust icon size for smaller devices */
     height: 45px;
     transform-origin: 170px; /* Adjust icon size for smaller devices */
@@ -774,7 +774,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #f5f5f5;
-    /* border-radius: ; */
+    
   }
 
   .contentBx .card .textBx h2{
