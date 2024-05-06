@@ -717,8 +717,8 @@ body{
 
 @media (max-width: 768px) {
   .containers {
-    width: 300px; /* Adjust width for smaller devices */
-    height: 300px; /* Adjust height for smaller devices */
+    width: 300px; 
+    height: 300px; 
     max-width: none;
     max-height: none;
   }
@@ -735,9 +735,9 @@ body{
   }
 
   .containers .icon .imgBx {
-    width: 45px; /* Adjust icon size for smaller devices */
+    width: 45px; 
     height: 45px;
-    transform-origin: 170px; /* Adjust icon size for smaller devices */
+    transform-origin: 170px; 
   }
 
   .content:before{
