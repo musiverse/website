@@ -2,7 +2,10 @@
 // import { motion } from "framer-motion";
 
 // import { slideInFromLeft, slideInFromRight } from "../utils/motion";
-import CardImage from "../assets/CardImage.png";
+// import CardImage from "../assets/CardImage.png";
+import sound from "../assets/sound.png";
+import led from "../assets/led.png";
+import artists from "../assets/artists.png";
 
 const Work = () => {
   return (
@@ -33,7 +36,7 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
               <img
-                src={CardImage}
+                src={artists}
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
@@ -54,7 +57,7 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
               <img
-                src={CardImage}
+                src={led}
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
@@ -75,7 +78,7 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
               <img
-                src={CardImage}
+                src={sound}
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
@@ -85,7 +88,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Sound Equipments</span>
+                <span className="text-3xl text-white">Sound</span>
               </div>
             </div>
           </div>
