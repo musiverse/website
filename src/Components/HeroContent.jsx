@@ -9,6 +9,7 @@ import { Link as ScrollLink } from "react-scroll";
 // import Circles from "./Circles";
 // import Carousel from "./Carousel";
 // import herop from "../assets/herop.png";
+// import bghero from "../assets/bghero.jpg";
 
 const HeroContent = () => {
   return (
@@ -85,9 +86,9 @@ const HeroContent = () => {
         variants={slideInFromRight(1)}
         initial="hidden"
         animate="visible"
-        className="w-full h-full flex justify-center items-center z-[-1]"
+        className="w-[800px] h-full flex justify-center items-center z-[-1]"
       >
-        <img src={herop} alt="work icons" height={600} width={600} />
+        <img src={bghero} alt="work icons" height={600} width={600} />
       </motion.div> */}
     </motion.div>
   );

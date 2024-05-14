@@ -7,7 +7,7 @@ import CardImage from "../assets/CardImage.png";
 const Work = () => {
   return (
     <section id="work" className="">
-      <div className="container mx-auto bg-[#030014] p-16 text-white">
+      <div className="container mx-auto bg-[#030014] p-6 md:p-16 text-white">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
             {/* text */}
