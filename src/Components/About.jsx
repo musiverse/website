@@ -57,7 +57,7 @@ const About = () => {
     <div
       ref={ref}
       id="aboutUsSection"
-      className="flex flex-col items-center bg-[#030014] space-y-8   overflow-hidden h-[360vh] md:h-[140vh] w-full cursor"
+      className="flex flex-col items-center bg-[#030014] space-y-8 overflow-hidden h-[360vh] md:h-[140vh] w-full "
     >
       {/*gradient-bg-new1*}
       {/* Updated content... */}

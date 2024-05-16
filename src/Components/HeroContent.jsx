@@ -19,7 +19,7 @@ const HeroContent = () => {
       className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-8 md:px-20 mt-10 md:mt-40 w-full z-[20] "
       // className="flex flex-col md:flex-row h-[75vh] md:h-[90vh]  items-center justify-center px-20 mt-40 w-full z-[20] "
     >
-      <div className="text-center md:text-start h-full w-full flex flex-col gap-5 justify-center m-auto ">
+      <div className="text-center md:text-start h-full w-full flex flex-col gap-5 justify-center mx-auto ">
         <ScrollLink
           to="DownloadSec" // Add the appropriate section ID
           spy={true}
