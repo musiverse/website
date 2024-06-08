@@ -13,6 +13,7 @@
     "@emailjs/browser": "^3.12.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@studio-freight/react-lenis": "^0.0.47",
     "aos": "^2.3.4",
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.12.2",

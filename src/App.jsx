@@ -18,6 +18,7 @@ import Work from "./Components/Work";
 // import Carousel from "./Components/Carousel";
 // import MagicMouseEffect from "./Components/MagicMouseEffect";
 // import Header from "./Components/Header";
+import SmoothScroll from "./SmoothScroll/SmoothScroll";
 
 function App() {
   useEffect(() => {
@@ -29,24 +30,26 @@ function App() {
   });
 
   return (
-    <div>
-      {/* <MagicMouseEffect /> */}
-      <StarsCanvas />
-      <Navbar />
-      <Hero />
-      <Services />
-      <Work />
-      {/* <Carousel /> */}
-      {/* <Explore /> */}
-      {/* <Singers /> */}
-      {/* <Sound /> */}
-      {/* <Led /> */}
-      <Vedio />
-      <About />
-      <Download />
-      <Faq />
-      <Footer />
-    </div>
+    <SmoothScroll>
+      <div>
+        {/* <MagicMouseEffect /> */}
+        <StarsCanvas />
+        <Navbar />
+        <Hero />
+        <Services />
+        <Work />
+        {/* <Carousel /> */}
+        {/* <Explore /> */}
+        {/* <Singers /> */}
+        {/* <Sound /> */}
+        {/* <Led /> */}
+        <Vedio />
+        <About />
+        <Download />
+        <Faq />
+        <Footer />
+      </div>
+    </SmoothScroll>
   );
 }
 

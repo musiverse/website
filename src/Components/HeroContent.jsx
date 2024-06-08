@@ -43,7 +43,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           initial="hidden"
           animate="visible"
-          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-5xl font-bold text-white max-w-[650px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-8 text-cente text-4xl md:text-5xl font-bold text-white max-w-sm w-auto h-auto"
         >
           <span>
             Our
@@ -66,7 +66,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           initial="hidden"
           animate="visible"
-          className="text-xl text-gray-400 my-5 max-w-[600px]"
+          className="text-xl text-gray-400 my-5 max-w-SM"
         >
           We are one stop to hire the finest musicians, singers and top-tier
           sound system.
