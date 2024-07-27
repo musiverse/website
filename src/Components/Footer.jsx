@@ -74,14 +74,14 @@ const Footer = () => {
             </div>
             <div className="mt-3 flex items-center gap-3 z-10 cursor-pointer">
               <FaMobileAlt />
-              <p>+91 7985179107</p>
+              <p>+91 7307232283</p>
             </div>
           </div>
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
             <div>
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
-                  Important Links
+                  Explore
                 </h1>
                 <ul className={`flex flex-col gap-3 space-y-8`}>
                   <ScrollLink
@@ -124,9 +124,16 @@ const Footer = () => {
                 </h1>
                 <ul className="flex flex-col gap-3 space-y-8 ml-[-18px]">
                   <li className="pt-4 cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
-                    Privacy Policy
+                    <a href="https://doc-hosting.flycricket.io/stagesplash-privacy-policy/e2495772-71fb-488a-8123-b417b5af28e3/privacy">
+                      Privacy Policy
+                    </a>
                   </li>
-                  <ScrollLink
+                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10">
+                    <a href="https://doc-hosting.flycricket.io/stagesplash-terms-of-use/ff5de397-0d5e-4e5e-a287-efc624cfaef3/terms">
+                      Terms & Conditions
+                    </a>
+                  </li>
+                  {/* <ScrollLink
                     to="singersSection"
                     spy={true}
                     smooth={true}
@@ -135,8 +142,8 @@ const Footer = () => {
                     className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
                   >
                     Services
-                  </ScrollLink>
-                  <ScrollLink
+                  </ScrollLink> */}
+                  {/* <ScrollLink
                     to="aboutUsSection"
                     spy={true}
                     smooth={true}
@@ -145,7 +152,7 @@ const Footer = () => {
                     className="cursor-pointer transition-all duration-300 hover:translate-x-[2px] z-10"
                   >
                     About
-                  </ScrollLink>
+                  </ScrollLink> */}
                 </ul>
               </div>
             </div>
